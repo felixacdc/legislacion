@@ -12,12 +12,12 @@ class CodesController extends Controller
 
     public function workCode($search = '')
     {
-        return 'Soy el codigo de trabajo' .  $search;
+        return view('begin');
     }
 
     public function commercialCode($search = '')
     {
-        return 'soy el codigo de comercio' . $search;
+        return view('begin');
     }
 
 
