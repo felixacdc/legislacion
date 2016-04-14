@@ -11,6 +11,5 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/{search?}', 'CodesController@workCode');
+Route::get('commercial/{search?}', 'CodesController@commercialCode');
