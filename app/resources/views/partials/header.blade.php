@@ -12,7 +12,7 @@
 
 					<!-- logo -->
 					<h1 class="navbar-brand">
-						<a href="#body">Blue</a>
+						<a href="#body">LEGISLACIÓN</a>
 					</h1>
 					<!-- /logo -->
                 </div>
@@ -20,10 +20,10 @@
 				<!-- main nav -->
                 <nav class="collapse navbar-collapse navbar-right" role="navigation">
                     <ul id="nav" class="nav navbar-nav">
-                        <li><a href="#body">Home</a></li>
-                        <li><a href="#service">Service</a></li>
-                        <li><a href="#portfolio">portfolio</a></li>
-                        <li><a href="#testimonials">Testimonial</a></li>
+                        <li><a href="#body">Inicio</a></li>
+                        <li><a href="#service">Codigo de Trabajo</a></li>
+                        <li><a href="#portfolio">Codigo de Comercio</a></li>
+                        <li><a href="#testimonials">other</a></li>
                         <li><a href="#price">price</a></li>
                         <li><a href="#contact">Contact</a></li>
                     </ul>

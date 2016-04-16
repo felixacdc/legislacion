@@ -10,6 +10,11 @@ use App\Http\Controllers\Controller;
 class CodesController extends Controller
 {
 
+    public function index()
+    {
+        return view('begin');
+    }
+
     public function workCode($search = '')
     {
         return view('begin');

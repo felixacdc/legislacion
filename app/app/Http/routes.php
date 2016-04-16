@@ -11,5 +11,7 @@
 |
 */
 
-Route::get('/{search?}', 'CodesController@workCode');
-Route::get('commercial/{search?}', 'CodesController@commercialCode');
+Route::get('/', 'CodesController@index');
+
+Route::post('work/{search?}', 'CodesController@workCode');
+Route::post('commercial/{search?}', 'CodesController@commercialCode');

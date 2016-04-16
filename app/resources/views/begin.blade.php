@@ -18,9 +18,9 @@
 
 						<div class="slide-caption">
                             <div class="caption-content">
-                                <h2 class="animated fadeInDown">BLUE Onepage HTML5 Template</h2>
-                                <span class="animated fadeInDown">Clean and Professional one page Template</span>
-                                <a href="#" class="btn btn-blue btn-effect">Join US</a>
+                                <h2 class="animated fadeInDown">Codigo de Trabajo</h2>
+                                <span class="animated fadeInDown">En esta pagina se podran encontrar articulos del <br> Codigo de Trabajo con fundamentos dotrinales.</span>
+                                <a href="#service" class="btn btn-blue btn-effect">Ir a</a>
                             </div>
                         </div>
 
@@ -31,22 +31,9 @@
 						<div class="bg-img bg-img-2"></div>
 						<div class="slide-caption">
                             <div class="caption-content">
-                                <h2>BLUE Onepage HTML5 Template</h2>
-                                <span>Clean and Professional one page Template</span>
-                                <a href="#" class="btn btn-blue btn-effect">Join US</a>
-                            </div>
-                        </div>
-
-					</div>
-
-					<div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="3" data-slice2-rotation="3" data-slice1-scale="2" data-slice2-scale="1">
-
-						<div class="bg-img bg-img-3"></div>
-						<div class="slide-caption">
-                            <div class="caption-content">
-                                <h2>BLUE Onepage HTML5 Template</h2>
-                                <span>Clean and Professional one page Template</span>
-                                <a href="#" class="btn btn-blue btn-effect">Join US</a>
+                                <h2>Codigo de Comercio</h2>
+                                <span>En esta pagina se podran encontrar articulos del <br> Codigo de Comercio con fundamentos dotrinales.</span>
+                                <a href="#portfolio" class="btn btn-blue btn-effect">Ir a</a>
                             </div>
                         </div>
 
