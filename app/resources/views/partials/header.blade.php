@@ -21,10 +21,8 @@
                 <nav class="collapse navbar-collapse navbar-right" role="navigation">
                     <ul id="nav" class="nav navbar-nav">
                         <li><a href="#body">Inicio</a></li>
-                        <li><a href="#service">Codigo de Trabajo</a></li>
-                        <li><a href="#portfolio">Codigo de Comercio</a></li>
-                        <li><a href="#testimonials">other</a></li>
-                        <li><a href="#price">price</a></li>
+                        <li><a href="#codeWork">Codigo de Trabajo</a></li>
+                        <li><a href="#codeCommercial">Codigo de Comercio</a></li>
                         <li><a href="#contact">Contact</a></li>
                     </ul>
                 </nav>
