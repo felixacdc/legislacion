@@ -11,7 +11,7 @@
         <title>Proyecto Legislación Laboral y Mercantil</title>
 		<!-- Meta Description -->
         <meta name="description" content="Legislación Laboral y Mercantil">
-        <meta name="keywords" content="one page, single page, onepage, responsive, parallax, creative, business, html5, css3, css3 animation">
+        <meta name="keywords" content="html5, css3, javascript, php, laravel">
         <meta name="author" content="Pablo Félix Méndez Argueta">
 
 		<!-- Mobile Specific Meta -->

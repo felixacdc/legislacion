@@ -23,7 +23,6 @@
                         <li><a href="#body">Inicio</a></li>
                         <li><a href="#codeWork">Codigo de Trabajo</a></li>
                         <li><a href="#codeCommercial">Codigo de Comercio</a></li>
-                        <li><a href="#contact">Contact</a></li>
                     </ul>
                 </nav>
 				<!-- /main nav -->

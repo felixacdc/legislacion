@@ -4,8 +4,21 @@
         <div class="row">
 
             <div class="sec-title text-center">
-                <h2 class="wow animated bounceInLeft">Service</h2>
-                <p class="wow animated bounceInRight">The Key Features of our Job</p>
+                <h2 class="wow animated bounceInLeft">Codigo de Trabajo</h2>
+
+                <div class="conteiner">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-8">
+                        <form action="#" method="post" class="subscribe-form wow animated fadeInUp">
+                            <div class="input-field">
+                                <input type="email" class="subscribe form-control" placeholder="Busca un articulo...">
+                                <button type="submit" class="submit-icon">
+                                    <i class="fa fa-search fa-lg"></i>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
             </div>
 
             <div class="col-md-3 col-sm-6 col-xs-12 text-center wow animated zoomIn">
