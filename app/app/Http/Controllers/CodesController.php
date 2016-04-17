@@ -7,6 +7,8 @@ use Illuminate\Http\Request;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 
+use App\Article;
+
 class CodesController extends Controller
 {
 
@@ -15,12 +17,18 @@ class CodesController extends Controller
         return view('begin');
     }
 
-    public function workCode($search = '')
+    public function workCode(Request $request, $search = '')
     {
-        return view('begin');
+        $articles = Article::all();
+
+        if ($request->ajax()) {
+            return response()->json([
+                'data' => $articles->toArray()
+            ]);
+        }
     }
 
-    public function commercialCode($search = '')
+    public function commercialCode(Request $request, $search = '')
     {
         return view('begin');
     }

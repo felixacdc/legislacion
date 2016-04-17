@@ -8,5 +8,5 @@ class Article extends Model
 {
     protected $table = 'articles';
 
-    protected $fillable = ['number', 'name', 'description', 'code_id'];
+    protected $fillable = ['number', 'name', 'description1', 'description2', 'description3', 'description4', 'description5', 'description6', 'description7', 'description8', 'description9', 'description10', 'code_id'];
 }

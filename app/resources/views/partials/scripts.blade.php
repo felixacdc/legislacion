@@ -22,3 +22,5 @@
 {!!Html::script("js/wow.min.js")!!}
 <!-- Custom Functions -->
 {!!Html::script("js/main.js")!!}
+{{-- script para funciones --}}
+{!!Html::script("js/functions.js")!!}
