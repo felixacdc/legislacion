@@ -111,12 +111,17 @@ function Mostrar(btn) {
     $('#learnings').append(htmlContent);
 
     fnSliderText();
-
-    var owl = $('.owl-carousel').data('#learnings');
-    owl.onRefreshed();
 }
 
 function fnSliderText () {
+
+    var owl = $('.owl-carousel');
+
+    var owlInstance = owl.data('owlCarousel');
+
+    if(owlInstance != null)
+        owlInstance.reinit();
+
     $("#learnings").owlCarousel({
 		navigation : true,
 		pagination : false,
