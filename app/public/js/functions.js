@@ -1,17 +1,16 @@
 var dataWork;
 
 $(document).ready( function () {
-    fnSearch();
+    fnSearch($('#codeWorkItems .container'));
 })
 
 
 $('#btnSearchWork').click(fnSearch);
 
-function fnSearch() {
+function fnSearch(display) {
     var search = $('#txtSearchWork').val();
     var route = 'work/' + search;
     var token = $('#token').val();
-    var display = $('#codeWorkItems .container');
 
     display.html("");
 
@@ -93,7 +92,10 @@ function fnSearch() {
 
 function Mostrar(btn) {
     var dataShow;
-    $('.learning-item').remove();
+    $('#learnings').remove();
+    var div = "<div id='learnings'></div>";
+    $('.modal-body').append(div);
+
 
     $(dataWork.data).each( function (key, value) {
 
@@ -128,6 +130,7 @@ function fnSliderText () {
 		slideSpeed : 700,
 		paginationSpeed : 400,
 		singleItem:true,
+        items: 2,
 		navigationText: ["<i class='fa fa-angle-left fa-lg'></i>","<i class='fa fa-angle-right fa-lg'></i>"]
 	});
 }
