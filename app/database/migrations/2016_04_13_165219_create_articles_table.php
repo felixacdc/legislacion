@@ -16,6 +16,7 @@ class CreateArticlesTable extends Migration
             $table->increments('id');
             $table->integer('number')->nullable();
             $table->string('name')->nullable();
+            $table->mediumText('begin');
             $table->mediumText('description1')->nullable();
             $table->mediumText('description2')->nullable();
             $table->mediumText('description3')->nullable();
