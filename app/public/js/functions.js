@@ -11,8 +11,6 @@ function fnSearch() {
     var token = $('#token').val();
     var display = $('#codeWorkItems');
 
-    // alert(search + route + token);
-
     $.ajax({
         url: route,
         headers: {'X-CSRF-TOKEN': token},
@@ -20,12 +18,12 @@ function fnSearch() {
         dataType: 'json',
         data: {search: search},
         success:function (response) {
+
             $(response.data).each( function (key, value) {
 
                 $(value).each( function (datakey, data) {
 
-                    htmlContent = "<br><br><br>";
-                    htmlContent += "<div class='col-md-3 col-sm-6 col-xs-12 text-center wow animated zoomIn'>";
+                    htmlContent = "<div class='col-md-3 col-sm-6 col-xs-12 text-center wow animated zoomIn'>";
                     htmlContent += "    <div class='service-item'>";
                     htmlContent += "        <div class='service-icon'>";
                     htmlContent += "            <i class='fa fa-home fa-3x'></i>";
@@ -36,7 +34,6 @@ function fnSearch() {
                     htmlContent += "</div>";
 
                     display.append(htmlContent);
-                    console.log(data.id);
                 });
 
             });
