@@ -125,18 +125,6 @@ $(document).ready(function(){
         $('#home-slider, #slider, .sl-slider, .sl-content-wrapper').css('height',slideHeight);
     });
 
-
-
-	$("#works, #testimonial").owlCarousel({
-		navigation : true,
-		pagination : false,
-		slideSpeed : 700,
-		paginationSpeed : 400,
-		singleItem:true,
-		navigationText: ["<i class='fa fa-angle-left fa-lg'></i>","<i class='fa fa-angle-right fa-lg'></i>"]
-	});
-
-
 	/* ========================================================================= */
 	/*	Featured Project Lightbox
 	/* ========================================================================= */

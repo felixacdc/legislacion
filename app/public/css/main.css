@@ -1427,3 +1427,11 @@ textarea.form-control {
         width: 380px;
     }
 }
+
+.learning-item {
+    text-align: justify;
+}
+
+#learnings {
+    padding-bottom: 25px;
+}

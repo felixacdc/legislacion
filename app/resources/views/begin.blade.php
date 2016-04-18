@@ -14,5 +14,7 @@
 
 			@include('partialsHome.codeCommercial')
 
+			@include('partialsHome.modal')
+
 		</main>
 @endsection
