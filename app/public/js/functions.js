@@ -9,7 +9,9 @@ function fnSearch() {
     var search = $('#txtSearchWork').val();
     var route = 'work/' + search;
     var token = $('#token').val();
-    var display = $('#codeWorkItems');
+    var display = $('#codeWorkItems .container');
+
+    display.html("");
 
     $.ajax({
         url: route,
@@ -19,24 +21,69 @@ function fnSearch() {
         data: {search: search},
         success:function (response) {
 
+            var accountant = 0;
+            var htmlContent = "";
+
             $(response.data).each( function (key, value) {
 
-                $(value).each( function (datakey, data) {
+                if ( accountant == 0) {
 
-                    htmlContent = "<div class='col-md-3 col-sm-6 col-xs-12 text-center wow animated zoomIn'>";
-                    htmlContent += "    <div class='service-item'>";
-                    htmlContent += "        <div class='service-icon'>";
-                    htmlContent += "            <i class='fa fa-home fa-3x'></i>";
-                    htmlContent += "        </div>";
-                    htmlContent += "        <h3>" + data.name + "</h3>"
-                    htmlContent += "        <p>" + data.description1.substr(0, 120) + "...</p>";
-                    htmlContent += "    </div>";
-                    htmlContent += "</div>";
+                    $(value).each( function (datakey, data) {
 
-                    display.append(htmlContent);
-                });
+                        htmlContent += "<div class='row'>";
+                        htmlContent += "<div class='col-md-3 text-center wow animated zoomIn'>";
+                        htmlContent += "    <div class='service-item'>";
+                        htmlContent += "        <div class='service-icon'>";
+                        htmlContent += "            <i class='fa fa-home fa-3x'></i>";
+                        htmlContent += "        </div>";
+                        htmlContent += "        <h3>" + data.name + "</h3>"
+                        htmlContent += "        <p>" + data.begin.substr(0, 120) + "...</p>";
+                        htmlContent += "    </div>";
+                        htmlContent += "</div>";
+                    });
+
+                    accountant++;
+
+                } else if ( accountant == 3 ) {
+
+                    $(value).each( function (datakey, data) {
+
+                        htmlContent += "<div class='col-md-3 text-center wow animated zoomIn'>";
+                        htmlContent += "    <div class='service-item'>";
+                        htmlContent += "        <div class='service-icon'>";
+                        htmlContent += "            <i class='fa fa-home fa-3x'></i>";
+                        htmlContent += "        </div>";
+                        htmlContent += "        <h3>" + data.name + "</h3>"
+                        htmlContent += "        <p>" + data.begin.substr(0, 120) + "...</p>";
+                        htmlContent += "    </div>";
+                        htmlContent += "</div>";
+                        htmlContent += "</div>";
+                    });
+
+                    accountant = 0;
+
+                } else {
+
+                    $(value).each( function (datakey, data) {
+
+                        htmlContent += "<div class='col-md-3 text-center wow animated zoomIn'>";
+                        htmlContent += "    <div class='service-item'>";
+                        htmlContent += "        <div class='service-icon'>";
+                        htmlContent += "            <i class='fa fa-home fa-3x'></i>";
+                        htmlContent += "        </div>";
+                        htmlContent += "        <h3>" + data.name + "</h3>"
+                        htmlContent += "        <p>" + data.begin.substr(0, 120) + "...</p>";
+                        htmlContent += "    </div>";
+                        htmlContent += "</div>";
+                    });
+
+                    accountant++;
+
+                }
 
             });
+
+            display.append(htmlContent);
         }
     });
 }
