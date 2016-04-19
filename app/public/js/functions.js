@@ -2,10 +2,9 @@ var dataWork;
 
 $(document).ready( function () {
     fnSearch($('#codeWorkItems .container'));
+    $('#btnSearchWork').click(fnSearch);
 })
 
-
-$('#btnSearchWork').click(fnSearch);
 
 function fnSearch(display) {
     var search = $('#txtSearchWork').val();
@@ -107,8 +106,36 @@ function Mostrar(btn) {
     });
 
     $('.modal-title').text(dataShow.name);
-    htmlContent = "<div class='learning-item'><p>" + dataShow.description1 + "</p></div>";
-    htmlContent += "<div class='learning-item'><p>" + dataShow.description2 + "</p></div>";
+
+    if ( dataShow.description1 != null )
+        htmlContent = "<div class='learning-item'><p>" + dataShow.description1 + "</p></div>";
+
+    if ( dataShow.description2 != null )
+        htmlContent += "<div class='learning-item'><p>" + dataShow.description2 + "</p></div>";
+
+    if ( dataShow.description3 != null )
+        htmlContent += "<div class='learning-item'><p>" + dataShow.description3 + "</p></div>";
+
+    if ( dataShow.description4 != null )
+        htmlContent += "<div class='learning-item'><p>" + dataShow.description4 + "</p></div>";
+
+    if ( dataShow.description5 != null )
+        htmlContent += "<div class='learning-item'><p>" + dataShow.description5 + "</p></div>";
+
+    if ( dataShow.description6 != null )
+        htmlContent += "<div class='learning-item'><p>" + dataShow.description6 + "</p></div>";
+
+    if ( dataShow.description7 != null )
+        htmlContent += "<div class='learning-item'><p>" + dataShow.description7 + "</p></div>";
+
+    if ( dataShow.description8 != null )
+        htmlContent += "<div class='learning-item'><p>" + dataShow.description8 + "</p></div>";
+
+    if ( dataShow.description9 != null )
+        htmlContent += "<div class='learning-item'><p>" + dataShow.description9 + "</p></div>";
+
+    if ( dataShow.description10 != null )
+        htmlContent += "<div class='learning-item'><p>" + dataShow.description10 + "</p></div>";
 
     $('#learnings').append(htmlContent);
 
