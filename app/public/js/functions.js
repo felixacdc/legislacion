@@ -1,17 +1,17 @@
 var dataWork;
 
 $(document).ready( function () {
-    fnSearch($('#codeWorkItems .container'), $('#txtSearchWork').val());
-    
+    fnSearch($('#codeWorkItems .container'), $('#txtSearchWork').val(), 'work/');
+
     $('#btnSearchWork').click(function () {
-        fnSearch($('#codeWorkItems .container'), $('#txtSearchWork').val());
+        fnSearch($('#codeWorkItems .container'), $('#txtSearchWork').val(), 'work/');
     });
 })
 
 
-function fnSearch(display, search) {
+function fnSearch(display, search, url) {
 
-    var route = 'work/' + search;
+    var route = url + search;
     var token = $('#token').val();
 
     display.html("");
