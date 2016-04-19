@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 
-use App\Article;
+use App\Codes;
 
 class CodesController extends Controller
 {
@@ -19,7 +19,21 @@ class CodesController extends Controller
 
     public function workCode(Request $request, $search = '')
     {
-        $articles = Article::all();
+        $articles = Codes::find(1)
+                    ->articles()
+                    ->where('number', 'LIKE', '%' . $search . '%')
+                    ->orWhere('name', 'LIKE', '%' . $search . '%')
+                    ->orWhere('description1', 'LIKE', '%' . $search . '%')
+                    ->orWhere('description2', 'LIKE', '%' . $search . '%')
+                    ->orWhere('description3', 'LIKE', '%' . $search . '%')
+                    ->orWhere('description4', 'LIKE', '%' . $search . '%')
+                    ->orWhere('description5', 'LIKE', '%' . $search . '%')
+                    ->orWhere('description6', 'LIKE', '%' . $search . '%')
+                    ->orWhere('description7', 'LIKE', '%' . $search . '%')
+                    ->orWhere('description8', 'LIKE', '%' . $search . '%')
+                    ->orWhere('description9', 'LIKE', '%' . $search . '%')
+                    ->orWhere('description10', 'LIKE', '%' . $search . '%')
+                    ->get();
 
         if ($request->ajax()) {
             return response()->json([

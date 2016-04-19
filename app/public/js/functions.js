@@ -1,13 +1,16 @@
 var dataWork;
 
 $(document).ready( function () {
-    fnSearch($('#codeWorkItems .container'));
-    $('#btnSearchWork').click(fnSearch);
+    fnSearch($('#codeWorkItems .container'), $('#txtSearchWork').val());
+    
+    $('#btnSearchWork').click(function () {
+        fnSearch($('#codeWorkItems .container'), $('#txtSearchWork').val());
+    });
 })
 
 
-function fnSearch(display) {
-    var search = $('#txtSearchWork').val();
+function fnSearch(display, search) {
+
     var route = 'work/' + search;
     var token = $('#token').val();
 
