@@ -20,9 +20,11 @@
 				<!-- main nav -->
                 <nav class="collapse navbar-collapse navbar-right" role="navigation">
                     <ul id="nav" class="nav navbar-nav">
-                        <li><a href="#body">Inicio</a></li>
-                        <li><a href="#codeWork">Codigo de Trabajo</a></li>
-                        <li><a href="#codeCommercial">Codigo de Comercio</a></li>
+
+                        @foreach(config('nav') as $key => $value)
+                            <li><a href="{!! $value !!}">{!! $key !!}</a></li>
+                        @endforeach
+                        
                     </ul>
                 </nav>
 				<!-- /main nav -->

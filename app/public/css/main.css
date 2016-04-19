@@ -1435,3 +1435,7 @@ textarea.form-control {
 #learnings {
     padding-bottom: 25px;
 }
+
+.service-icon i {
+    cursor: pointer;
+}
