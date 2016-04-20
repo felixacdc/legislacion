@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 
+use Redirect;
 use App\Article;
 
 class ArticlesController extends Controller
@@ -18,10 +19,17 @@ class ArticlesController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function showComment($id)
+    public function showComment(Request $request, $id)
     {
         $comment = Article::find($id)->comment;
-        dd($comment);
+
+        if ( $request->ajax() ) {
+            return response()->json([
+                'data' => $comment->toArray()
+            ]);
+        }
+
+        return Redirect::to('/');
     }
 
 }

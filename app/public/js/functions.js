@@ -142,6 +142,22 @@ function Mostrar(btn) {
 
     $('#learnings').append(htmlContent);
 
+    showComment('comment/', btn.id);
+
+
+}
+
+function showComment(url, id)
+{
+    $.ajax({
+        url: url + id,
+        type: 'GET',
+        dataType: 'json',
+        success: function (response) {
+            console.log(response.data);
+        }
+    });
+
     fnSliderText();
 }
 
