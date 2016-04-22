@@ -24,9 +24,15 @@ class ArticlesController extends Controller
         $comment = Article::find($id)->comment;
 
         if ( $request->ajax() ) {
-            return response()->json([
-                'data' => $comment->toArray()
-            ]);
+            if ($comment == null) {
+                return response()->json([
+                    'data' => array($comment)
+                ]);
+            } else {
+                return response()->json([
+                    'data' => $comment->toArray()
+                ]);
+            }
         }
 
         return Redirect::to('/');

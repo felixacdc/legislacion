@@ -1432,7 +1432,7 @@ textarea.form-control {
     text-align: justify;
 }
 
-#learnings {
+#learnings, #showComments {
     padding-bottom: 25px;
 }
 

@@ -94,10 +94,8 @@ function fnSearch(display, search, url) {
 
 function Mostrar(btn) {
     var dataShow;
-    $('#learnings').remove();
-
-    var div = "<div id='learnings'></div>";
-    $('.modal-body').append(div);
+    // $('#learnings').remove();
+    $('.modal-body').html('<h3 class="text-center">Cargando ...</h3>');
 
 
     $(dataWork.data).each( function (key, value) {
@@ -141,14 +139,14 @@ function Mostrar(btn) {
     if ( dataShow.description10 != null )
         htmlContent += "<div class='learning-item'><p>" + dataShow.description10 + "</p></div>";
 
-    $('#learnings').append(htmlContent);
 
-    showComment('comment/', btn.id);
+
+    showComment('comment/', btn.id, htmlContent);
 
 
 }
 
-function showComment(url, id)
+function showComment(url, id, htmlBefore)
 {
     $.ajax({
         url: url + id,
@@ -157,7 +155,11 @@ function showComment(url, id)
         success: function (response) {
             console.log(response.data);
 
-            $('#showComments').remove();
+            // $('#showComments').remove();
+
+            var div = "<div id='learnings'></div>";
+            $('.modal-body').html(div);
+
             var div = "<div id='showComments'></div>";
             $('.modal-body').append(div);
 
@@ -194,6 +196,7 @@ function showComment(url, id)
             if ( response.data.description10 != null )
                 htmlContent += "<div class='showComments-item'><p>" + response.data.description10 + "</p></div>";
 
+            $('#learnings').append(htmlBefore);
             $('#showComments').append(htmlContent);
 
 

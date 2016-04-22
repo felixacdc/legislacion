@@ -14,7 +14,7 @@
 
         </div>
 
-        <h3 class="text-center">Cargando ...</h3>
+        
       </div>
       <div class="modal-footer">
           <button type="button" class="btn btn-danger" data-dismiss="modal">cerrar</button>
