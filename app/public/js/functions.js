@@ -95,6 +95,7 @@ function fnSearch(display, search, url) {
 function Mostrar(btn) {
     var dataShow;
     $('#learnings').remove();
+
     var div = "<div id='learnings'></div>";
     $('.modal-body').append(div);
 
@@ -155,10 +156,52 @@ function showComment(url, id)
         dataType: 'json',
         success: function (response) {
             console.log(response.data);
+
+            $('#showComments').remove();
+            var div = "<div id='showComments'></div>";
+            $('.modal-body').append(div);
+
+
+            htmlContent = "";
+
+            if ( response.data.description1 != null )
+                htmlContent = "<div class='showComments-item'><p>" + response.data.description1 + "</p></div>";
+
+            if ( response.data.description2 != null )
+                htmlContent += "<div class='showComments-item'><p>" + response.data.description2 + "</p></div>";
+
+            if ( response.data.description3 != null )
+                htmlContent += "<div class='showComments-item'><p>" + response.data.description3 + "</p></div>";
+
+            if ( response.data.description4 != null )
+                htmlContent += "<div class='showComment-item'><p>" + response.data.description4 + "</p></div>";
+
+            if ( response.data.description5 != null )
+                htmlContent += "<div class='showComments-item'><p>" + response.data.description5 + "</p></div>";
+
+            if ( response.data.description6 != null )
+                htmlContent += "<div class='showComments-item'><p>" + response.data.description6 + "</p></div>";
+
+            if ( response.data.description7 != null )
+                htmlContent += "<div class='showComments-item'><p>" + response.data.description7 + "</p></div>";
+
+            if ( response.data.description8 != null )
+                htmlContent += "<div class='showComments-item'><p>" + response.data.description8 + "</p></div>";
+
+            if ( response.data.description9 != null )
+                htmlContent += "<div class='showComments-item'><p>" + response.data.description9 + "</p></div>";
+
+            if ( response.data.description10 != null )
+                htmlContent += "<div class='showComments-item'><p>" + response.data.description10 + "</p></div>";
+
+            $('#showComments').append(htmlContent);
+
+
+            fnSliderText();
+
         }
     });
 
-    fnSliderText();
 }
 
 function fnSliderText () {
@@ -170,7 +213,7 @@ function fnSliderText () {
     if(owlInstance != null)
         owlInstance.reinit();
 
-    $("#learnings").owlCarousel({
+    $("#learnings, #showComments").owlCarousel({
 		navigation : true,
 		pagination : false,
 		slideSpeed : 700,
