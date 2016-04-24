@@ -1428,7 +1428,7 @@ textarea.form-control {
     }
 }
 
-.learning-item {
+.learning-item, .showComments-item {
     text-align: justify;
 }
 

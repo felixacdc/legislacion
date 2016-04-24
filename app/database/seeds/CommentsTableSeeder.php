@@ -12,10 +12,19 @@ class CommentsTableSeeder extends Seeder
     public function run()
     {
         DB::table('comments')->insert([
-            'description1' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-            'description2' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. .',
-            'description3' => 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-            'description4' => ' Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+            'description1' => '<strong>Principios informativos del derecho de trabajo:</strong><br>
+            <span class="opNum">1.</span> Primer principio: principio de tutelaridad<br>
+            <span class="opNum">2.</span> Segundo principio<br>
+            <span class="opNum">3.</span> Tercer principio: principio irrenunciable<br>
+            <span class="opNum">4.</span> Cuarto principio: Principio de superación de derecho mínimo.',
+            'description2' => '<span class="opNum">5.</span> Quinto principio: Principio de imperatividad<br>
+            <span class="opNum">6.</span> Sexto principio: Principio de la Autonomia de la Voluntad Civil (El principio de imperatividad limita al principio de la Autonomia de la Voluntad Civil)',
+            'description3' => '<span class="opNum">7.</span> Septimo principio: Principio realista<br>
+            <span class="opNum">8.</span> Octabo principio: Principio objetivo<br>
+            <span class="opNum">9.</span> Noveno principio: Principio de la naturaleza juridica',
+            'description4' => '<span class="opNum">10.</span> Decimo principio: Derecho ondeamente democratico<br>
+            <span class="opNum">11.</span> Onceabo Principio: Principio de conciliación (Agregado)<br>
+            <span class="opNum">12.</span> Doceabo Principio: IN DUBIO PRO OPERARIO Articulo 17 Codigo de trabajo <a href="#">Ir a Articulo 17.</a>',
             'article_id' => '1'
         ]);
     }
