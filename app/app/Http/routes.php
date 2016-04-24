@@ -13,7 +13,7 @@
 
 Route::get('/', 'CodesController@index');
 
-Route::post('work/{search?}', 'CodesController@workCode');
-Route::post('commercial/{search?}', 'CodesController@commercialCode');
+Route::get('work/{search?}', 'CodesController@workCode');
+Route::get('commercial/{search?}', 'CodesController@commercialCode');
 
 Route::get('comment/{id}', 'ArticlesController@showComment');

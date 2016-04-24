@@ -20,7 +20,7 @@ function fnSearch(display, search, url) {
     $.ajax({
         url: route,
         headers: {'X-CSRF-TOKEN': token},
-        type: 'POST',
+        type: 'GET',
         dataType: 'json',
         data: {search: search},
         success:function (response) {
