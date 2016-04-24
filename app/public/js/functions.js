@@ -6,6 +6,7 @@ $(document).ready( function () {
     $('#btnSearchWork').click(function () {
         fnSearch($('#codeWorkItems .container'), $('#txtSearchWork').val(), 'work/');
     });
+
 })
 
 
@@ -146,8 +147,7 @@ function Mostrar(btn) {
 
 }
 
-function showComment(url, id, htmlBefore)
-{
+function showComment(url, id, htmlBefore) {
     $.ajax({
         url: url + id,
         type: 'GET',
@@ -201,6 +201,11 @@ function showComment(url, id, htmlBefore)
 
 
             fnSliderText();
+
+            $('.linkGo').click(function (){
+                $('#myModal').modal('hide');
+                fnSearch($('#codeWorkItems .container'), "Artículo 17", 'work/');
+            });
 
         }
     });
