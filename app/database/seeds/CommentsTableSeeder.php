@@ -57,6 +57,12 @@ class CommentsTableSeeder extends Seeder
         ]);
 
         DB::table('comments')->insert([
+            'description1' => '<strong>Principios informativos del derecho de trabajo :</strong> <a href="#codeWork" data-search="Considerando" class="linkGo">Ir a Considerando.</a><br>
+            <span class="opNum">1.</span> Doceabo Principio: IN DUBIO PRO OPERARIO',
+            'article_id' => '7'
+        ]);
+
+        DB::table('comments')->insert([
             'description1' => '<strong>Elementos personales del trabajo:</strong><br>
             <ol>
             <li>Patrono</li>

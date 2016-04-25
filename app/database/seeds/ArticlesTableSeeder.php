@@ -70,7 +70,7 @@ class ArticlesTableSeeder extends Seeder
             'number' => '17',
             'name' => 'Artículo 17',
             'begin' => 'Para los efectos de interpretar el presente Código, sus reglamentos y demás leyes de trabajo, se debe tomar en cuenta, fundamentalmente, el interés de los trabajadores',
-            'description1' => 'Para los efectos de interpretar el presente Código, sus reglamentos y demás leyes de trabajo, se debe tomar en cuenta, fundamentalmente, el interés de los trabajadores en armonía con la conveniencia social.',
+            'description1' => '<span class="opNum">1.</span> <span>Para los efectos de interpretar el presente Código, sus reglamentos y demás leyes de trabajo, se debe tomar en cuenta, fundamentalmente, el interés de los trabajadores en armonía con la conveniencia social.</span>',
             'code_id' => 1
         ]);
 
