@@ -223,5 +223,26 @@ class ArticlesTableSeeder extends Seeder
             'code_id' => 1
         ]);
 
+        DB::table('articles')->insert([
+            'number' => '315',
+            'name' => 'Artículo 315',
+            'begin' => 'Las acciones para obtener la disolución o alguna prestación de las organizaciones sindicales, se deben entablar ante el juez de la zona jurisdiccional',
+            'description1' => '<span class="opNum">1.</span> <span>Las acciones para obtener la disolución o alguna prestación de las organizaciones sindicales, se deben entablar ante el juez de la zona jurisdiccional a que corresponde el lugar del domicilio de éstas.</span><br>
+            Sin embargo, se estará a lo dispuesto en el Artículo anterior cuando las organizaciones sindicales actuaren como patronos en caso determinado.',
+            'code_id' => 1
+        ]);
+
+        DB::table('articles')->insert([
+            'number' => '351',
+            'name' => 'Artículo 351',
+            'begin' => 'La tacha de testigos no interrumpirá el trámite de juicio y el juez se pronunciará expresamente sobre ella al dictar sentencia. Se admitirá dentro de las veinticuatro horas ',
+            'description1' => '<span class="opNum">1.</span> La tacha de testigos no interrumpirá el trámite de juicio y el juez se pronunciará expresamente sobre ella al dictar sentencia.<br>
+            Se admitirá dentro de las veinticuatro horas siguientes a la declaración de que se trate y la prueba para establecerse se recibirá en la propia audiencia o en la inmediata que se señale para recepción de pruebas del juicio o en auto para mejor proveer, si ya se hubiere agotado la recepción de estas pruebas. No es causa de la tacha la subordinación del testigo derivada del contrato de trabajo, pero si lo será, si el testigo ejerce funciones de dirección, de representación o de confianza en la empresa de que se trate, si fuere propuesto por ésta.',
+            'description2' => 'Se consideran cargos de dirección aquellos en cuyo desempeño se dicten resoluciones que obliguen a todo o a la mayor parte del personal de una empresa, departamento o sección de la misma.<br>
+            Son cargos de representación los que traen consigo la actuación de la voluntad del patrono e implican alta jerarquía o dignidad o la delegación de funciones que en principio corresponden a aquél.<br>
+            Se consideran cargos de confianza aquéllos para cuyo ejercicio es básico que quien los desempeñe tenga idoneidad moral reconocida, y corrección o discreción suficientes para no comprometer la seguridad de la respectiva empresa.',
+            'code_id' => 1
+        ]);
+
     }
 }
