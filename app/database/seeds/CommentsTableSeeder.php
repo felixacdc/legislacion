@@ -41,5 +41,19 @@ class CommentsTableSeeder extends Seeder
             </ol>',
             'article_id' => '2'
         ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<strong>Elementos personales del trabajo:</strong><br>
+            <ol>
+            <li>Patrono</li>
+            <li>Trabajador</li>
+            <li>Auxiliares del patrono: <a href="#codeWork" data-search="Artículo 4" class="linkGo">Ir a Artículo 4.</a></li>
+                <ul><li>Representante del patrono <a href="#codeWork" data-search="Artículo 4" class="linkGo">Ir a Artículo 4.</a></li>
+                <li>Empleados de confianza Ir a Artículo 351</li>
+                <li>Cargos de direccion Ir a Artículo 315 </li>
+                <li><span class="opNum">1.</span> Intermediario</li></ul>
+            </ol>',
+            'article_id' => '3'
+        ]);
     }
 }
