@@ -204,7 +204,7 @@ function showComment(url, id, htmlBefore) {
 
             $('.linkGo').click(function (){
                 $('#myModal').modal('hide');
-                fnSearch($('#codeWorkItems .container'), "Artículo 17", 'work/');
+                fnSearch($('#codeWorkItems .container'), $(this).data('search'), 'work/');
             });
 
         }

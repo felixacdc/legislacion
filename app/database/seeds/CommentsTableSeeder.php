@@ -24,8 +24,22 @@ class CommentsTableSeeder extends Seeder
             <span class="opNum">9.</span> Noveno principio: Principio de la naturaleza juridica',
             'description4' => '<span class="opNum">10.</span> Decimo principio: Derecho ondeamente democratico<br>
             <span class="opNum">11.</span> Onceabo Principio: Principio de conciliación (Agregado)<br>
-            <span class="opNum">12.</span> Doceabo Principio: IN DUBIO PRO OPERARIO Articulo 17 Codigo de trabajo <a href="#codeWork" data-search="Artículo 17" class="linkGo">Ir a Articulo 17.</a>',
+            <span class="opNum">12.</span> Doceabo Principio: IN DUBIO PRO OPERARIO Articulo 17 Codigo de trabajo <a href="#codeWork" data-search="Artículo 17" class="linkGo">Ir a Artículo 17.</a>',
             'article_id' => '1'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<strong>Elementos personales del trabajo:</strong><br>
+            <ol>
+            <li>Patrono</li>
+            <li>Trabajador</li>
+            <li><span class="opNum">1.</span> Auxiliares del patrono:</li>
+                <ul><li><span class="opNum">2.</span> Representante del patrono</li>
+                <li>Empleados de confianza Ir a Artículo 351</li>
+                <li>Cargos de direccion Ir a Artículo 315 </li>
+                <li>Intermediario <a href="#codeWork" data-search="Artículo 5" class="linkGo">Ir a Artículo 5.</a></li></ul>
+            </ol>',
+            'article_id' => '2'
         ]);
     }
 }
