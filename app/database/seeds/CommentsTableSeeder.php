@@ -57,6 +57,19 @@ class CommentsTableSeeder extends Seeder
         ]);
 
         DB::table('comments')->insert([
+            'description1' => '<strong>Medidas de protección del salario:</strong><br>
+            <p>El articulo 7 contiene el fundamento de las medidas de protección del salario.</p>',
+            'article_id' => '4'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<strong>Nulidad del contrato individual del trabajo:</strong><br>
+            <p>El articulo 12 contiene el fundamento de la nulidad del contrato individual del trabajo y el pleno derecho.</p>
+            <p><strong>Ipso Jure: </strong>"de pleno derecho" o "de pleno derecho por poder potestad o ministerio de la ley."</p>',
+            'article_id' => '5'
+        ]);
+
+        DB::table('comments')->insert([
             'description1' => '<strong>Principios informativos del derecho de trabajo :</strong> <a href="#codeWork" data-search="Considerando" class="linkGo">Ir a Considerando.</a><br>
             <span class="opNum">1.</span> Doceabo Principio: IN DUBIO PRO OPERARIO',
             'article_id' => '7'
