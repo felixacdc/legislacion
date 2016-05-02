@@ -153,15 +153,15 @@ class ArticlesTableSeeder extends Seeder
         DB::table('articles')->insert([
             'number' => '27',
             'name' => 'Artículo 27',
-            'begin' => 'El contrato individual de trabajo puede ser verbal cuando se refiera:
-            a)	 A las labores agrícolas o ganaderas;
-            b)	 Al servicio doméstico;',
-            'description1' => 'El contrato individual de trabajo puede ser verbal cuando se refiera:
-            a)	 A las labores agrícolas o ganaderas;
-            b)	 Al servicio doméstico;
-            c)	 A los trabajos accidentales o temporales que no excedan de sesenta días; y
-            d)	 A la prestación de un trabajo para obra determinada, siempre que el valor de ésta no exceda de cien quetzales, y, si se hubiere señalado plazo para la entrega, siempre que éste no sea mayor de sesenta días.',
-            'description2' => 'En todos estos casos el patrono queda obligado a suministrar al trabajador, en el momento en que se celebre el contrato, una tarjeta o constancia que únicamente debe contener la fecha de iniciación de la relación de trabajo y el salario estipulado y, al vencimiento de cada período de pago, el número de días o jornadas trabajadas, o el de tareas u obras realizadas.',
+            'begin' => 'El contrato individual de trabajo puede ser verbal cuando se refiera:<br>
+            a) A las labores agrícolas o ganaderas;<br>
+            b) Al servicio doméstico;<br>',
+            'description1' => 'El contrato individual de trabajo puede ser verbal cuando se refiera:<br>
+            a) A las labores agrícolas o ganaderas;<br>
+            b) Al servicio doméstico;<br>
+            c) A los trabajos accidentales o temporales que no excedan de sesenta días; y<br>
+            d) A la prestación de un trabajo para obra determinada, siempre que el valor de ésta no exceda de cien quetzales, y, si se hubiere señalado plazo para la entrega, siempre que éste no sea mayor de sesenta días.',
+            'description2' => 'En todos estos casos el patrono queda obligado a suministrar al trabajador, en el momento en que se celebre el contrato, una tarjeta o constancia que únicamente debe contener <span class="opNum">1.</span> <span>la fecha de iniciación de la relación de trabajo y el salario estipulado y, al vencimiento de cada período de pago, el número de días o jornadas trabajadas, o el de tareas u obras realizadas.</span>',
             'code_id' => 1
         ]);
 
@@ -177,21 +177,21 @@ class ArticlesTableSeeder extends Seeder
         DB::table('articles')->insert([
             'number' => '29',
             'name' => 'Artículo 29',
-            'begin' => 'El contrato escrito de trabajo debe contener:
-            a)	 Los nombres, apellidos, edad, sexo, estado civil, nacionalidad y vecindad de los contratantes;
-            b)	 La fecha de la iniciación de la relación de trabajo;',
-            'description1' => 'El contrato escrito de trabajo debe contener:
-            a)	 Los nombres, apellidos, edad, sexo, estado civil, nacionalidad y vecindad de los contratantes;
-            b)	 La fecha de la iniciación de la relación de trabajo;
-            c)	 La indicación de los servicios que el trabajador se obliga a prestar, o la naturaleza de la obra a ejecutar, especificando en lo posible las características y las condiciones del trabajo;
-            d) 	El lugar o los lugares donde deben prestarse los servicios o ejecutarse la obra;
-            e)	 La designación precisa del lugar donde viva el trabajador cuando se le contrata para prestar sus servicios o ejecutar una obra en lugar distinto de aquel donde viva habitualmente;
-            f)	 La duración del contrato o la expresión de ser por tiempo indefinido o para la ejecución de obra determinada;
-            g)	 El tiempo de la jornada de trabajo y las horas en que debe prestarse;',
-            'description3' => 'h)	 El salario, beneficio, comisión o participación que debe recibir el trabajador; si se debe calcular por unidad de tiempo, por unidad de obra o de alguna otra manera, y la forma, período y lugar de pago; En los casos en que se estipule que el salario se ha de pagar por unidad de obra, se debe hacer constar la cantidad y calidad de material, las herramientas y útiles que el patrono convenga en proporcionar y el estado de conservación de los mismos, así como el tiempo que el trabajador pueda tenerlos a su disposición. El patrono no puede exigir del trabajador cantidad alguna por concepto de desgaste normal o destrucción accidental de las herramientas, como consecuencia de su uso en el trabajo;
-            i)	 Las demás estipulaciones legales en que convengan las partes;
-            j) 	 El lugar y la fecha de celebración del contrato; y
-            k) 	Las firmas de los contratantes o la impresión digital de los que no sepan o no puedan firmar, y el número de sus cédulas de vecindad.
+            'begin' => 'El contrato escrito de trabajo debe contener:<br>
+            a) Los nombres, apellidos, edad, sexo, estado civil, nacionalidad y vecindad de los contratantes;<br>
+            b) La fecha de la iniciación de la relación de trabajo;',
+            'description1' => 'El contrato escrito de trabajo debe contener:<br>
+            a) Los nombres, apellidos, edad, sexo, estado civil, nacionalidad y vecindad de los contratantes;<br>
+            b) La fecha de la iniciación de la relación de trabajo;<br>
+            c) La indicación de los servicios que el trabajador se obliga a prestar, o la naturaleza de la obra a ejecutar, especificando en lo posible las características y las condiciones del trabajo;<br>
+            d) El lugar o los lugares donde deben prestarse los servicios o ejecutarse la obra;<br>
+            e) La designación precisa del lugar donde viva el trabajador cuando se le contrata para prestar sus servicios o ejecutar una obra en lugar distinto de aquel donde viva habitualmente;<br>
+            f) La duración del contrato o la expresión de ser por tiempo indefinido o para la ejecución de obra determinada;<br>
+            g) El tiempo de la jornada de trabajo y las horas en que debe prestarse;',
+            'description3' => 'h) El salario, beneficio, comisión o participación que debe recibir el trabajador; si se debe calcular por unidad de tiempo, por unidad de obra o de alguna otra manera, y la forma, período y lugar de pago; En los casos en que se estipule que el salario se ha de pagar por unidad de obra, se debe hacer constar la cantidad y calidad de material, las herramientas y útiles que el patrono convenga en proporcionar y el estado de conservación de los mismos, así como el tiempo que el trabajador pueda tenerlos a su disposición. El patrono no puede exigir del trabajador cantidad alguna por concepto de desgaste normal o destrucción accidental de las herramientas, como consecuencia de su uso en el trabajo;<br>
+            i) Las demás estipulaciones legales en que convengan las partes;<br>
+            j) El lugar y la fecha de celebración del contrato; y<br>
+            k) Las firmas de los contratantes o la impresión digital de los que no sepan o no puedan firmar, y el número de sus cédulas de vecindad.<br>
             El Ministerio de Trabajo y Previsión Social debe imprimir modelos de contratos para cada una de las categorías de trabajo, a fin de facilitar el cumplimiento de esta disposición.',
             'code_id' => 1
         ]);
@@ -209,7 +209,7 @@ class ArticlesTableSeeder extends Seeder
             'number' => '31',
             'name' => 'Artículo 31',
             'begin' => 'Tienen también capacidad para contratar su trabajo, para percibir y disponer de la retribución convenida y, en general, para ejercer los derechos y acciones que se deriven del presente',
-            'description1' => 'Tienen también capacidad para contratar su trabajo, para percibir y disponer de la retribución convenida y, en general, para ejercer los derechos y acciones que se deriven del presente Código, de sus reglamentos y de las leyes de previsión social, los menores de edad, de uno u otro sexo, que tengan catorce años o más y los insolventes y fallidos.',
+            'description1' => 'Tienen también capacidad para contratar su trabajo, para percibir y disponer de la retribución convenida y, en general, para ejercer los derechos y acciones que se deriven del presente Código, de sus reglamentos y de las leyes de previsión social, <span class="opNum">1.</span> <span>los menores de edad, de uno u otro sexo, que tengan catorce años o más y los insolventes y fallidos.</span>',
             'description2' => 'Las capacidades específicas a que alude el párrafo anterior, lo son sólo para los efectos de trabajo, y en consecuencia, no afectan en lo demás el estado de minoridad o, en su caso, el de incapacidad por insolvencia o quiebra.
             La interdicción judicial declarada del patrono no invalida los actos o contratos que haya celebrado el ejecutado con sus trabajadores anteriormente a dicha declaratoria.',
             'code_id' => 1
@@ -219,7 +219,7 @@ class ArticlesTableSeeder extends Seeder
             'number' => '32',
             'name' => 'Artículo 32',
             'begin' => 'Los contratos relativos al trabajo de los jóvenes que tengan menos de catorce años, deben celebrarse con los representantes legales de éstos y, en su defecto, se necesita la autorización',
-            'description1' => 'Los contratos relativos al trabajo de los jóvenes que tengan menos de catorce años, deben celebrarse con los representantes legales de éstos y, en su defecto, se necesita la autorización de la Inspección General de Trabajo.
+            'description1' => '<span class="opNum">1.</span> <span>Los contratos relativos al trabajo de los jóvenes que tengan menos de catorce años, deben celebrarse con los representantes legales de éstos y, en su defecto, se necesita la autorización de la Inspección General de Trabajo.</span><br>
             El producto del trabajo de los menores a que se refiere el párrafo anterior lo deben percibir sus representantes legales o la persona que tenga a su cargo el cuidado de ellos, según la determinación que debe hacer la Inspección General de Trabajo en las autorizaciones a que alude este artículo.',
             'code_id' => 1
         ]);

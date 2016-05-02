@@ -127,13 +127,43 @@ class CommentsTableSeeder extends Seeder
         ]);
 
         DB::table('comments')->insert([
+            'description1' => '<span class="opNum">1.</span> <strong>Lo que debe contener la tarjeta de trabajo cuando el contrato se celebra de forma verbal.</strong>',
+            'article_id' => '15'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<strong>La plena prueba.</strong>',
+            'article_id' => '16'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<strong>Lo que debe contener un contrato de trabajo.</strong>',
+            'article_id' => '17'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<strong>Principio de tutelaridad.</strong>',
+            'article_id' => '18'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<span class="opNum">1.</span> Excepción para contratar menores de edad.',
+            'article_id' => '19'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<span class="opNum">1.</span> Contrato de trabajo de menores de edad.',
+            'article_id' => '20'
+        ]);
+
+        DB::table('comments')->insert([
             'description1' => '<strong>Elementos personales del trabajo:</strong><br>
             <ol>
             <li>Patrono</li>
             <li>Trabajador</li>
             <li>Auxiliares del patrono: <a href="#codeWork" data-search="Artículo 4" class="linkGo">Ir a Artículo 4.</a></li>
                 <ul><li>Representante del patrono <a href="#codeWork" data-search="Artículo 4" class="linkGo">Ir a Artículo 4.</a></li>
-                <li>Empleados de confianza</li>
+                <li>Empleados de confianza <a href="#codeWork" data-search="Artículo 351" class="linkGo">Ir a Artículo 351</a></li>
                 <li><span class="opNum">1.</span> Cargos de dirección</li>
                 <li>Intermediario <a href="#codeWork" data-search="Artículo 5" class="linkGo">Ir a Artículo 5.</a></li></ul>
             </ol>',
@@ -148,7 +178,7 @@ class CommentsTableSeeder extends Seeder
             <li>Auxiliares del patrono: <a href="#codeWork" data-search="Artículo 4" class="linkGo">Ir a Artículo 4.</a></li>
                 <ul><li>Representante del patrono <a href="#codeWork" data-search="Artículo 4" class="linkGo">Ir a Artículo 4.</a></li>
                 <li><span class="opNum">1.</span> Empleados de confianza</li>
-                <li>Cargos de dirección</li>
+                <li>Cargos de dirección <a href="#codeWork" data-search="Artículo 315" class="linkGo">Ir a Artículo 315</a></li>
                 <li>Intermediario <a href="#codeWork" data-search="Artículo 5" class="linkGo">Ir a Artículo 5.</a></li></ul>
             </ol>',
             'article_id' => '22'
