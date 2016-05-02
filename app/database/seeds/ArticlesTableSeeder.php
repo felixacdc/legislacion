@@ -100,12 +100,12 @@ class ArticlesTableSeeder extends Seeder
             'number' => '20',
             'name' => 'Artículo 20',
             'begin' => 'El contrato individual de trabajo obliga, no sólo a lo que se establece en él, sino:
-            a)	 A la observancia de las obligaciones y derechos que este Código o los convenios internacionales',
-            'description1' => 'El contrato individual de trabajo obliga, no sólo a lo que se establece en él, sino:
-            a)	 A la observancia de las obligaciones y derechos que este Código o los convenios internacionales ratificados por Guatemala, determinen para las partes de la relación laboral, siempre, respecto a estos últimos, cuando consignen beneficios superiores para los trabajadores que los que este Código crea; y
-            b)	 A las consecuencias que del propio contrato se deriven según la buena fe, la equidad, el uso y costumbres locales o la ley.',
+            a)A la observancia de las obligaciones y derechos que este Código o los convenios internacionales',
+            'description1' => 'El contrato individual de trabajo obliga, no sólo a lo que se establece en él, sino:<br>
+            <span class="opNum">1.</span> <span>a)A la observancia de las obligaciones y derechos que este Código o los convenios internacionales ratificados por Guatemala, determinen para las partes de la relación laboral, siempre, respecto a estos últimos, cuando consignen beneficios superiores para los trabajadores que los que este Código crea; y<br>
+            b)A las consecuencias que del propio contrato se deriven según la buena fe, la equidad, el uso y costumbres locales o la ley.</span>',
             'description2' => 'Las condiciones de trabajo que rijan un contrato o relación laboral, no pueden alterarse fundamental o permanentemente, salvo que haya acuerdo expreso entre las partes o que así lo autorice el Ministerio de Trabajo y Previsión Social, cuando lo justifique plenamente la situación económica de la empresa. Dicha prohibición debe entenderse únicamente en cuanto a las relaciones de trabajo que, en todo o en parte, tengan condiciones superiores al mínimum de protección que este Código otorga a los trabajadores.',
-            'description3' => 'Son condiciones o elementos de la prestación de los servicios o ejecución de una obra: la materia u objeto; la forma o modo de su desempeño; el tiempo de su realización; el lugar de ejecución y las retribuciones a que esté obligado el patrono.',
+            'description3' => 'Son condiciones o elementos de la prestación de los servicios o ejecución de una obra: <span class="opNum">2.</span> <span>la materia u objeto; la forma o modo de su desempeño; el tiempo de su realización; el lugar de ejecución y las retribuciones a que esté obligado el patrono.</span>',
             'code_id' => 1
         ]);
 
@@ -128,13 +128,14 @@ class ArticlesTableSeeder extends Seeder
         DB::table('articles')->insert([
             'number' => '25',
             'name' => 'Artículo 25',
-            'begin' => 'El contrato individual de trabajo puede ser:
-            a)	 Por tiempo indefinido, cuando no se especifica fecha para su terminación;
-            b)	 A plazo fijo, cuando se especifica fecha para su terminación o cuando se ha',
-            'description1' => 'El contrato individual de trabajo puede ser:
-            a)	 Por tiempo indefinido, cuando no se especifica fecha para su terminación;
-            b)	 A plazo fijo, cuando se especifica fecha para su terminación o cuando se ha previsto el acaecimiento de algún hecho o circunstancia, como la conclusión de una obra, que forzosamente ha de poner término a la relación de trabajo. En este segundo caso, se debe tomar en cuenta la actividad del trabajador en sí mismo como objeto del contrato, y no el resultado de la obra; y',
-            'description2' => 'c)	 Para obra determinada, cuando se ajusta globalmente o en forma alzada el precio de los servicios del trabajador desde que se inician las labores hasta que éstas concluyan, tomando en cuenta el resultado del trabajo, o sea, la obra realizada.
+            'begin' => 'El contrato individual de trabajo puede ser:<br>
+            a) Por tiempo indefinido, cuando no se especifica fecha para su terminación;
+            b) A plazo fijo, cuando se especifica fecha para su terminación o cuando se ha',
+            'description1' => 'El contrato individual de trabajo puede ser:<br>
+            <span class="opNum">1.</span> <span>a) Por tiempo indefinido, cuando no se especifica fecha para su terminación;<br>
+            b) A plazo fijo, cuando se especifica fecha para su terminación o cuando se ha previsto el acaecimiento de algún hecho o circunstancia, como la conclusión de una obra, que forzosamente ha de poner término a la relación de trabajo. En este segundo caso, se debe tomar en cuenta la actividad del trabajador en sí mismo como objeto del contrato, y no el resultado de la obra; y<br>
+            c) Para obra determinada, cuando se ajusta globalmente o en forma alzada el precio de los servicios del trabajador desde que se inician las labores hasta que éstas concluyan, tomando en cuenta el resultado del trabajo, o sea, la obra realizada.</span>',
+            'description2' => '
             Aunque el trabajador reciba anticipos a buena cuenta de los trabajos ejecutados o por ejecutarse, el contrato individual de trabajo debe entenderse para obra determinada, siempre que se reúnan las condiciones que indica el párrafo anterior.',
             'code_id' => 1
         ]);
@@ -143,7 +144,7 @@ class ArticlesTableSeeder extends Seeder
             'number' => '26',
             'name' => 'Artículo 26',
             'begin' => 'Todo contrato individual de trabajo debe tenerse por celebrado por tiempo indefinido, salvo prueba o estipulación lícita y expresa en contrario.',
-            'description1' => 'Todo contrato individual de trabajo debe tenerse por celebrado por tiempo indefinido, salvo prueba o estipulación lícita y expresa en contrario.
+            'description1' => '<span class="opNum">1.</span> <span>Todo contrato individual de trabajo debe tenerse por celebrado por tiempo indefinido</span>, salvo prueba o estipulación lícita y expresa en contrario.
             Deben tenerse siempre como contratos a plazo indefinido, aunque se hayan ajustado a plazo fijo o para obra determinada, los que se celebren en una empresa cuyas actividades sean de naturaleza permanente o continuada, si al vencimiento de dichos contratos subsiste la causa que les dio origen.',
             'description2' => 'En consecuencia, los contratos a plazo fijo y para obra determinada tienen carácter de excepción y sólo pueden celebrarse en los casos que así lo exija la naturaleza accidental o temporal del servicio que se va a prestar o de la obra que se va a ejecutar.',
             'code_id' => 1

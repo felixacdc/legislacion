@@ -94,6 +94,39 @@ class CommentsTableSeeder extends Seeder
         ]);
 
         DB::table('comments')->insert([
+            'description1' => '<span class="opNum">1.</span> Efectos del contrato individual del trabajo.<br>
+            <span class="opNum">2.</span> Elementos de las condiciones de trabajo.',
+            'article_id' => '10'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<strong>Principio de derechos minimos.</strong>',
+            'article_id' => '11'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<strong>Substitución total del patrono.</strong>',
+            'article_id' => '12'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<strong>Clasificación de contratos de trabajo:</strong><br>
+            <span class="opNum">1.</span> 1. Por el plazo de su celebración.<br>
+            2. Por su forma de celebración:
+                <ul>
+                    <li>Escritos</li>
+                    <li>Verbales</li>
+                </ul>
+            <strong>Nota:</strong> El contrato tipo en el derecho de trabajo es el contrato por Tiempo Indefinido.',
+            'article_id' => '13'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<span class="opNum">1.</span> <strong>Es a lo que se le conoce como contrato tipo.</strong>',
+            'article_id' => '14'
+        ]);
+
+        DB::table('comments')->insert([
             'description1' => '<strong>Elementos personales del trabajo:</strong><br>
             <ol>
             <li>Patrono</li>
