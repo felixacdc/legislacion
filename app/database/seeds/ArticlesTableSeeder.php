@@ -225,6 +225,73 @@ class ArticlesTableSeeder extends Seeder
         ]);
 
         DB::table('articles')->insert([
+            'number' => '57',
+            'name' => 'Artículo 57',
+            'begin' => 'Reglamento interior de trabajo es el conjunto de normas elaborado por el patrono de acuerdo con las leyes, reglamentos, pactos colectivos y contratos vigentes que lo',
+            'description1' => 'Reglamento interior de trabajo es el conjunto de normas elaborado por el patrono de acuerdo con las leyes, reglamentos, pactos colectivos y contratos vigentes que lo afecten, con el objeto de precisar y regular las normas a que obligadamente se deben sujetar él y sus trabajadores con motivo de la ejecución o prestación concreta del trabajo.<br>
+            No es necesario incluir en el reglamento las disposiciones contenidas en la ley.',
+            'code_id' => 1
+        ]);
+
+        DB::table('articles')->insert([
+            'number' => '58',
+            'name' => 'Artículo 58',
+            'begin' => 'Todo patrono que ocupe en su empresa permanentemente diez o más trabajadores, queda obligado a elaborar y poner en vigor su respectivo reglamento interior de',
+            'description1' => 'Todo patrono que ocupe en su empresa permanentemente diez o más trabajadores, queda obligado a elaborar y poner en vigor su respectivo reglamento interior de trabajo.',
+            'code_id' => 1
+        ]);
+
+        DB::table('articles')->insert([
+            'number' => '60',
+            'name' => 'Artículo 60',
+            'begin' => 'El reglamento interior de Trabajo debe comprender las reglas de orden técnico y administrativo necesarias para la buena marcha de la empresa; las relativas',
+            'description1' => 'El reglamento interior de Trabajo debe comprender las reglas de orden técnico y administrativo necesarias para la buena marcha de la empresa; las relativas a higiene y seguridad en las labores, como indicaciones para evitar que se realicen los riesgos profesionales e instrucciones para prestar los primeros auxilios en caso de accidente y, en general, todas aquellas otras que se estimen necesarias para la conservación de la disciplina y el buen cuido de los bienes de la empresa. Además, debe contener:<br>
+            a) Las horas de entrada y salida de los trabajadores, el tiempo destinado para las comidas y el período de descanso durante la jornada;',
+            'description2' => 'b) El lugar y el momento en que deben comenzar y terminar las jornadas de trabajo;<br>
+            c) Los diversos tipos de salarios y las categorías de trabajo a que correspondan;<br>
+            d) El lugar, día y hora de pago;<br>
+            e) Las disposiciones disciplinarias y procedimientos para aplicarlas. Se prohíbe descontar suma alguna del salario de los trabajadores en concepto de multa. La suspensión del trabajo, sin goce de salario, no debe decretarse por más de ocho días, ni antes de haber oído al interesado y a los compañeros de trabajo que éste indique. Tampoco podrá imponerse esta sanción, sino en los casos expresamente previstos en el respectivo reglamento;',
+            'description3' => 'f) La designación de las personas del establecimiento ante quienes deben presentarse las peticiones de mejoramiento o reclamos en general y la manera de formular unas y otros; y<br>
+            g) Las normas especiales pertinentes a las diversas clases de labores de acuerdo con la edad y sexo de los trabajadores y las normas de conducta, presentación y compostura personal que éstos deben guardar, según lo requiera la índole del trabajo.',
+            'code_id' => 1
+        ]);
+
+        DB::table('articles')->insert([
+            'number' => '61',
+            'name' => 'Artículo 61',
+            'begin' => 'Además de las contenidas en otros Artículos de este Código, en sus reglamentos y en las leyes de previsión social, son obligaciones de los patronos',
+            'description1' => 'Además de las contenidas en otros Artículos de este Código, en sus reglamentos y en las leyes de previsión social, son obligaciones de los patronos:<br>
+            a) Enviar dentro del improrrogable plazo de los dos primeros meses de cada año a la dependencia administrativa correspondiente del Ministerio de Trabajo y Previsión Social, directamente o por medio de las autoridades de trabajo del lugar donde se encuentra la respectiva empresa, un informe impreso que por lo menos debe contener estos datos:<br>
+            1) Egresos totales que hayan tenido por concepto de salarios, bonificaciones y cualquier otra prestación económica durante el año anterior, con la debida separación de las salidas por jornadas ordinarias y extraordinarias.<br>
+            2) Nombres y apellidos de sus trabajadores con expresión de la edad aproximada, nacionalidad, sexo, ocupación, número de días que haya trabajado cada uno y el salario que individualmente les haya correspondido durante dicho año.',
+            'description2' => 'Las autoridades administrativas de trabajo deben dar toda clase de facilidades para cumplir la obligación que impone este inciso, sea mandando a imprimir los formularios que estimen convenientes, auxiliando a los pequeños patronos o a los que carezcan de instrucción para llenar dichos formularios correctamente, o de alguna otra manera.<br>
+            Las normas de este inciso no son aplicables al servicio doméstico;<br>
+            b) Preferir, en igualdad de circunstancias, a los guatemaltecos sobre quienes no lo son y a los que les hayan servido bien con anterioridad respecto de quienes no estén en ese caso;<br>
+            c) Guardar a los trabajadores la debida consideración, absteniéndose de maltrato de palabra o de obra;<br>
+            d) Dar oportunamente a los trabajadores los útiles, instrumentos y materiales necesarios para ejecutar el trabajo convenido, debiendo suministrarlos de buena calidad y reponerlos tan luego como dejen de ser eficientes, siempre que el patrono haya convenido en que aquellos no usen herramienta propia;',
+            'description3' => 'e) Proporcionar local seguro para la guarda de los instrumentos y útiles del trabajador, cuando éstos necesariamente deban mantenerse en el lugar donde se presten los servicios. En este caso, el registro de herramientas debe hacerse siempre que el trabajador lo solicite;<br>
+            f) Permitir la inspección y vigilancia que las autoridades de trabajo practiquen en su empresa para cerciorarse del cumplimiento de las disposiciones del presente Código, de sus reglamentos y de las leyes de previsión social, y dar a aquéllas los informes indispensables que con ese objeto les soliciten. En este caso, los patronos pueden exigir a dichas autoridades que les muestren sus respectivas credenciales. Durante el acto de inspección los trabajadores podrán hacerse representar por uno o dos compañeros de trabajo;<br> 
+            g) Pagar al trabajador el salario correspondiente al tiempo que éste pierda cuando se vea imposibilitado para trabajar por culpa del patrono;<br>
+            <span class="opNum">1.</span> <span>h) Conceder a los trabajadores el tiempo necesario para el ejercicio del voto en las elecciones populares, sin reducción de salario;</span>',
+            'description4' => 'i) Deducir del salario del trabajador las cuotas ordinarias y extraordinarias que le corresponda pagar a su respectivo sindicato o cooperativa, siempre que lo solicite el propio interesado o la respectiva organización legalmente constituida. En este caso, el sindicato o cooperativa debe de comprobar su personalidad jurídica por una sola vez y realizar tal cobro en talonarios autorizados por el Departamento Administrativo de Trabajo, demostrando al propio tiempo, que las cuotas cuyo descuento pida son las autorizadas por sus estatutos o, en el caso de las extraordinarias, por la Asamblea General;<br> 
+            j) Procurar por todos los medios a su alcance la alfabetización de sus trabajadores que lo necesiten;<br>
+            k) Mantener en los establecimientos comerciales o industriales donde la naturaleza del trabajo lo permita, un número suficiente de sillas destinadas al descanso de los trabajadores durante el tiempo compatible con las funciones de éstos;',
+            'description5' => 'l) Proporcionar a los trabajadores campesinos que tengan su vivienda en la finca donde trabajan, la leña indispensable para su consumo doméstico, siempre que la finca de que se trate la produzca en cantidad superior a la que el patrono necesite para la atención normal de la respectiva empresa. En este caso deben cumplirse las leyes forestales y el patrono puede elegir entré dar la leña cortada o indicar a los trabajadores campesinos dónde pueden cortarla y con qué cuidados deben hacerlo, a fin de evitar daños a las personas, cultivos o árboles;<br> 
+            m) Permitir a los trabajadores campesinos que tengan su vivienda en terrenos de la empresa donde trabajan; que tomen de las presas, estanques, fuentes u ojos de agua, la que necesiten para sus usos domésticos y los de los animales que tengan; que aprovechen los pastos naturales de la finca para la alimentación de los animales, que de acuerdo con el contrato de trabajo, se les autorice mantener, que mantengan cerdos amarrados o enchiquerados y aves de corral dentro del recinto en que esté instalada la vivienda que se les haya suministrado en la finca, siempre que no causen daños o perjuicios dichos animales o que las autoridades de trabajo o sanitarias no dicten disposición en contrario; ',
+            'description6' => 'y que aprovechen las frutas no cultivadas que hayan en la finca de que se trate y que no acostumbre aprovechar el patrono, siempre que el trabajador se limite recoger la cantidad que puedan consumir personalmente él y sus familiares que vivan en su compañía;<br>
+            n) Permitir a los trabajadores campesinos que aprovechen los frutos y productos de las parcelas de tierra que les concedan; y<br>
+            <span class="opNum">2.</span> <span>ñ) Conceder licencia con goce de sueldo a los trabajadores en los siguientes casos:<br>
+            1. Cuando ocurriere el fallecimiento del cónyuge o de la persona con la cual estuviese unida de hecho el trabajador, o de los padres o hijo, tres (3) días.<br>
+            2. Cuando contrajera matrimonio, cinco (5) días.<br>
+            3. Por nacimiento de hijo, dos (2) días.<br>
+            4. Cuando el empleador autorice expresamente otros permisos o licencias y haya indicado que éstos serán también retribuidos.</span>',
+            'description7' => '<span>5. Para responder a citaciones judiciales por el tiempo que tome la comparecencia y siempre que no exceda de medio día dentro de la jurisdicción y un día fuera del departamento de que se trate.<br>
+            6. Por desempeño de una función sindical siempre que ésta se limite a los miembros del Comité Ejecutivo y no exceda de seis días en el mismo mes calendario, para cada uno de ellos. No obstante lo anterior el patrono deberá conceder licencia sin goce de salario a los miembros del referido Comité Ejecutivo que así lo soliciten, por el tiempo necesario para atender las atribuciones de su cargo.<br>
+            7. En todos los demás casos específicamente provistos en convenio o pacto colectivo de condiciones de trabajo.</span>',
+            'code_id' => 1
+        ]);
+
+        DB::table('articles')->insert([
             'number' => '315',
             'name' => 'Artículo 315',
             'begin' => 'Las acciones para obtener la disolución o alguna prestación de las organizaciones sindicales, se deben entablar ante el juez de la zona jurisdiccional',
