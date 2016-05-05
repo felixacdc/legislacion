@@ -207,6 +207,8 @@ function showComment(url, id, htmlBefore) {
                 fnSearch($('#codeWorkItems .container'), $(this).data('search'), 'work/');
             });
 
+            $('[data-toggle="popover"]').popover();
+
         }
     });
 

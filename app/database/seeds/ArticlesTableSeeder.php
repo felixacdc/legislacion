@@ -344,7 +344,7 @@ class ArticlesTableSeeder extends Seeder
             'description1' => 'Son causas de suspensión individual parcial de los contratos de trabajo:<br>
             a) Las licencias, descansos y vacaciones remunerados que impongan la ley o los que conceda el patrono con goce de salario;<br>
             b) Las enfermedades, los riesgos profesionales acaecidos, los descansos pre y posnatales y los demás riesgos sociales análogos que produzcan incapacidad temporal comprobada para desempeñar el trabajo; y<br>
-            c) La obligación de trabajo sin goce de salario adicional que impone el <a href="#codeWork" data-search="Artículo 63" class="linkGo">Artículo 63</a>, inciso e).',
+            c) La obligación de trabajo sin goce de salario adicional que impone el <a href="#" data-trigger="hover" data-toggle="popover" data-container="body" data-placement="top" data-content="e) Prestar los auxilios necesarios en caso de siniestro o riesgo inminente en que las personas o intereses del patrono o de algún compañero de trabajo estén en peligro, sin derecho a remuneración adicional;">Artículo 63, inciso e)</a>.',
             'code_id' => 1
         ]);
 
@@ -354,13 +354,30 @@ class ArticlesTableSeeder extends Seeder
             'begin' => 'Son causas de suspensión individual total de los contratos de trabajo: a) Las licencias o descansos sin goce de salario que acuerden patronos y trabajadores;',
             'description1' => 'Son causas de suspensión individual total de los contratos de trabajo:<br>
             <span class="opNum">1.</span> <span>a) Las licencias o descansos sin goce de salario que acuerden patronos y trabajadores;<br>
-            b) Los casos previstos en el <a href="#codeWork" data-search="Artículo 66" class="linkGo">Artículo 66</a>, inciso b), una vez transcurridos los términos en los que el patrono está obligado a pagar medio salario, como se alude en dicho Artículo; y<br>
+            b) Los casos previstos en el <a href="#" data-trigger="hover" data-toggle="popover" data-container="body" data-placement="bottom" data-content="b) Después de un trabajo continuo de seis o más meses pero menor de nueve, le debe pagar medio salario durante dos meses; y">Artículo 66, inciso b)</a>, una vez transcurridos los términos en los que el patrono está obligado a pagar medio salario, como se alude en dicho Artículo; y<br>
             c) La prisión provisional, la prisión simple y el arresto menor que en contra del trabajador se decreten.</span><br>
             Esta regla rige en el caso de la prisión provisional, siempre que la misma sea seguida de auto que la reforme, de sentencia absolutoria o si el trabajador obtuviere su excarcelación bajo fianza, únicamente cuando el delito por el que se le procesa no se suponga cometido contra el patrono, sus parientes, sus representantes o los intereses de uno u otros.',
             'description2' => 'Sin embargo, en este último supuesto, el trabajador que obtuviere reforma del auto de prisión provisional o sentencia absolutoria, tendrá derecho a que el patrono le cubra los salarios correspondientes al tiempo que de conformidad con las normas procesales respectivas deba durar el proceso, salvo el lapso que el trabajador haya prestado sus servicios a otro patrono, mientras estuvo en libertad durante la tramitación del proceso.<br> 
-            Es obligación del trabajador dar aviso al patrono de la causa que le impide asistir al trabajo, dentro de los cinco días siguientes a aquél en que empezó su prisión provisional, prisión simple o arresto menor y reanudar su trabajo dentro de los dos días siguientes a aquél en que obtuvo su libertad. Si no lo hace, el patrono puede dar por terminado el contrato, sin que ninguna de las partes incurra en responsabilidad, salvo que la suspensión deba continuar conforme al inciso b) del <a href="#codeWork" data-search="Artículo 66" class="linkGo">Artículo 66</a>.',
-            'description3' => 'En estos casos rige la regla del último párrafo del <a href="#codeWork" data-search="Artículo 67" class="linkGo">Artículo 67</a>.<br>
+            Es obligación del trabajador dar aviso al patrono de la causa que le impide asistir al trabajo, dentro de los cinco días siguientes a aquél en que empezó su prisión provisional, prisión simple o arresto menor y reanudar su trabajo dentro de los dos días siguientes a aquél en que obtuvo su libertad. Si no lo hace, el patrono puede dar por terminado el contrato, sin que ninguna de las partes incurra en responsabilidad, salvo que la suspensión deba continuar conforme al <a href="#" data-trigger="hover" data-toggle="popover" data-container="body" data-placement="bottom" data-content="b) Las enfermedades, los riesgos profesionales acaecidos, los descansos pre y posnatales y los demás riesgos sociales análogos que produzcan incapacidad temporal comprobada para desempeñar el trabajo; y">inciso b) del Artículo 66</a>.',
+            'description3' => 'En estos casos rige la regla del <a href="#" data-trigger="hover" data-toggle="popover" data-container="body" data-placement="bottom" data-content="Es entendido que en todos estos casos el patrono, durante la suspensión del contrato de trabajo, puede colocar interinamente a otro trabajador y despedir a éste, sin responsabilidad de su parte, cuando regrese el titular del puesto.">último párrafo del Artículo 67</a>.<br>
             A solicitud del trabajador, el alcaide o jefe de la cárcel bajo pena de multa de diez a quinientos quetzales, que impondrá el respectivo Juez de Trabajo, debe extenderle las constancias necesarias para la prueba de los extremos a que se refiere el párrafo segundo de este Artículo.',
+            'code_id' => 1
+        ]);
+
+        DB::table('articles')->insert([
+            'number' => '70',
+            'name' => 'Artículo 70',
+            'begin' => 'Son causas de suspensión colectiva parcial de los contratos de trabajo: a) La huelga legalmente declarada, cuyas causas hayan sido estimadas imputables al patron',
+            'description1' => 'Son causas de suspensión colectiva parcial de los contratos de trabajo:<br>
+            a) La huelga legalmente declarada, cuyas causas hayan sido estimadas imputables al patron por los Tribunales de Trabajo y Previsión Social;<br>
+            b) Los casos previstos por los 
+            <a href="#" data-trigger="hover" data-toggle="popover" data-container="body" data-placement="bottom" data-content="a) Faculta a los rabajadores para pedir su reinstalación inmediata o para dar por terminados sus contratos dentro de los treinta días siguientes a la realización del paro, con derecho a percibir las indemnizaciones legales que procedan;">Artículos 251</a> 
+            y <a href="#" data-trigger="hover" data-toggle="popover" data-container="body" data-placement="bottom" data-content="Si los Tribunales de Trabajo y Previsión Social declaran que los motivos de un paro legal son imputables al patrono, este debe pagar a los trabajadores los salarios caídos a que se refiere el inciso b) del Artículo anterior.">252</a>
+            , párrafo segundo;<br>
+            c) La falta de materia prima para llevar adelante los trabajos, siempre que sea imputable al patrono, según declaración de los mismos tribunales; y<br>
+            d) Las causas que enumera el Artículo siguiente, siempre que los patronos hayan accedido de previo o accedan después a pagar a sus trabajadores, durante la vigencia de la suspensión, sus salarios en parte o en todo.<br>
+            En el caso del inciso a) rige la regla del 
+            <a href="#" data-trigger="hover" data-toggle="popover" data-container="body" data-placement="bottom" data-content="Si la huelga se declara justa, los Tribunales de Trabajo y Previsión Social deben condenar al patrono al pago de los salarios correspondientes a los días en que éstos hayan holgado. Los trabajadores que por la naturaleza de sus funciones deban laborar durante el tiempo que dure la huelga, tendrán derecho a salario doble." >Artículo 242, párrafo segundo</a>, y en el caso del inciso c) los tribunales deben graduar discrecionalmente, según el mérito de los autos, la cuantía de los salarios caídos que el patrono debe pagar a sus trabajadores.',
             'code_id' => 1
         ]);
 
