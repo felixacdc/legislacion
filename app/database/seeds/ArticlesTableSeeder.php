@@ -338,6 +338,33 @@ class ArticlesTableSeeder extends Seeder
         ]);
 
         DB::table('articles')->insert([
+            'number' => '66',
+            'name' => 'Artículo 66',
+            'begin' => 'Son causas de suspensión individual parcial de los contratos de trabajo: a) Las licencias, descansos y vacaciones remunerados que impongan la ley o los que ',
+            'description1' => 'Son causas de suspensión individual parcial de los contratos de trabajo:<br>
+            a) Las licencias, descansos y vacaciones remunerados que impongan la ley o los que conceda el patrono con goce de salario;<br>
+            b) Las enfermedades, los riesgos profesionales acaecidos, los descansos pre y posnatales y los demás riesgos sociales análogos que produzcan incapacidad temporal comprobada para desempeñar el trabajo; y<br>
+            c) La obligación de trabajo sin goce de salario adicional que impone el <a href="#codeWork" data-search="Artículo 63" class="linkGo">Artículo 63</a>, inciso e).',
+            'code_id' => 1
+        ]);
+
+        DB::table('articles')->insert([
+            'number' => '68',
+            'name' => 'Artículo 68',
+            'begin' => 'Son causas de suspensión individual total de los contratos de trabajo: a) Las licencias o descansos sin goce de salario que acuerden patronos y trabajadores;',
+            'description1' => 'Son causas de suspensión individual total de los contratos de trabajo:<br>
+            <span class="opNum">1.</span> <span>a) Las licencias o descansos sin goce de salario que acuerden patronos y trabajadores;<br>
+            b) Los casos previstos en el <a href="#codeWork" data-search="Artículo 66" class="linkGo">Artículo 66</a>, inciso b), una vez transcurridos los términos en los que el patrono está obligado a pagar medio salario, como se alude en dicho Artículo; y<br>
+            c) La prisión provisional, la prisión simple y el arresto menor que en contra del trabajador se decreten.</span><br>
+            Esta regla rige en el caso de la prisión provisional, siempre que la misma sea seguida de auto que la reforme, de sentencia absolutoria o si el trabajador obtuviere su excarcelación bajo fianza, únicamente cuando el delito por el que se le procesa no se suponga cometido contra el patrono, sus parientes, sus representantes o los intereses de uno u otros.',
+            'description2' => 'Sin embargo, en este último supuesto, el trabajador que obtuviere reforma del auto de prisión provisional o sentencia absolutoria, tendrá derecho a que el patrono le cubra los salarios correspondientes al tiempo que de conformidad con las normas procesales respectivas deba durar el proceso, salvo el lapso que el trabajador haya prestado sus servicios a otro patrono, mientras estuvo en libertad durante la tramitación del proceso.<br> 
+            Es obligación del trabajador dar aviso al patrono de la causa que le impide asistir al trabajo, dentro de los cinco días siguientes a aquél en que empezó su prisión provisional, prisión simple o arresto menor y reanudar su trabajo dentro de los dos días siguientes a aquél en que obtuvo su libertad. Si no lo hace, el patrono puede dar por terminado el contrato, sin que ninguna de las partes incurra en responsabilidad, salvo que la suspensión deba continuar conforme al inciso b) del <a href="#codeWork" data-search="Artículo 66" class="linkGo">Artículo 66</a>.',
+            'description3' => 'En estos casos rige la regla del último párrafo del <a href="#codeWork" data-search="Artículo 67" class="linkGo">Artículo 67</a>.<br>
+            A solicitud del trabajador, el alcaide o jefe de la cárcel bajo pena de multa de diez a quinientos quetzales, que impondrá el respectivo Juez de Trabajo, debe extenderle las constancias necesarias para la prueba de los extremos a que se refiere el párrafo segundo de este Artículo.',
+            'code_id' => 1
+        ]);
+
+        DB::table('articles')->insert([
             'number' => '315',
             'name' => 'Artículo 315',
             'begin' => 'Las acciones para obtener la disolución o alguna prestación de las organizaciones sindicales, se deben entablar ante el juez de la zona jurisdiccional',
