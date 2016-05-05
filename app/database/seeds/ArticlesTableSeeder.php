@@ -292,6 +292,52 @@ class ArticlesTableSeeder extends Seeder
         ]);
 
         DB::table('articles')->insert([
+            'number' => '62',
+            'name' => 'Artículo 62',
+            'begin' => 'Se prohíbe a los patronos: a) Inducir o exigir a sus trabajadores que compren sus artículos de consumo a determinados b) Exigir o aceptar dinero u otra compensación de los',
+            'description1' => 'Se prohíbe a los patronos:<br>
+            a) Inducir o exigir a sus trabajadores que compren sus artículos de consumo a determinados establecimientos o personas;<br>
+            b) Exigir o aceptar dinero u otra compensación de los trabajadores como gratificación para que se les admita en el trabajo o por cualquiera otra concesión o privilegio que se relacione con las condiciones de trabajo en general.<br> 
+            c) Obligar o intentar obligar a los trabajadores, cualquiera que sea el medio que se adopte, a retirarse de los sindicatos o grupos legales a que pertenezcan o a ingresar a unos o a otros;<br>
+            d) Influir en sus decisiones políticas o convicciones religiosas;',
+            'description2' => 'e) Retener por su sola voluntad las herramientas u objetos del trabajador sea como garantía o a título de indemnización o de cualquier otro no traslativo de propiedad;<br> 
+            f) Hacer o autorizar colectas o suscripciones obligatorias entre sus trabajadores, salvo que se trate de las impuestas por la ley;<br>
+            g) Dirigir o permitir que se dirijan los trabajos en estado de embriaguez o bajo la influencia de drogas estupefacientes o en cualquier otra condición anormal análoga; y<br>
+            h) Ejecutar cualquier otro acto que restrinja los derechos que el trabajador tiene conforme la ley.',
+            'code_id' => 1
+        ]);
+
+        DB::table('articles')->insert([
+            'number' => '63',
+            'name' => 'Artículo 63',
+            'begin' => 'Además de las contenidas en otros Artículos de este Código, en sus reglamentos y en las leyes de previsión social, son obligaciones de los trabajadores:',
+            'description1' => 'Además de las contenidas en otros Artículos de este Código, en sus reglamentos y en las leyes de previsión social, son obligaciones de los trabajadores:<br>
+            a) Desempeñar el servicio contratado bajo la dirección del patrono o de su representante, a cuya autoridad quedan sujetos en todo lo concerniente al trabajo;<br>
+            b) Ejecutar el trabajo con la eficiencia, cuidado y esmero apropiados y en la forma, tiempo y lugar convenidos;<br>
+            c) Restituir al patrono los materiales no usados y conservar en buen estado los instrumentos y útiles que se les faciliten para el trabajo. Es entendido que no son responsables por el deterioro normal ni por el que se ocasione por caso fortuito, fuerza mayor, mala calidad o defectuosa construcción;<br>
+            d) Observar buenas costumbres durante el trabajo;',
+            'description2' => 'e) Prestar los auxilios necesarios en caso de siniestro o riesgo inminente en que las personas o intereses del patrono o de algún compañero de trabajo estén en peligro, sin derecho a remuneración adicional;<br>
+            f) Someterse a reconocimiento médico, sea al solicitar su ingreso al trabajo o durante éste, a solicitud del patrono, para comprobar que no padecen alguna incapacidad permanente o algunaenfermedad profesional contagiosa o incurable; o a petición del Instituto Guatemalteco de Seguridad Social, con cualquier motivo;<br>
+            g) Guardar los secretos técnicos, comerciales o de fabricación de los productos a cuya elaboración concurran directa o indirectamente, con tanta más fidelidad cuanto más alto sea el cargo del trabajador o la responsabilidad que tenga de guardarlos por razón de la ocupación que desempeña, así como los asuntos administrativos reservados, cuya divulgación pueda causar perjuicio a la empresa;',
+            'description3' => 'h) Observar rigurosamente las medidas preventivas que acuerden las autoridades competentes y las que indiquen los patronos, para seguridad y protección personal de ellos o de sus compañeros de labores, o de los lugares donde trabajan;<br>
+            í) Desocupar dentro de un término de treinta días, contados desde la fecha en que se termine el contrato de trabajo, la vivienda que les hayan facilitado los patronos sin necesidad de los trámites del juicio de desahucio. Pasado dicho término, el juez, a requerimiento de éstos últimos, ordenará el lanzamiento, debiéndose tramitar el asunto en forma de incidente. Sin embargo, si el trabajador consigue nuevo trabajo antes del vencimiento del plazo estipulado en este inciso, el juez de trabajo, en la forma indicada, ordenará el lanzamiento.',
+            'code_id' => 1
+        ]);
+
+        DB::table('articles')->insert([
+            'number' => '65',
+            'name' => 'Artículo 65',
+            'begin' => 'Hay suspensión de los contratos de trabajo cuando una o las dos partes que forman la relación laboral deja o dejan de cumplir parcial o totalmente, durante un tiempo, alguna',
+            'description1' => 'Hay suspensión de los contratos de trabajo cuando una o las dos partes que forman la relación laboral deja o dejan de cumplir parcial o totalmente, durante un tiempo, alguna de sus respectivas obligaciones fundamentales (prestación del trabajo y pago del salario), sin que por ello terminen dichos contratos ni se extingan los derechos y obligaciones que emanen de los mismos.<br>
+            La suspensión puede ser:<br>
+            <span class="opNum">1.</span> <span>a) Individual parcial, cuando afecta a una relación de trabajo y una de las partes deja de cumplir sus obligaciones fundamentales;</span>',
+            'description2' => '<span class="opNum">2.</span> <span>b) Individual total, cuando afecta a una relación de trabajo y las dos partes dejan de cumplir sus obligaciones fundamentales;</span><br>
+            <span class="opNum">3.</span> <span>c) Colectiva parcial, cuando por una misma causa se afecta la mayoría o la totalidad de las relaciones de trabajo vigentes en una empresa o lugar de trabajo, y el patrono o sus trabajadores dejan de cumplir sus obligaciones fundamentales; y</span><br>
+            <span class="opNum">4.</span> <span>d) Colectiva total, cuando por una misma causa se afectan la mayoría o la totalidad de las relaciones de trabajo vigentes en una empresa o lugar de trabajo, y el patrono y sus trabajadores dejan de cumplir sus obligaciones fundamentales.</span>',
+            'code_id' => 1
+        ]);
+
+        DB::table('articles')->insert([
             'number' => '315',
             'name' => 'Artículo 315',
             'begin' => 'Las acciones para obtener la disolución o alguna prestación de las organizaciones sindicales, se deben entablar ante el juez de la zona jurisdiccional',
