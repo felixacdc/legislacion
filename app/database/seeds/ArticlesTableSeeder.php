@@ -481,6 +481,46 @@ class ArticlesTableSeeder extends Seeder
         ]);
 
         DB::table('articles')->insert([
+            'number' => '83',
+            'name' => 'Artículo 83',
+            'begin' => 'El trabajador que desee dar por concluido su contrato por tiempo indeterminado sin justa causa o atendiendo únicamente a su propia voluntad y una vez que haya transcurrido',
+            'description1' => 'El trabajador que desee dar por concluido su contrato por tiempo indeterminado sin justa causa o atendiendo únicamente a su propia voluntad y una vez que haya transcurrido el período de prueba debe dar aviso previo al patrono de acuerdo con lo que expresamente se estipule en dicho contrato, o en su defecto de conformidad con las siguientes reglas:<br>
+            a) Antes de ajustar seis meses de servicios continuos, con una semana de anticipación por lo menos;
+            b) Después de seis meses de servicios continuos pero menos de un año, con diez, días de anticipación por lo menos;<br>
+            c) Después de un año de servicios continuos pero menos de cinco años, con dos semanas de anticipación por lo menos; y<br>
+            d) Después de cinco años de servicios continuos, con un mes de anticipación por lo menos.',
+            'description2' => 'Dichos avisos se deben dar siempre por escrito, pero si el contrato es verbal, el trabajador puede darlo en igual forma en caso de que lo haga ante dos testigos; no pueden ser compensados pagando el trabajador al patrono una cantidad igual al salario actual correspondiente a las expresadas plazas, salvo que este último lo consienta; y el patrono, una vez que el trabajador le haya dado el aviso respectivo, puede ordenar a éste que cese en su trabajo, sea por haber encontrado sustituto o por cualquier otro motivo, sin incurrir por ello en responsabilidad.<br>
+            Son aplicables al preaviso las reglas de los <a href="#codeWork" data-trigger="hover" data-toggle="popover" data-container="body" data-placement="bottom" data-content="c) La continuidad del trabajo no se interrumpe por enfermedad, vacaciones, licencias, huelga legal u otras causas análogas que según este Código suspenden y no terminan el contrato de trabajo;
+            d) Es nula ipso jure la cláusula del contrato que tienda a interrumpir la continuidad de los servicios prestados o por prestarse;">incisos c) y d) del Artículo 82</a>. Igualmente lo es la del <a href="#codeWork" data-trigger="hover" data-toggle="popover" data-container="body" data-placement="bottom" data-content=" b) Su importe debe calcularse tomando como base el promedio de los salarios devengados por el trabajador durante los últimos seis meses que tengan de vigencia el contrato o el tiempo que haya trabajado, si no se ha ajustado dicho término;">inciso b) del mismo texto legal</a>, en todos aquellos casos en que proceda calcular el importe en dinero del plazo respectivo.',
+            'code_id' => 1
+        ]);
+
+        DB::table('articles')->insert([
+            'number' => '86',
+            'name' => 'Artículo 86',
+            'begin' => 'El contrato de trabajo termina sin responsabilidad para las partes por alguna de las siguientes causas:',
+            'description1' => 'El contrato de trabajo termina sin responsabilidad para las partes por alguna de las siguientes causas:<br>
+            a) Por el advenimiento del plazo en los contratos a plazo fijo y por la conclusión de la obra en los contratos para obra determinada;<br>
+            b) Por las causas legales expresamente estipuladas en él; y<br>
+            c) Por mutuo consentimiento.',
+            'code_id' => 1
+        ]);
+
+        DB::table('articles')->insert([
+            'number' => '87',
+            'name' => 'Artículo 87',
+            'begin' => 'A la expiración de todo contrato de trabajo, por cualquier causa que éste termine, el patrono debe dar al trabajador un documento',
+            'description1' => 'A la expiración de todo contrato de trabajo, por cualquier causa que éste termine, el patrono debe dar al trabajador un documento que exprese únicamente:<br>
+            a) La fecha de su entrada y de su salida;<br>
+            b) La clase de trabajo ejecutado; y<br>
+            c) El salario ordinario y extraordinario devengado durante el último período del pago.<br>
+            Si el trabajador lo desea, el certificado debe determinar también:<br>
+            a) La manera como trabajó; y<br>
+            b) La causa o causas de la terminación del contrato.',
+            'code_id' => 1
+        ]);
+
+        DB::table('articles')->insert([
             'number' => '315',
             'name' => 'Artículo 315',
             'begin' => 'Las acciones para obtener la disolución o alguna prestación de las organizaciones sindicales, se deben entablar ante el juez de la zona jurisdiccional',
