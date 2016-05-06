@@ -521,6 +521,40 @@ class ArticlesTableSeeder extends Seeder
         ]);
 
         DB::table('articles')->insert([
+            'number' => '88',
+            'name' => 'Artículo 88',
+            'begin' => 'Salario o sueldo es la retribución que el patrono debe pagar al trabajador en virtud del cumplimiento del contrato de trabajo o de la',
+            'description1' => '<span class="opNum">1.</span> <span>Salario o sueldo es la retribución que el patrono debe pagar al trabajador en virtud del cumplimiento del contrato de trabajo o de la relación de trabajo vigente entre ambos. Salvo las excepciones legales, todo servicio prestado por un trabajador a su respectivo patrono, debe ser remunerado por éste.</span><br>
+            El cálculo de esta remuneración, para el efecto de su pago, puede pactarse:<br>
+            <span class="opNum">2.</span> <span>a) Por unidad de tiempo (por mes, quincena, semana, día u hora);<br>
+            b) Por unidad de obra (por pieza, tarea, precio alzado o a destajo), y<br>
+            c) Por participación en las utilidades, ventas o cobros que haga el patrono; pero en ningún caso el trabajador deberá asumir los riesgos de pérdidas que tenga el patrono.</span>',
+            'code_id' => 1
+        ]);
+
+        DB::table('articles')->insert([
+            'number' => '89',
+            'name' => 'Artículo 89',
+            'begin' => 'Para fijar el importe del salario en cada clase de trabajo, se deben tomar en cuenta la intensidad y calidad del mismo, clima y',
+            'description1' => '<span class="opNum">1.</span> <span>Para fijar el importe del salario en cada clase de trabajo, se deben tomar en cuenta la intensidad y calidad del mismo, clima y condiciones de vida.</span><br>
+            <span class="opNum">2.</span> <span>A trabajo igual, desempeñado en puesto y condiciones de eficiencia y antigüedad dentro de la misma empresa, también iguales, corresponderá salario igual, el que debe comprender los pagos que se hagan al trabajador a cambio de su labor ordinaria.</span><br>
+            En las demandas que entablen las trabajadoras relativas a la discriminación salarial por razón de sexo, queda el patrono obligado a demostrar que el trabajo que realiza la demandante es de inferior calidad y valor.',
+            'code_id' => 1
+        ]);
+
+        DB::table('articles')->insert([
+            'number' => '90',
+            'name' => 'Artículo 90',
+            'begin' => 'El salario debe pagarse exclusivamente en moneda de curso legal. Se prohíbe pagar el salario, total o parcialmente, en mercadería',
+            'description1' => 'El salario debe pagarse exclusivamente en moneda de curso legal.<br>
+            Se prohíbe pagar el salario, total o parcialmente, en mercadería, vales, fichas, cupones o cualquier otro signo representativo con que se pretenda sustituir la moneda. Las sanciones legales se deben aplicar en su máximum cuando las órdenes de pago sólo sean canjeables por mercaderías en determinados establecimientos.<br>
+            Es entendido que la prohibición que precede no comprende la entrega de vales, fichas u otro medio análogo de cómputo del salario, siempre que al vencimiento de cada período de pago el patrono cambie el equivalente exacto de unos u otras en moneda de curso legal.',
+            'description2' => '<span class="opNum">1.</span> <span>No obstante las disposiciones anteriores, los trabajadores campesinos que laboren en explotaciones agrícolas o ganaderas pueden percibir el pago de su salario, hasta en un treinta por ciento del importe total de éste como máximum, en alimentos y demás artículos análogos destinados a su consumo personal inmediato o al de sus familiares que vivan y dependan económicamente de él, siempre que el patrono haga el suministro a precio de costo o menos.</span><br>
+            <span class="opNum">2.</span> <span>Asimismo, las ventajas económicas, de cualquier naturaleza que sean, que se otorguen a los trabajadores en general por la prestación de sus servicios, salvo pacto en contrario, debe entenderse que constituyen el treinta por ciento del importe total del salario devengado.</span>',
+            'code_id' => 1
+        ]);
+
+        DB::table('articles')->insert([
             'number' => '315',
             'name' => 'Artículo 315',
             'begin' => 'Las acciones para obtener la disolución o alguna prestación de las organizaciones sindicales, se deben entablar ante el juez de la zona jurisdiccional',
