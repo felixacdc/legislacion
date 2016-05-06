@@ -382,6 +382,58 @@ class ArticlesTableSeeder extends Seeder
         ]);
 
         DB::table('articles')->insert([
+            'number' => '71',
+            'name' => 'Artículo 71',
+            'begin' => 'Son causas de suspensión colectiva total de los contratos de trabajo, en que ambas partes quedan relevadas de sus obligaciones',
+            'description1' => 'Son causas de suspensión colectiva total de los contratos de trabajo, en que ambas partes quedan relevadas de sus obligaciones fundamentales, sin responsabilidad para ellas:<br>
+            a) La huelga legalmente declarada, cuyas causas no hayan sido estimadas imputables al patrono por los Tribunales de Trabajo y Previsión Social;<br>
+            b) El paro legalmente declarado;<br>
+            c) La falta de materia prima para llevar adelante los trabajos, siempre que no sea imputable al patrono;',
+            'description2' => 'd) La muerte o la incapacidad del patrono, cuando tenga como consecuencia necesaria, inmediata y directa la suspensión del trabajo; y<br>
+            e) Los demás casos constitutivos de fuerza mayor o caso fortuito cuando traigan como consecuencia necesaria, inmediata y directa la suspensión del trabajo.',
+            'code_id' => 1
+        ]);
+
+        DB::table('articles')->insert([
+            'number' => '76',
+            'name' => 'Artículo 76',
+            'begin' => 'Hay terminación de los contratos de trabajo cuando una o las dos partes que forman la relación laboral le ponen fin a ésta, cesándol',
+            'description1' => 'Hay terminación de los contratos de trabajo cuando una o las dos partes que forman la relación laboral le ponen fin a ésta, cesándola efectivamente, <span class="opNum">1.</span> <span>ya sea por voluntad de una de ellas</span>, <span class="opNum">2.</span> <span>por mutuo consentimiento</span> o por <span class="opNum">3.</span> <span>causa imputable a la otra</span>, o en que ocurra lo mismo, por disposición de la ley, en cuyas circunstancias se extinguen los derechos y obligaciones que emanan de dichos contratos.',
+            'code_id' => 1
+        ]);
+
+        DB::table('articles')->insert([
+            'number' => '77',
+            'name' => 'Artículo 77',
+            'begin' => 'Son causas justas que facultan al patrono para dar por terminado el contrato de trabajo, sin responsabilidad de su parte:',
+            'description1' => 'Son causas justas que facultan al patrono para dar por terminado el contrato de trabajo, sin responsabilidad de su parte:<br>
+            a) Cuando el trabajador se conduzca durante sus labores en forma abiertamente inmoral o acuda a la injuria, a la calumnia o a las vías de hecho contra su patrono o los representantes de éste en la dirección de las labores;<br>
+            b) Cuando el trabajador cometa alguno de los actos enumerados en el inciso anterior contra algún compañero de trabajo, durante el tiempo que se ejecuten las labores, siempre que como consecuencia de ello se altere gravemente la disciplina o se interrumpan las labores;<br>
+            c) Cuando el trabajador, fuera del lugar donde se ejecutan las labores y en horas que sean de trabajo, acuda a la injuria, a la calumnia o a las vías de hecho contra su patrono o contra los representantes de éste en la dirección de las labores, siempre que dichos actos no hayan sido provocados y que, como consecuencia de ellos, se haga imposible la convivencia y armonía para la realización del trabajo;',
+            'description2' => 'd) Cuando el trabajador cometa algún delito o falta contra la propiedad en  erjuicio del patrono, de alguno de sus compañeros de trabajo o en perjuicio de un tercero en el interior del establecimiento; asimismo, cuando cause intencionalmente, por descuido o negligencia, daño material en las máquinas, herramientas, materias primas, productos y demás objetos relacionados, en forma inmediata o indudable con el trabajo;<br>
+            e) Cuando el trabajador revele los secretos a que alude el <a href="#" data-trigger="hover" data-toggle="popover" data-container="body" data-placement="bottom" data-content="g) Guardar los secretos técnicos, comerciales o de fabricación de los productos a cuya elaboración concurran directa o indirectamente, con tanta más fidelidad cuanto más alto sea el cargo del trabajador o la responsabilidad que tenga de guardarlos por razón de la ocupación que desempeña, así como los asuntos administrativos reservados, cuya divulgación pueda causar perjuicio a la empresa;">inciso g) del Artículo 63</a>;<br> 
+            f) Cuando el trabajador deje de asistir al trabajo sin permiso del patrono o sin causa justificada, durante dos días laborales completos y consecutivos o durante seis medios días laborales en un mismo mes calendario.<br>
+            La justificación de la inasistencia se debe hacer al momento de reanudarse las labores, si no se hubiere hecho antes;<br>
+            g) Cuando el trabajador se niegue de manera manifiesta a adoptar las medidas preventivas o a seguir los procedimientos indicados para evitar accidentes o enfermedades; o cuando el trabajador se niegue en igual forma a acatar las normas o instrucciones que el patrono o sus representantes en la dirección de los trabajos, le indiquen con claridad para obtener la mayor eficacia y rendimiento en las labores;',
+            'description3' => 'h) Cuando infrinja cualquiera de las prohibiciones del Artículo 64, o del Reglamento Interior de Trabajo debidamente aprobado, después de que el patrono lo aperciba una vez por escrito. No será necesario el apercibimiento en el caso de embriaguez cuando, como consecuencia de ella, se ponga en peligro la vida o la seguridad de las personas o de los bienes del patrono;<br>
+            i) Cuando el trabajador, al celebrar el contrato haya inducido en error al patrono, pretendiendo tener cualidades, condiciones o conocimientos que evidentemente no posee, o presentándole referencias o atestados personales cuya falsedad éste luego compruebe, o ejecutando su trabajo en forma que demuestre claramente su incapacidad en la realización de las labores para las cuales haya sido contratado;<br> 
+            j) Cuando el trabajador sufra la pena de arresto mayor o se le imponga prisión correccional por sentencia ejecutoriada; y<br>
+            k) Cuando el trabajador incurra en cualquier otra falta grave a las obligaciones que le imponga el contrato.<br>
+            Es entendido que siempre que el despido se funde en un hecho sancionado también por las leyes penales, queda a salvo el derecho del patrono para entablar las acciones correspondientes ante las autoridades penales comunes.',
+            'code_id' => 1
+        ]);
+
+        DB::table('articles')->insert([
+            'number' => '78',
+            'name' => 'Artículo 78',
+            'begin' => 'La terminación del contrato de trabajo conforme a una o varías de las causas enumeradas que el Artículo anterior, surte efectos desde que el patrono lo comunique por',
+            'description1' => 'La terminación del contrato de trabajo conforme a una o varías de las causas enumeradas que el Artículo anterior, surte efectos desde que el patrono lo comunique por escrito al trabajador indicándole la causa del despido y éste cese efectivamente sus labores, pero <span class="opNum">1.</span> <span>el trabajador goza del derecho de emplazar al patrono ante los Tribunales de Trabajo y Previsión Social, antes de que transcurra el término de prescripción</span>, con el objeto de que pruebe la justa causa en que se fundó el despido. Si el patrono no prueba dicha causa, debe pagar al trabajador:<br>
+            <span class="opNum">2.</span> <span>a) Las indemnizaciones que según este Código le pueda corresponder; y</span><br>
+            b) A título de daños y perjuicios, los salarios que el trabajador ha dejado de percibir desde el momento del despido hasta el pago de su indemnización, hasta un máximo de doce (12) meses de salario y las costas judiciales.',
+            'code_id' => 1
+        ]);
+
+        DB::table('articles')->insert([
             'number' => '315',
             'name' => 'Artículo 315',
             'begin' => 'Las acciones para obtener la disolución o alguna prestación de las organizaciones sindicales, se deben entablar ante el juez de la zona jurisdiccional',
