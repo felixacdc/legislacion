@@ -589,6 +589,37 @@ class ArticlesTableSeeder extends Seeder
         ]);
 
         DB::table('articles')->insert([
+            'number' => '96',
+            'name' => 'Artículo 96',
+            'begin' => 'Se declaran inembargables: a) Los salarios mínimos y los que sin serlo no excedan de treinta quetzales al mes;',
+            'description1' => 'Se declaran inembargables:<br>
+            a) Los salarios mínimos y los que sin serlo no excedan de treinta quetzales al mes;<br>
+            b) El noventa por ciento de los salarios mayores de treinta quetzales o más, pero menores de cien quetzales al mes;<br>
+            c) El ochenta y cinco por ciento de los salarios de cien quetzales o más, pero menores de doscientos quetzales al mes;<br>
+            d) El ochenta por ciento de los salarios de doscientos quetzales o más, pero menores de trescientos quetzales al mes; y<br>
+            e) El sesenta y cinco por ciento de los salarios mensuales de trescientos quetzales o más.',
+            'code_id' => 1
+        ]);
+
+        DB::table('articles')->insert([
+            'number' => '97',
+            'name' => 'Artículo 97',
+            'begin' => 'No obstante lo dispuesto en el Artículo anterior, son embargables toda clase de salarios, hasta en un cincuenta por ciento',
+            'description1' => '<span class="opNum">1.</span> <span>No obstante lo dispuesto en el Artículo anterior, son embargables toda clase de salarios, hasta en un cincuenta por ciento, para satisfacer obligaciones de pagar alimentos presentes o los que se deben desde los seis meses anteriores al embargo.</span><br>
+            Tanto en el caso de embargos para satisfacer obligaciones de pago de alimentos a que se refiere el párrafo anterior, como en el caso de embargo por otras obligaciones, el mandamiento, así como las diligencias respectivas, contendrán la prevención, a quien deba cubrir los salarios, de que aun cuando el mismo salario sea objeto de varios embargos, se deje libre en beneficio del ejecutado la parte no embargable, al tenor de lo dispuesto en este Artículo o en el precedente.',
+            'description2' => 'Los embargos por alimentos tendrán prioridad sobre los demás embargos y en ningún caso podrán hacerse efectivos dos embargos simultáneamente en la proporción indicada en este Artículo y en la proporción del citado Artículo 96, pues cuando se hubiere cubierto la proporción máxima que indica el Artículo citado últimamente, sólo podrá embargarse hasta el diez por ciento más para satisfacer las demás obligaciones.',
+            'code_id' => 1
+        ]);
+
+        DB::table('articles')->insert([
+            'number' => '98',
+            'name' => 'Artículo 98',
+            'begin' => 'Como protección adicional del salario se declaran también inembargables los instrumentos, herramientas o útiles del trabajador que sean',
+            'description1' => 'Como protección adicional del salario se declaran también inembargables los instrumentos, herramientas o útiles del trabajador que sean indispensables para ejercer su profesión u oficio, salvo que se trate de satisfacer deudas emanadas únicamente de la adquisición a crédito de los mismos.',
+            'code_id' => 1
+        ]);
+
+        DB::table('articles')->insert([
             'number' => '315',
             'name' => 'Artículo 315',
             'begin' => 'Las acciones para obtener la disolución o alguna prestación de las organizaciones sindicales, se deben entablar ante el juez de la zona jurisdiccional',
