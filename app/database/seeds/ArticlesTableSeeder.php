@@ -620,6 +620,63 @@ class ArticlesTableSeeder extends Seeder
         ]);
 
         DB::table('articles')->insert([
+            'number' => '102',
+            'name' => 'Artículo 102',
+            'begin' => 'Todo patrono que ocupe permanentemente a diez o más trabajadores, debe llevar un libro de salarios autorizado y sellado por el Departamento',
+            'description1' => 'Todo patrono que ocupe permanentemente a diez o más trabajadores, debe llevar un libro de salarios autorizado y sellado por el Departamento Administrativo del Ministerio de Trabajo y Previsión Social 61 el que está obligado a suministrar modelos y normas para su debida impresión.<br>
+            Todo patrono que ocupe permanentemente a tres o más trabajadores, sin llegar al límite de diez, debe llevar planillas de conformidad con los modelos que adopte el Instituto Guatemalteco de Seguridad Social.',
+            'code_id' => 1
+        ]);
+
+        DB::table('articles')->insert([
+            'number' => '105',
+            'name' => 'Artículo 105',
+            'begin' => 'Adscrita al Ministerio de Trabajo y Previsión Social habrá una Comisión Nacional del Salario, organismo técnico y consultivo de las comisiones',
+            'description1' => '<span class="opNum">1.</span> <span>Adscrita al Ministerio de Trabajo y Previsión Social habrá una Comisión Nacional del Salario, organismo técnico y consultivo de las comisiones paritarias, encargada de asesorar a dicho ministerio en la política general del salario.<br>
+            En cada departamento o en cada circunscripción económica que determine el Organismo Ejecutivo, mediante acuerdo emanado por conducto del Ministerio de Trabajo y Previsión Social, debe haber una comisión paritaria de salarios mínimos integrada por dos patronos e igual número de trabajadores sindicalizados y por un inspector de trabajo, a cuyo cargo corre la presidencia de la misma.</span>',
+            'description2' => 'Además, el Organismo Ejecutivo, mediante acuerdo emanado por el conducto expresado, puede crear comisiones paritarias de salarios mínimos para cada actividad intelectual, industrial, comercial, ganadera o agrícola, con jurisdicción en todo el país o en parte de él; y también para empresas determinadas que comprueben tener actividad en diversos departamentos o circunscripciones económicas y un número de trabajadores no menor de mil, en cuyo caso la jurisdicción de las comisiones se limita a la empresa de que se trate.<br>
+            Igualmente queda facultado el Organismo Ejecutivo para aumentar el número de patronos y de trabajadores que han de integrar una o varias comisiones paritarias de salarios mínimos, siempre que la importancia del cometido de éstas así lo exija',
+            'description3' => 'El Organismo Ejecutivo por conducto del Ministerio de Trabajo y Previsión Social, mediante acuerdo, dictará el reglamento que regule la organización y el funcionamiento de la Comisión Nacional del Salario y de las comisiones paritarias de salarios mínimos.',
+            'code_id' => 1
+        ]);
+
+        DB::table('articles')->insert([
+            'number' => '106',
+            'name' => 'Artículo 106',
+            'begin' => 'Son requisitos indispensablespara ser miembro de una comisión paritaria de salario mínimo: a) Ser guatemalteco natural y ',
+            'description1' => 'Son requisitos indispensablespara ser miembro de una comisión paritaria de salario mínimo:<br>
+            a) Ser guatemalteco natural y ciudadano en ejercicio;<br>
+            b) Tener más de veintiún años de edad;<br>
+            c) Sabe leer y escribir;<br>
+            d) Ser vecino del departamento de la circunscripción económica de que se trate, desde los tres años anteriores a su nombramiento o, en el caso del párrafo segundo del Artículo 105, ser actualmente trabajador o patrono en la actividad económica y pertenecer a la empresa respectiva y haberlo sido desde el año anterior a su designación;<br>
+            e) No ser funcionario público, con excepción de lo dispuesto en el párrafo segundo del Artículo precedente; y<br>
+            f) Tener buenos antecedentes de conducta y no haber sido sentenciado dentro de los tres años anteriores a su nombramiento, por violación a las leyes de trabajo o de previsión social.',
+            'code_id' => 1
+        ]);
+
+        DB::table('articles')->insert([
+            'number' => '107',
+            'name' => 'Artículo 107',
+            'begin' => 'Patronos y trabajadores deben durar en sus cargos dos años, pueden ser reelectos y los han de desempeñar obligatoriamente, salvo que tengan más',
+            'description1' => 'Patronos y trabajadores deben durar en sus cargos dos años, pueden ser reelectos y los han de desempeñar obligatoriamente, salvo que tengan más de sesenta años de edad o que demuestren, de modo fehaciente, y a juicio del Ministerio de Trabajo y Previsión Social, que carecen de tiempo para ejercer dichos cargos.<br>
+            Todos los miembros de las comisiones paritarias de salarios mininos tienen derecho a devengar un salario mensual o una dieta por sesión celebrada, que en cada caso debe determinar el Ministerio de Trabajo y Previsión Social atendiendo a la importancia de sus labores y al tiempo que su cumplimiento les demanden.',
+            'code_id' => 1
+        ]);
+
+        DB::table('articles')->insert([
+            'number' => '116',
+            'name' => 'Artículo 116',
+            'begin' => 'La jornada ordinaria de trabajo efectivo diurno no puede ser mayor de ocho horas diarias, ni exceder de un total de cuarenta',
+            'description1' => '<span class="opNum">1.</span> <span>La jornada ordinaria de trabajo efectivo diurno no puede ser mayor de ocho horas diarias, ni exceder de un total de cuarenta y ocho horas a la semana.</span><br>
+            <span class="opNum">2.</span> <span>La jornada ordinaria de trabajo efectivo nocturno no puede ser mayor de seis horas diarias, ni exceder de un total de treinta y seis horas a la semana.</span><br>
+            <span class="opNum">3.</span> <span>Tiempo de trabajo efectivo es aquél en que el trabajador permanezca a las órdenes del patrono.</span><br>
+            <span class="opNum">4.</span> <span>Trabajo diurno es el que se ejecuta entre las seis y las dieciocho horas de un mismo día.</span><br>
+            <span class="opNum">5.</span> <span>Trabajo nocturno es el que se ejecuta entre las dieciocho horas de un día y las seis horas del día siguiente.</span>',
+            'description2' => 'La labor diurna normal semanal será de cuarenta y cinco horas de trabajo efectivo, equivalente a cuarenta y ocho horas para los efectos exclusivos del pago de salario. Se exceptúan de esta disposición, los trabajadores agrícolas y ganaderos y los de las empresas donde labore un número menor de diez, cuya labor diurna normal semanal será de cuarenta y ocho horas de trabajo efectivo, salvo costumbre más favorable al trabajador. Pero esta excepción no debe extenderse a las empresas agrícolas donde trabajen quinientos o más trabajadores.',
+            'code_id' => 1
+        ]);
+
+        DB::table('articles')->insert([
             'number' => '315',
             'name' => 'Artículo 315',
             'begin' => 'Las acciones para obtener la disolución o alguna prestación de las organizaciones sindicales, se deben entablar ante el juez de la zona jurisdiccional',
