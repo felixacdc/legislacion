@@ -555,6 +555,40 @@ class ArticlesTableSeeder extends Seeder
         ]);
 
         DB::table('articles')->insert([
+            'number' => '91',
+            'name' => 'Artículo 91',
+            'begin' => 'El monto del salario debe ser determinado por patronos y trabajadores, pero no puede ser inferior al que se fije como mínimo',
+            'description1' => 'El monto del salario debe ser determinado por patronos y trabajadores, pero no puede ser inferior al que se fije como mínimo de acuerdo con el capítulo siguiente.',
+            'code_id' => 1
+        ]);
+
+        DB::table('articles')->insert([
+            'number' => '92',
+            'name' => 'Artículo 92',
+            'begin' => 'Patronos y trabajadores deben fijar el plazo para el pago del salario, sin que dicho plazo pueda ser mayor',
+            'description1' => '<span class="opNum">1.</span> <span>Patronos y trabajadores deben fijar el plazo para el pago del salario, sin que dicho plazo pueda ser mayor de una quincena para los trabajadores manuales, ni de un mes para los trabajadores intelectuales y los servicios domésticos.</span><br>
+            Si el salario consiste en participación en las utilidades, ventas o cobros que haga el patrono, se debe señalar una suma quincenal o mensual que ha de recibir el trabajador, la cual debe ser proporcionada a las necesidades de éste y el monto probable de la participación que le llegue a corresponder. La liquidación definitiva se debe hacer por lo menos cada año.',
+            'code_id' => 1
+        ]);
+
+        DB::table('articles')->insert([
+            'number' => '94',
+            'name' => 'Artículo 94',
+            'begin' => 'El salario debe pagarse directamente al trabajador o a la persona de su familia que él indique por escrito o en acta levantada por una',
+            'description1' => 'El salario debe pagarse directamente al trabajador o a la persona de su familia que él indique por escrito o en acta levantada por una autoridad de trabajo.',
+            'code_id' => 1
+        ]);
+
+        DB::table('articles')->insert([
+            'number' => '95',
+            'name' => 'Artículo 95',
+            'begin' => 'Salvo convenio escrito en contrario, el pago del salario debe hacerse en el propio lugar donde los trabajadores presten sus',
+            'description1' => '<span class="opNum">1.</span> <span>Salvo convenio escrito en contrario, el pago del salario debe hacerse en el propio lugar donde los trabajadores presten sus servicios y durante las horas de trabajo o inmediatamente después de que éstas concluyan.</span><br>
+            Se prohíbe pagar el salario en lugares de recreo, expendios comerciales o de bebidas alcohólicas u otros análogos, salvo que se trate de trabajadores que laboren en esa clase de establecimientos.',
+            'code_id' => 1
+        ]);
+
+        DB::table('articles')->insert([
             'number' => '315',
             'name' => 'Artículo 315',
             'begin' => 'Las acciones para obtener la disolución o alguna prestación de las organizaciones sindicales, se deben entablar ante el juez de la zona jurisdiccional',
