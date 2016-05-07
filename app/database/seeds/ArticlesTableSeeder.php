@@ -677,6 +677,33 @@ class ArticlesTableSeeder extends Seeder
         ]);
 
         DB::table('articles')->insert([
+            'number' => '117',
+            'name' => 'Artículo 117',
+            'begin' => 'La jornada ordinaria de trabajo efectivo mixto no puede ser mayor de siete horas diarias ni exceder de un total de cuarenta y dos horas',
+            'description1' => 'La jornada ordinaria de trabajo efectivo mixto no puede ser mayor de siete horas diarias ni exceder de un total de cuarenta y dos horas a la semana.<br>
+            Jornada mixta es la que se ejecuta durante un tiempo que abarca parte del período diurno y parte del período nocturno No obstante, se entiende por jornada nocturna la jornada mixta en que se laboren cuatro o más horas durante el período nocturno.',
+            'code_id' => 1
+        ]);
+
+        DB::table('articles')->insert([
+            'number' => '119',
+            'name' => 'Artículo 119',
+            'begin' => 'La jornada ordinaria de trabajo puede ser continua o dividirse en dos o más períodos con intervalos de descansos que se adopten racionalmente',
+            'description1' => 'La jornada ordinaria de trabajo puede ser continua o dividirse en dos o más períodos con intervalos de descansos que se adopten racionalmente a la naturaleza del trabajo de que se trate y a las necesidades del trabajador.<br>
+            Siempre que se pacte una jornada ordinaria continua, el trabajador tiene derecho a un descanso mínimo de media hora dentro de esa jornada el que debe computarse como tiempo de trabajo efectivo.',
+            'code_id' => 1
+        ]);
+
+        DB::table('articles')->insert([
+            'number' => '121',
+            'name' => 'Artículo 121',
+            'begin' => 'El trabajo efectivo que se ejecute fuera de los límites de tiempo que determinan los Artículos anteriores para la jornada de ordinaria',
+            'description1' => '<span class="opNum">1.</span> <span>El trabajo efectivo que se ejecute fuera de los límites de tiempo que determinan los Artículos anteriores para la jornada de ordinaria, o que exceda del límite inferior que contractualmente se pacte, constituye jornada extraordinaria y debe ser remunerada por lo menos con un cincuenta por ciento más de los salarios mínimos o de los salarios superiores a estos que hayan estipulado las partes.</span><br>
+            No se consideran horas extraordinarias las que el trabajador ocupe en subsanar los errores imputables sólo a él cometidos durante la jornada ordinaria, ni las que sean consecuencia de su falta de actividad durante tal jornada, siempre que esto último le sea imputable.',
+            'code_id' => 1
+        ]);
+
+        DB::table('articles')->insert([
             'number' => '315',
             'name' => 'Artículo 315',
             'begin' => 'Las acciones para obtener la disolución o alguna prestación de las organizaciones sindicales, se deben entablar ante el juez de la zona jurisdiccional',
