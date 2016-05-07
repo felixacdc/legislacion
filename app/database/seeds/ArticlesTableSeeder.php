@@ -704,6 +704,75 @@ class ArticlesTableSeeder extends Seeder
         ]);
 
         DB::table('articles')->insert([
+            'number' => '126',
+            'name' => 'Artículo 126',
+            'begin' => 'Todo trabajador tiene derecho a disfrutar de un día de descanso remunerado después de cada semana de trabajo. La semana se computará',
+            'description1' => '<span class="opNum">1.</span> <span>Todo trabajador tiene derecho a disfrutar de un día de descanso remunerado después de cada semana de trabajo. La semana se computará de cinco a seis días según, costumbre en la empresa o centro de trabajo.</span><br>
+            A quienes laboran por unidad de obra o por comisión, se les adicionará una sexta parte de los salarios totales devengados en la semana.<br>
+            Para establecer el número de días laborados de quienes laboran por unidad de tiempo, serán aplicadas las reglas de los <a href="#codeWork" data-trigger="hover" data-toggle="popover" data-container="body" data-placement="bottom" data-content="c) La continuidad del trabajo no se interrumpe por enfermedad, vacaciones, licencias, huelga legal u otras causas análogas que según este Código suspenden y no terminan el contrato de trabajo; d) Es nula ipso jure la cláusula del contrato que tienda a interrumpir la continuidad de los servicios prestados o por prestarse;">incisos c) y d) del Artículo 82.</a>',
+            'code_id' => 1
+        ]);
+
+        DB::table('articles')->insert([
+            'number' => '127',
+            'name' => 'Artículo 127',
+            'begin' => 'Son días de asueto con goce de salario para los trabajadores particulares: el 1o. de enero; el Jueves, Viernes y Sábado Santos',
+            'description1' => '<span class="opNum">1.</span> <span>Son días de asueto con goce de salario para los trabajadores particulares: el 1o. de enero; el Jueves, Viernes y Sábado Santos; el 1o. de mayo, el 30 de junio, el 15 de septiembre, el 20 de octubre, el 1o. de noviembre, el 24 de diciembre, mediodía, a partir de las doce horas, el 25 de diciembre, el 31 de diciembre, mediodía, a partir de las doce horas,</span> <span class="opNum">2.</span> <span>y el día de la festividad de la localidad.</span><br>
+            El patrono esta obligado a pagar el día de descanso semanal, aún cuando en una misma semana coincidan uno o más días de asueto, y así mismo cuando coincidan un día de asueto pagado y un día de descanso semanal.',
+            'code_id' => 1
+        ]);
+
+        DB::table('articles')->insert([
+            'number' => '129',
+            'name' => 'Artículo 129',
+            'begin' => 'El pago de los días de descanso semanal o de los días de asueto se debe hacer de acuerdo con el promedio diario de salarios',
+            'description1' => 'El pago de los días de descanso semanal o de los días de asueto se debe hacer de acuerdo con el promedio diario de salarios ordinarios y extraordinarios que haya devengado el trabajador durante la semana inmediata anterior al descanso o asueto de que se trate. Es entendido que cuando el salario se estipule por quincena o por mes, incluye en forma implícita el pago de los días de descanso semanal o de los días de asueto que no se trabajen.<br>
+            En el caso del párrafo anterior, si dichos días se trabajan, el pago de los mismos debe hacerse computando el tiempo trabajado como extraordinario, de conformidad con los salarios ordinarios y extraordinarios que haya devengado el trabajador durante la última quincena o mes, según corresponda.',
+            'code_id' => 1
+        ]);
+
+        DB::table('articles')->insert([
+            'number' => '130',
+            'name' => 'Artículo 130',
+            'begin' => 'Todo trabajador sin excepción, tiene derecho a un período de vacaciones remuneradas después de cada año de trabajo continuo al',
+            'description1' => 'Todo trabajador sin excepción, tiene derecho a un período de vacaciones remuneradas después de cada año de trabajo continuo al servicio de un mismo patrono, cuya duración mínima es de quince días hábiles. El hecho de la continuidad del trabajo se determina conforme a las reglas de los <a href="#codeWork" data-trigger="hover" data-toggle="popover" data-container="body" data-placement="bottom" data-content="c) La continuidad del trabajo no se interrumpe por enfermedad, vacaciones, licencias, huelga legal u otras causas análogas que según este Código suspenden y no terminan el contrato de trabajo; d) Es nula ipso jure la cláusula del contrato que tienda a interrumpir la continuidad de los servicios prestados o por prestarse;">incisos c) y d) del Artículo 82.</a>',
+            'code_id' => 1
+        ]);
+
+        DB::table('articles')->insert([
+            'number' => '131',
+            'name' => 'Artículo 131',
+            'begin' => 'Para que el trabajador tenga derecho a vacaciones, aunque el contrato no le exija trabajar todas las horas de la jornada',
+            'description1' => 'Para que el trabajador tenga derecho a vacaciones, aunque el contrato no le exija trabajar todas las horas de la jornada ordinaria ni todos los días de la semana, deberá tener un minino de ciento cincuenta (150) días trabajados en el año. Se computarán como trabajados los días en que el trabajador no preste servicios por gozar de licencia retribuida, establecida por este Código o por Pacto Colectivo, por enfermedad profesional, enfermedad común o por accidente de trabajo.',
+            'code_id' => 1
+        ]);
+
+        DB::table('articles')->insert([
+            'number' => '132',
+            'name' => 'Artículo 132',
+            'begin' => 'El patrono debe señalar al trabajador la época en que dentro de los sesenta días siguientes a aquél en que se cumplió el año de servicio',
+            'description1' => '<span class="opNum">1.</span> <span>El patrono debe señalar al trabajador la época en que dentro de los sesenta días siguientes a aquél en que se cumplió el año de servicio continuo, debe gozar efectivamente de sus vacaciones.</span> A ese efecto, debe tratar de que no se altere la buena marcha de la empresa ni la efectividad del descanso, así como evitar que se recargue el trabajo de los compañeros de labores del que está disfrutando de sus vacaciones.',
+            'code_id' => 1
+        ]);
+
+        DB::table('articles')->insert([
+            'number' => '133',
+            'name' => 'Artículo 133',
+            'begin' => 'Las vacaciones no son compensables en dinero, salvo cuando el trabajador que haya adquirido el derecho a gozarlas no las haya disfrutado',
+            'description1' => 'Las vacaciones no son compensables en dinero, salvo cuando el trabajador que haya adquirido el derecho a gozarlas no las haya disfrutado por cesar en su trabajo cualquiera que sea la causa. Se prohíbe al trabajador prestar sus servicios a cualquier persona durante el período de vacaciones.<br>
+            Cuando el trabajador cese en su trabajo cualquiera que sea la causa, antes de cumplir un año de servicios continuos, o antes de adquirir el derecho a un nuevo período, el patrono debe compensarle en dinero la parte proporcional de sus vacaciones de acuerdo con su tiempo de servicio.',
+            'code_id' => 1
+        ]);
+
+        DB::table('articles')->insert([
+            'number' => '139',
+            'name' => 'Artículo 139',
+            'begin' => 'Todo trabajo agrícola o ganadero desempeñado por mujeres o menores de edad con anuencia del patrono, da el carácter a aquéllas o a éstos',
+            'description1' => 'Todo trabajo agrícola o ganadero desempeñado por mujeres o menores de edad con anuencia del patrono, da el carácter a aquéllas o a éstos de trabajadores campesinos, aunque a dicho trabajo se le atribuya la calidad de coadyuvante o complementario de las labores que ejecute el trabajador campesino jefe de familia. En consecuencia, esos trabajadores campesinos se consideran vinculados al expresado patrono por un contrato de trabajo.',
+            'code_id' => 1
+        ]);
+
+        DB::table('articles')->insert([
             'number' => '315',
             'name' => 'Artículo 315',
             'begin' => 'Las acciones para obtener la disolución o alguna prestación de las organizaciones sindicales, se deben entablar ante el juez de la zona jurisdiccional',
