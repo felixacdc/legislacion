@@ -793,5 +793,13 @@ class ArticlesTableSeeder extends Seeder
             'code_id' => 1
         ]);
 
+        DB::table('articles')->insert([
+            'number' => '1',
+            'name' => 'Artículo 1 Aplicabilidad',
+            'begin' => 'Los comerciantes en su actividad profesional, los negocios jurídicos mercantiles y cosas mercantiles, se regirán pos las disposiciones de',
+            'description1' => 'Los comerciantes en su actividad profesional, los negocios jurídicos mercantiles y cosas mercantiles, se regirán pos las disposiciones de este Código y, en su defecto, por las del Derecho Civil que se aplicarán e interpretarán de conformidad con los principios que inspira el Derecho Mercantil.',
+            'code_id' => 2
+        ]);
+
     }
 }

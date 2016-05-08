@@ -1,19 +1,20 @@
 var dataWork;
 
 $(document).ready( function () {
-    fnSearch($('#codeWorkItems .container'), $('#txtSearchWork').val(), 'work/');
+    fnSearch($('#codeWorkItems .container'), $('#txtSearchWork').val(), 'work/', '#token');
+    fnSearch($('#codeCommercialItems .container'), $('#txtSearchCommercial').val(), 'commercial/', '#tokenTwo');
 
     $('#btnSearchWork').click(function () {
-        fnSearch($('#codeWorkItems .container'), $('#txtSearchWork').val(), 'work/');
+        fnSearch($('#codeWorkItems .container'), $('#txtSearchWork').val(), 'work/', '#token');
     });
 
 })
 
 
-function fnSearch(display, search, url) {
+function fnSearch(display, search, url, idToken) {
 
     var route = url + search;
-    var token = $('#token').val();
+    var token = $(idToken).val();
 
     display.html("");
 
