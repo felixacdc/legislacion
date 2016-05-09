@@ -9,7 +9,7 @@
                 <div class="conteiner">
                     <div class="col-md-2"></div>
                     <div class="col-md-8">
-                        <form action="#" method="post" class="subscribe-form wow animated fadeInUp">
+                        <div class="subscribe-form wow animated fadeInUp">
                             <div class="input-field">
                                 <input type="hidden" name="_token" value="{{ csrf_token() }}" id="token">
                                 <input type="text" id="txtSearchWork" class="subscribe form-control" placeholder="Busca un articulo...">
@@ -17,7 +17,7 @@
                                     <i class="fa fa-search fa-lg"></i>
                                 </button>
                             </div>
-                        </form>
+                        </div>
                     </div>
                 </div>
             </div>

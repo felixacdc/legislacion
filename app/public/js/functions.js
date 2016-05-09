@@ -5,8 +5,24 @@ $(document).ready( function () {
     fnSearch($('#codeWorkItems .container'), $('#txtSearchWork').val(), 'work/', '#token', 1);
     fnSearch($('#codeCommercialItems .container'), $('#txtSearchCommercial').val(), 'commercial/', '#tokenTwo', 2);
 
+    $('#txtSearchWork').keypress(function (event) {
+        if (event.which == 13) {
+            fnSearch($('#codeWorkItems .container'), $('#txtSearchWork').val(), 'work/', '#token', 1);
+        }
+    });
+
+    $('#txtSearchCommercial').keypress(function (event) {
+        if (event.which == 13) {
+            fnSearch($('#codeCommercialItems .container'), $('#txtSearchCommercial').val(), 'commercial/', '#tokenTwo', 2);
+        }
+    });
+
     $('#btnSearchWork').click(function () {
         fnSearch($('#codeWorkItems .container'), $('#txtSearchWork').val(), 'work/', '#token', 1);
+    });
+
+    $('#btnSearchCommercial').click(function () {
+        fnSearch($('#codeCommercialItems .container'), $('#txtSearchCommercial').val(), 'commercial/', '#tokenTwo', 2);
     });
 
 })
