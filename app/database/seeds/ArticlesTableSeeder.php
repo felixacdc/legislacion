@@ -801,5 +801,55 @@ class ArticlesTableSeeder extends Seeder
             'code_id' => 2
         ]);
 
+        DB::table('articles')->insert([
+            'number' => '2',
+            'name' => 'Artículo 2 Comerciantes',
+            'begin' => 'Son comerciantes quienes ejercen en nombre propio y con fines de lucro, cualesquiera actividades que se refieren a lo siguiente',
+            'description1' => 'Son comerciantes quienes ejercen en nombre propio y con fines de lucro, cualesquiera actividades que se refieren a lo siguiente:<br>
+            1o. La industria dirigida a la producción o transformación de bienes y a la prestación de servicios.<br>
+            2o. La intermediación en la circulación de bienes y a la prestación de servicios.<br>
+            3o. La Banca, seguros y fianzas.<br>
+            4o. Las auxiliares de las anteriores.',
+            'code_id' => 2
+        ]);
+
+        DB::table('articles')->insert([
+            'number' => '4',
+            'name' => 'Artículo 4 Cosas Mercantiles',
+            'begin' => 'Son cosas mercantiles: 1o. Los títulos de crédito.2o. La empresa mercantil y sus elementos. 3o. Las patentes de invención y de modelo',
+            'description1' => 'Son cosas mercantiles:<br>
+            1o. Los títulos de crédito.<br>
+            2o. La empresa mercantil y sus elementos.<br>
+            3o. Las patentes de invención y de modelo, las marcas, los nombres, los avisos y anuncios comerciales.',
+            'code_id' => 2
+        ]);
+
+        DB::table('articles')->insert([
+            'number' => '5',
+            'name' => 'Artículo 5 Negocio Mixto',
+            'begin' => 'Cuando en un negocio jurídico regido por este Código intervengan comerciantes y no comerciantes, se aplicarán las',
+            'description1' => 'Cuando en un negocio jurídico regido por este Código intervengan comerciantes y no comerciantes, se aplicarán las disposiciones del mismo.',
+            'code_id' => 2
+        ]);
+
+        DB::table('articles')->insert([
+            'number' => '6',
+            'name' => 'Artículo 6 Capacidad',
+            'begin' => 'Tienen capacidad para ser comerciantes las personas individuales y jurídicas que, conforme al Código Civil, son hábiles',
+            'description1' => 'Tienen capacidad para ser comerciantes las personas individuales y jurídicas que, conforme al Código Civil, son hábiles para contratar y obligarse.',
+            'code_id' => 2
+        ]);
+
+        DB::table('articles')->insert([
+            'number' => '9',
+            'name' => 'Artículo 9 No son comerciantes',
+            'begin' => 'No son comerciantes: 1o. Los que ejercen una profesión liberal. 2o. Los que desarrollen actividades agrícolas, pecuarias o similares en cuanto',
+            'description1' => 'No son comerciantes:<br>
+            1o. Los que ejercen una profesión liberal.<br>
+            2o. Los que desarrollen actividades agrícolas, pecuarias o similares en cuanto se refiere al cultivo y transformación de los productos de su propia empresa.<br>
+            3o. Los artesanos que sólo trabajen por encargo o que no tengan almacén o tienda para el expendio de sus productos.',
+            'code_id' => 2
+        ]);
+
     }
 }

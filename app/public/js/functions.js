@@ -1,17 +1,18 @@
 var dataWork;
+var dataCommercial;
 
 $(document).ready( function () {
-    fnSearch($('#codeWorkItems .container'), $('#txtSearchWork').val(), 'work/', '#token');
-    fnSearch($('#codeCommercialItems .container'), $('#txtSearchCommercial').val(), 'commercial/', '#tokenTwo');
+    fnSearch($('#codeWorkItems .container'), $('#txtSearchWork').val(), 'work/', '#token', 1);
+    fnSearch($('#codeCommercialItems .container'), $('#txtSearchCommercial').val(), 'commercial/', '#tokenTwo', 2);
 
     $('#btnSearchWork').click(function () {
-        fnSearch($('#codeWorkItems .container'), $('#txtSearchWork').val(), 'work/', '#token');
+        fnSearch($('#codeWorkItems .container'), $('#txtSearchWork').val(), 'work/', '#token', 1);
     });
 
 })
 
 
-function fnSearch(display, search, url, idToken) {
+function fnSearch(display, search, url, idToken, identifier) {
 
     var route = url + search;
     var token = $(idToken).val();
@@ -28,7 +29,11 @@ function fnSearch(display, search, url, idToken) {
 
             var accountant = 0;
             var htmlContent = "";
-            dataWork = response;
+
+            if ( identifier == 1 )
+                dataWork = response;
+            else
+                dataCommercial = response;
 
             $(response.data).each( function (key, value) {
 
@@ -40,7 +45,7 @@ function fnSearch(display, search, url, idToken) {
                         htmlContent += "<div class='col-md-3 text-center wow animated zoomIn'>";
                         htmlContent += "    <div class='service-item'>";
                         htmlContent += "        <div class='service-icon'>";
-                        htmlContent += "            <i class='fa fa-gavel fa-3x' id='" + data.id + "' OnClick='Mostrar(this);' data-toggle='modal' data-target='#myModal'></i>";
+                        htmlContent += "            <i class='fa fa-gavel fa-3x' id='" + data.id + "' OnClick='Mostrar(this, " + identifier + ");' data-toggle='modal' data-target='#myModal'></i>";
                         htmlContent += "        </div>";
                         htmlContent += "        <h3>" + data.name + "</h3>"
                         htmlContent += "        <p>" + data.begin.substr(0, 120) + "...</p>";
@@ -57,7 +62,7 @@ function fnSearch(display, search, url, idToken) {
                         htmlContent += "<div class='col-md-3 text-center wow animated zoomIn'>";
                         htmlContent += "    <div class='service-item'>";
                         htmlContent += "        <div class='service-icon'>";
-                        htmlContent += "            <i class='fa fa-gavel fa-3x' id='" + data.id + "' OnClick='Mostrar(this);' data-toggle='modal' data-target='#myModal'></i>";
+                        htmlContent += "            <i class='fa fa-gavel fa-3x' id='" + data.id + "' OnClick='Mostrar(this, " + identifier + ");' data-toggle='modal' data-target='#myModal'></i>";
                         htmlContent += "        </div>";
                         htmlContent += "        <h3>" + data.name + "</h3>"
                         htmlContent += "        <p>" + data.begin.substr(0, 120) + "...</p>";
@@ -75,7 +80,7 @@ function fnSearch(display, search, url, idToken) {
                         htmlContent += "<div class='col-md-3 text-center wow animated zoomIn'>";
                         htmlContent += "    <div class='service-item'>";
                         htmlContent += "        <div class='service-icon'>";
-                        htmlContent += "            <i class='fa fa-gavel fa-3x' id='" + data.id + "' OnClick='Mostrar(this);' data-toggle='modal' data-target='#myModal'></i>";
+                        htmlContent += "            <i class='fa fa-gavel fa-3x' id='" + data.id + "' OnClick='Mostrar(this, " + identifier + ");' data-toggle='modal' data-target='#myModal'></i>";
                         htmlContent += "        </div>";
                         htmlContent += "        <h3>" + data.name + "</h3>"
                         htmlContent += "        <p>" + data.begin.substr(0, 120) + "...</p>";
@@ -94,20 +99,30 @@ function fnSearch(display, search, url, idToken) {
     });
 }
 
-function Mostrar(btn) {
+function Mostrar(btn, identifier) {
     var dataShow;
     // $('#learnings').remove();
     $('.modal-body').html('<h3 class="text-center">Cargando ...</h3>');
 
+    if ( identifier == 1 )
+    {    $(dataWork.data).each( function (key, value) {
 
-    $(dataWork.data).each( function (key, value) {
+                $(value).each( function (datakey, data) {
 
-            $(value).each( function (datakey, data) {
+                    if ( data.id == btn.id )
+                        dataShow = data;
+                });
+        });
+    } else {
+        $(dataCommercial.data).each( function (key, value) {
 
-                if ( data.id == btn.id )
-                    dataShow = data;
-            });
-    });
+                $(value).each( function (datakey, data) {
+
+                    if ( data.id == btn.id )
+                        dataShow = data;
+                });
+        });
+    }
 
     $('.modal-title').text(dataShow.name);
 
@@ -154,7 +169,6 @@ function showComment(url, id, htmlBefore) {
         type: 'GET',
         dataType: 'json',
         success: function (response) {
-            console.log(response.data);
 
             // $('#showComments').remove();
 
