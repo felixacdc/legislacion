@@ -167,7 +167,7 @@ class CommentsTableSeeder extends Seeder
                 <li><span class="opNum">1.</span> Cargos de dirección</li>
                 <li>Intermediario <a href="#codeWork" data-search="Artículo 5" class="linkGo">Ir a Artículo 5.</a></li></ul>
             </ol>',
-            'article_id' => '21'
+            'article_id' => '67'
         ]);
 
         DB::table('comments')->insert([
@@ -181,7 +181,7 @@ class CommentsTableSeeder extends Seeder
                 <li>Cargos de dirección <a href="#codeWork" data-search="Artículo 315" class="linkGo">Ir a Artículo 315</a></li>
                 <li>Intermediario <a href="#codeWork" data-search="Artículo 5" class="linkGo">Ir a Artículo 5.</a></li></ul>
             </ol>',
-            'article_id' => '22'
+            'article_id' => '68'
         ]);
     }
 }

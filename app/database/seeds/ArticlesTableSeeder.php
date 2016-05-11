@@ -851,5 +851,53 @@ class ArticlesTableSeeder extends Seeder
             'code_id' => 2
         ]);
 
+        DB::table('articles')->insert([
+            'number' => '10',
+            'name' => 'Artículo 10 Sociedades Mercantiles',
+            'begin' => 'Son sociedades organizadas bajo forma mercantil, exclusivamente las siguientes: 1o. La sociedad colectiva.',
+            'description1' => 'Son sociedades organizadas bajo forma mercantil, exclusivamente las siguientes:<br>
+            1o. La sociedad colectiva.<br>
+            2o. La sociedad en comandita simple.<br>
+            3o. La sociedad de responsabilidad limitada.<br>
+            4o. La sociedad anónima.<br>
+            5o. La sociedad en comandita por acciones.',
+            'code_id' => 2
+        ]);
+
+        DB::table('articles')->insert([
+            'number' => '14',
+            'name' => 'Artículo 14 Personalidad Jurídica',
+            'begin' => 'La sociedad mercantil constituida de acuerdo a las disposiciones de este Código e inscrita en el Registro Mercantil, tendrá personalidad',
+            'description1' => 'La sociedad mercantil constituida de acuerdo a las disposiciones de este Código e inscrita en el Registro Mercantil, tendrá personalidad jurídica propia y distinta de la de los socios individualmente considerados.<br>
+            Para la constitución de sociedades, la persona o personas que comparezcan como socios fundadores, deberán hacerlo por sí o en representación de otro, debiendo en este caso, acreditar tal calidad en la forma legal. Queda prohibida la comparecencia como gestor de negocios.',
+            'code_id' => 2
+        ]);
+
+        DB::table('articles')->insert([
+            'number' => '16',
+            'name' => 'Artículo 16 Solemnidad de la Sociedad',
+            'begin' => 'La constitución de la sociedad y todas sus modificaciones, incluyendo prórrogas, aumento o reducción de capital, cambio de razón',
+            'description1' => 'La constitución de la sociedad y todas sus modificaciones, incluyendo prórrogas, aumento o reducción de capital, cambio de razón social o denominación, fusión, disolución o cualesquiera otras reformas o ampliaciones, se harán constar en escritura pública. La separación o ingreso de socios en las sociedades no accionadas, también se formalizará en escritura pública.<br>
+            <span class="opNum">1.</span> Salvo en las sociedades por acciones, la modificación de la escritura constitutiva requerirá el voto unánime de los socios.</span> Sin embargo, podrá pactarse que la escritura social pueda modificarse por resolución, tomada por la mayoría que la propia escritura determine, pero en este caso la minoría tendrá derecho a separarse de la sociedad.',
+            'code_id' => 2
+        ]);
+
+        DB::table('articles')->insert([
+            'number' => '17',
+            'name' => 'Artículo 17 Registro',
+            'begin' => 'El testimonio de la escritura constitutiva, el de ampliación y sus modificaciones, deberá presentarse al Registro Mercantil',
+            'description1' => 'El testimonio de la escritura constitutiva, el de ampliación y sus modificaciones, deberá presentarse al Registro Mercantil, dentro del mes siguiente a la fecha de la escritura.',
+            'code_id' => 2
+        ]);
+
+        DB::table('articles')->insert([
+            'number' => '19',
+            'name' => 'Artículo 19 Situaciones Especiales',
+            'begin' => 'Los cónyuges pueden constituir entre sí y con terceros, sociedad mercantil. Los extranjeros y las sociedades extranjeras, aunque tengan',
+            'description1' => '<span class="opNum">1.</span> Los cónyuges pueden constituir entre sí y con terceros, sociedad mercantil.</span><br>
+            Los extranjeros y las sociedades extranjeras, aunque tengan domicilio en Guatemala, podrán participar como socios o accionistas de sociedades de cualquier forma, salvo lo dispuesto en este Código o en leyes especiales.',
+            'code_id' => 2
+        ]);
+
     }
 }
