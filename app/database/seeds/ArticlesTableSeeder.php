@@ -795,7 +795,7 @@ class ArticlesTableSeeder extends Seeder
 
         DB::table('articles')->insert([
             'number' => '1',
-            'name' => 'Artículo 1 Aplicabilidad',
+            'name' => 'Artículo 1. Aplicabilidad',
             'begin' => 'Los comerciantes en su actividad profesional, los negocios jurídicos mercantiles y cosas mercantiles, se regirán pos las disposiciones de',
             'description1' => 'Los comerciantes en su actividad profesional, los negocios jurídicos mercantiles y cosas mercantiles, se regirán pos las disposiciones de este Código y, en su defecto, por las del Derecho Civil que se aplicarán e interpretarán de conformidad con los principios que inspira el Derecho Mercantil.',
             'code_id' => 2
@@ -803,7 +803,7 @@ class ArticlesTableSeeder extends Seeder
 
         DB::table('articles')->insert([
             'number' => '2',
-            'name' => 'Artículo 2 Comerciantes',
+            'name' => 'Artículo 2. Comerciantes',
             'begin' => 'Son comerciantes quienes ejercen en nombre propio y con fines de lucro, cualesquiera actividades que se refieren a lo siguiente',
             'description1' => 'Son comerciantes quienes ejercen en nombre propio y con fines de lucro, cualesquiera actividades que se refieren a lo siguiente:<br>
             1o. La industria dirigida a la producción o transformación de bienes y a la prestación de servicios.<br>
@@ -815,7 +815,7 @@ class ArticlesTableSeeder extends Seeder
 
         DB::table('articles')->insert([
             'number' => '4',
-            'name' => 'Artículo 4 Cosas Mercantiles',
+            'name' => 'Artículo 4. Cosas Mercantiles',
             'begin' => 'Son cosas mercantiles: 1o. Los títulos de crédito.2o. La empresa mercantil y sus elementos. 3o. Las patentes de invención y de modelo',
             'description1' => 'Son cosas mercantiles:<br>
             1o. Los títulos de crédito.<br>
@@ -826,7 +826,7 @@ class ArticlesTableSeeder extends Seeder
 
         DB::table('articles')->insert([
             'number' => '5',
-            'name' => 'Artículo 5 Negocio Mixto',
+            'name' => 'Artículo 5. Negocio Mixto',
             'begin' => 'Cuando en un negocio jurídico regido por este Código intervengan comerciantes y no comerciantes, se aplicarán las',
             'description1' => 'Cuando en un negocio jurídico regido por este Código intervengan comerciantes y no comerciantes, se aplicarán las disposiciones del mismo.',
             'code_id' => 2
@@ -834,7 +834,7 @@ class ArticlesTableSeeder extends Seeder
 
         DB::table('articles')->insert([
             'number' => '6',
-            'name' => 'Artículo 6 Capacidad',
+            'name' => 'Artículo 6. Capacidad',
             'begin' => 'Tienen capacidad para ser comerciantes las personas individuales y jurídicas que, conforme al Código Civil, son hábiles',
             'description1' => 'Tienen capacidad para ser comerciantes las personas individuales y jurídicas que, conforme al Código Civil, son hábiles para contratar y obligarse.',
             'code_id' => 2
@@ -842,7 +842,7 @@ class ArticlesTableSeeder extends Seeder
 
         DB::table('articles')->insert([
             'number' => '9',
-            'name' => 'Artículo 9 No son comerciantes',
+            'name' => 'Artículo 9. No son comerciantes',
             'begin' => 'No son comerciantes: 1o. Los que ejercen una profesión liberal. 2o. Los que desarrollen actividades agrícolas, pecuarias o similares en cuanto',
             'description1' => 'No son comerciantes:<br>
             1o. Los que ejercen una profesión liberal.<br>
@@ -853,7 +853,7 @@ class ArticlesTableSeeder extends Seeder
 
         DB::table('articles')->insert([
             'number' => '10',
-            'name' => 'Artículo 10 Sociedades Mercantiles',
+            'name' => 'Artículo 10. Sociedades Mercantiles',
             'begin' => 'Son sociedades organizadas bajo forma mercantil, exclusivamente las siguientes: 1o. La sociedad colectiva.',
             'description1' => 'Son sociedades organizadas bajo forma mercantil, exclusivamente las siguientes:<br>
             1o. La sociedad colectiva.<br>
@@ -866,7 +866,7 @@ class ArticlesTableSeeder extends Seeder
 
         DB::table('articles')->insert([
             'number' => '14',
-            'name' => 'Artículo 14 Personalidad Jurídica',
+            'name' => 'Artículo 14. Personalidad Jurídica',
             'begin' => 'La sociedad mercantil constituida de acuerdo a las disposiciones de este Código e inscrita en el Registro Mercantil, tendrá personalidad',
             'description1' => 'La sociedad mercantil constituida de acuerdo a las disposiciones de este Código e inscrita en el Registro Mercantil, tendrá personalidad jurídica propia y distinta de la de los socios individualmente considerados.<br>
             Para la constitución de sociedades, la persona o personas que comparezcan como socios fundadores, deberán hacerlo por sí o en representación de otro, debiendo en este caso, acreditar tal calidad en la forma legal. Queda prohibida la comparecencia como gestor de negocios.',
@@ -875,16 +875,16 @@ class ArticlesTableSeeder extends Seeder
 
         DB::table('articles')->insert([
             'number' => '16',
-            'name' => 'Artículo 16 Solemnidad de la Sociedad',
+            'name' => 'Artículo 16. Solemnidad de la Sociedad',
             'begin' => 'La constitución de la sociedad y todas sus modificaciones, incluyendo prórrogas, aumento o reducción de capital, cambio de razón',
             'description1' => 'La constitución de la sociedad y todas sus modificaciones, incluyendo prórrogas, aumento o reducción de capital, cambio de razón social o denominación, fusión, disolución o cualesquiera otras reformas o ampliaciones, se harán constar en escritura pública. La separación o ingreso de socios en las sociedades no accionadas, también se formalizará en escritura pública.<br>
-            <span class="opNum">1.</span> Salvo en las sociedades por acciones, la modificación de la escritura constitutiva requerirá el voto unánime de los socios.</span> Sin embargo, podrá pactarse que la escritura social pueda modificarse por resolución, tomada por la mayoría que la propia escritura determine, pero en este caso la minoría tendrá derecho a separarse de la sociedad.',
+            <span class="opNum">1.</span> <span>Salvo en las sociedades por acciones, la modificación de la escritura constitutiva requerirá el voto unánime de los socios.</span> Sin embargo, podrá pactarse que la escritura social pueda modificarse por resolución, tomada por la mayoría que la propia escritura determine, pero en este caso la minoría tendrá derecho a separarse de la sociedad.',
             'code_id' => 2
         ]);
 
         DB::table('articles')->insert([
             'number' => '17',
-            'name' => 'Artículo 17 Registro',
+            'name' => 'Artículo 17. Registro',
             'begin' => 'El testimonio de la escritura constitutiva, el de ampliación y sus modificaciones, deberá presentarse al Registro Mercantil',
             'description1' => 'El testimonio de la escritura constitutiva, el de ampliación y sus modificaciones, deberá presentarse al Registro Mercantil, dentro del mes siguiente a la fecha de la escritura.',
             'code_id' => 2
@@ -892,10 +892,51 @@ class ArticlesTableSeeder extends Seeder
 
         DB::table('articles')->insert([
             'number' => '19',
-            'name' => 'Artículo 19 Situaciones Especiales',
+            'name' => 'Artículo 19. Situaciones Especiales',
             'begin' => 'Los cónyuges pueden constituir entre sí y con terceros, sociedad mercantil. Los extranjeros y las sociedades extranjeras, aunque tengan',
-            'description1' => '<span class="opNum">1.</span> Los cónyuges pueden constituir entre sí y con terceros, sociedad mercantil.</span><br>
+            'description1' => '<span class="opNum">1.</span> <span>Los cónyuges pueden constituir entre sí y con terceros, sociedad mercantil.</span><br>
             Los extranjeros y las sociedades extranjeras, aunque tengan domicilio en Guatemala, podrán participar como socios o accionistas de sociedades de cualquier forma, salvo lo dispuesto en este Código o en leyes especiales.',
+            'code_id' => 2
+        ]);
+
+        DB::table('articles')->insert([
+            'number' => '20',
+            'name' => 'Artículo 20. Tutor y Guardador',
+            'begin' => 'El tutor y el guardador no pueden constituir sociedad con sus representados, mientras no haya terminado la minoría de edad',
+            'description1' => 'El tutor y el guardador no pueden constituir sociedad con sus representados, mientras no haya terminado la minoría de edad o la incapacidad y estén aprobadas las cuentas de la tutela y canceladas las garantías.',
+            'code_id' => 2
+        ]);
+
+        DB::table('articles')->insert([
+            'number' => '21',
+            'name' => 'Artículo 21. Declarados en Quiebra',
+            'begin' => 'No pueden constituir sociedad los declarados en quiebra, mientras no hayan sido rehabilitados.',
+            'description1' => 'No pueden constituir sociedad los declarados en quiebra, mientras no hayan sido rehabilitados.',
+            'code_id' => 2
+        ]);
+
+        DB::table('articles')->insert([
+            'number' => '22',
+            'name' => 'Artículo 22. Sociedad con Menores e Incapaces',
+            'begin' => 'Por los menores e incapaces sólo podrán sus representantes constituir sociedad, previa autorización judicial por utilidad',
+            'description1' => '<span class="opNum">1.</span> <span>Por los menores e incapaces sólo podrán sus representantes constituir sociedad, previa autorización judicial por utilidad comprobada.</span><br>
+            La responsabilidad de los menores o incapaces se limitará al monto de su respectiva aportación.',
+            'code_id' => 2
+        ]);
+
+        DB::table('articles')->insert([
+            'number' => '23',
+            'name' => 'Artículo 23. Adquisición de Acciones por Menores',
+            'begin' => 'Los representantes legales de menores, incapaces o ausentes, pueden adquirir para sus representados, acciones de sociedades anónimas',
+            'description1' => 'Los representantes legales de menores, incapaces o ausentes, pueden adquirir para sus representados, acciones de sociedades anónimas o en comandita, siempre que estén totalmente pagadas y se llenen los requisitos que la ley señala para la inversión de fondos de éstos.',
+            'code_id' => 2
+        ]);
+
+        DB::table('articles')->insert([
+            'number' => '24',
+            'name' => 'Artículo 24. Plazo',
+            'begin' => 'El plazo de la sociedad principia desde la fecha de inscripción de la misma en el Registro Mercantil. Las sociedades mercantiles pueden',
+            'description1' => 'El plazo de la sociedad principia desde la fecha de inscripción de la misma en el Registro Mercantil. Las sociedades mercantiles pueden constituirse para plazo indefinido.',
             'code_id' => 2
         ]);
 
