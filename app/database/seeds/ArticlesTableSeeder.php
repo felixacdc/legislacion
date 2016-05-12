@@ -940,5 +940,120 @@ class ArticlesTableSeeder extends Seeder
             'code_id' => 2
         ]);
 
+        DB::table('articles')->insert([
+            'number' => '25',
+            'name' => 'Artículo 25. Prorroga',
+            'begin' => 'La prórroga de la sociedad debe formalizarse antes de que haya concluido el término de su duración.',
+            'description1' => 'La prórroga de la sociedad debe formalizarse antes de que haya concluido el término de su duración.<br>
+            Sin embargo, dicha prórroga podrá formalizarse después de expirado el plazo, en cuyo caso los acreedores personales de los socios, cuya acreeduría conste en título que llene los requisitos de ejecutivo, gozarán de un término de treinta días, contados desde la última publicación, para protestar la prórroga. Igual derecho tendrán los acreedores de la sociedad.<br>
+            El efecto de la protesta será, para los primeros, que puedan ejercitar sus derechos sobre la participación social del deudor y para los segundos, que puedan ejercitar sus acciones, en la forma que se determina para las sociedades irregulares.',
+            'description2' => 'La prórroga extemporánea requiere el consentimiento unánime de los socios en las sociedades no accionadas, y en las accionadas, una mayoría cuando menos del ochenta por ciento del capital pagado de la sociedad. Los accionistas disidentes tendrán derecho de separarse de la sociedad comunicándolo por escrito dentro de los quince días siguientes a la fecha en que se haya tomado la resolución correspondiente.<br>
+            Vencido el plazo de la sociedad, cualquier socio podrá pedir la liquidación de la misma, siempre que su petición la haga antes de que se emita la convocatoria a la junta en la cual se resolverá sobre la prórroga extemporánea.',
+            'code_id' => 2
+        ]);
+
+        DB::table('articles')->insert([
+            'number' => '27',
+            'name' => 'Artículo 27. Aportaciones No Dinerarias',
+            'begin' => 'Los bienes que no consistan en dinero, aportados por los socios, pasan al dominio de la sociedad, sin necesidad de tradición y se detallarán',
+            'description1' => 'Los bienes que no consistan en dinero, aportados por los socios, pasan al dominio de la sociedad, sin necesidad de tradición y se detallarán y justipreciarán en escritura constitutiva o en el inventario previamente aceptado por los socios, el que deberá protocolizarse.<br>
+            Si por culpa o dolo se fijaré un avalúo mayor del verdadero, los socios responderán solidariamente en favor de terceros y de la sociedad, por el exceso del valor que se hubiere asignado y por los daños y perjuicios que resulten, quedando así mismo obligados a reponer el faltante.',
+            'description2' => '<span class="opNum">1.</span> <span>Son admisibles como aportaciones los bienes muebles o inmuebles, las patentes de invención, los estudios de prefactibilidad y factibilidad, los costos de preparación para la creación de empresa, así como la estimación de la promoción de la misma, siempre que fueren expresamente aceptados en su justipreciación, conforme lo establece el primer párrafo.</span><br>
+            No es válida como aportación la simple responsabilidad por un socio. Los socios quedan obligados al saneamiento de lo que aporten a la sociedad.',
+            'code_id' => 2
+        ]);
+
+        DB::table('articles')->insert([
+            'number' => '28',
+            'name' => 'Artículo 28. Aportación de Créditos y Acciones',
+            'begin' => 'Cuando la aportación de algún socio consista en créditos, el que la haga responderá no sólo de la existencia y legitimidad de ellos',
+            'description1' => 'Cuando la aportación de algún socio consista en créditos, el que la haga responderá no sólo de la existencia y legitimidad de ellos, sino también de la solvencia del deudor en la época de la aportación.<br>
+            Cuando se aporten acciones de sociedad por acciones, el valor de la aportación será el del mercado, sin exceder de su valor en libros.<br>
+            Se prohíbe pactar contra el tenor de este artículo.',
+            'code_id' => 2
+        ]);
+
+        DB::table('articles')->insert([
+            'number' => '33',
+            'name' => 'Artículo 33. Distribución de Utilidades y Perdidas',
+            'begin' => 'En el reparto de utilidades o pérdidas se observarán, salvo pacto en contrario, las reglas siguientes:',
+            'description1' => 'En el reparto de utilidades o pérdidas se observarán, salvo pacto en contrario, las reglas siguientes:<br>
+            1o. La distribución entre los socios capitalistas se hará proporcionalmente al capital que cada uno tenga aportado en la sociedad.<br>
+            2o. Si en el contrato se estipuló la parte de las ganancias, sin mencionar las pérdidas, la distribución de éstas se hará en la misma proporción de aquéllas y viceversa, de modo que la expresión de las unas sirva para las otras.<br>
+            3o. La participación del socio industrial en las utilidades se determinará promediando el capital de todas las aportaciones. Si es uno solo el socio capitalista, la parte del socio industrial será igual a la del otro socio.',
+            'description2' => '4o. Si fueren varios los socios industriales se aplicará la regla anterior y el resultado se dividirá en partes iguales entre ellos.<br>
+            5o. El socio o socios industriales no soportarán las pérdidas, sino en la parte que excedan del capital.<br>
+            6o. El socio que reúna la doble calidad de capitalista e industrial, participará en las utilidades o en las pérdidas en cada uno de los conceptos que le corresponde, según las normas anteriores.',
+            'code_id' => 2
+        ]);
+
+        DB::table('articles')->insert([
+            'number' => '34',
+            'name' => 'Artículo 34. Pacto Leonino y Preferencias',
+            'begin' => 'Son nulas y se tienen por no puestas las cláusulas de la escritura social en que se estipule que alguno de los socios no participará',
+            'description1' => 'Son nulas y se tienen por no puestas las cláusulas de la escritura social en que se estipule que alguno de los socios no participará en las ganancias; pero puede válidamente convenirse en preferencias entre los socios para el pago de sus capitales en caso de liquidación o de pago de utilidades o dividendos.<br>
+            La estipulación que exima a un socio capitalista de participar en las pérdidas no producirá efecto contra terceros.',
+            'code_id' => 2
+        ]);
+
+        DB::table('articles')->insert([
+            'number' => '36',
+            'name' => 'Artículo 36. Reserva Legal',
+            'begin' => 'De las utilidades netas de cada ejercicio de toda sociedad, deberá separarse anualmente el cinco por ciento (5%) como mínimo',
+            'description1' => 'De las utilidades netas de cada ejercicio de toda sociedad, deberá separarse anualmente el cinco por ciento (5%) como mínimo para formar la reserva legal.',
+            'code_id' => 2
+        ]);
+
+        DB::table('articles')->insert([
+            'number' => '38',
+            'name' => 'Artículo 38. Derechos de los Socios',
+            'begin' => 'Son derechos de los socios, además de los consignados en otros preceptos de este código, lo siguiente:',
+            'description1' => 'Son derechos de los socios, además de los consignados en otros preceptos de este código, lo siguiente:<br>
+            1o. Examinar por sí o por medio de los delegados que designen, la contabilidad y documentos de la sociedad, así como enterarse de la política económico-financiera de la misma en la época que fije el contrato y, por lo menos, dentro de los quince días anteriores a la fecha en que haya de celebrarse la junta general o asamblea general anual.<br>
+            Este derecho es irrenunciable.<br>
+            En las sociedades accionadas, este derecho se ejercerá de conformidad con el artículo 145 de este Código.<br>
+            2o. Promover judicialmente ante el juez de Primera Instancia donde tenga su domicilio la sociedad, la convocatoria a junta general o asamblea general anual de la sociedad, si pasada la época en que debe celebrarse según el contrato o transcurrido más de un año desde la última junta o asamblea general, los administradores no la hubieren hecho. El juez resolverá el asunto en incidente, con audiencia de los administradores.',
+            'description2' => '3o. Exigir a la sociedad el reintegro de los gastos en que incurran por el desempeño de sus obligaciones para con la misma.<br>
+            4o. Reclamar contra la forma de distribución de las utilidades o pérdidas, dentro de los tres meses siguientes a la junta general o asamblea general en que ella se hubiere acordado. Sin embargo, carecerá de ese derecho el socio que la hubiere aprobado con su voto o que hubiere empezado a cumplirla.<br>
+            <span class="opNum">1.</span> <span>5o. Adquirir por el tanto la parte de capital del consocio facultado para enajenarla. El término para hacer uso de tal derecho será de treinta días contados desde la fecha en que se concedió la autorización. Este derecho no es aplicable a los accionistas de sociedades por acciones.</span><br>
+            6o. Los demás que determine la escritura social.',
+            'code_id' => 2
+        ]);
+
+        DB::table('articles')->insert([
+            'number' => '57',
+            'name' => 'Artículo 57. Actos Excediéndose de Facultades',
+            'begin' => 'El socio que atribuyéndose la representación de la sociedad, ejecuta actos o celebra negocios en su nombre o el administrador que',
+            'description1' => '<span class="opNum">1.</span> <span>El socio que atribuyéndose la representación de la sociedad</span>, ejecuta actos o celebra negocios en su nombre o el administrador que los autorice excediéndose de sus facultades, no obliga a la sociedad, a menos que tales actos o contratos fueren ratificados por los socios o que la sociedad se hubiere aprovechado de la operación.<br>
+            En cuanto a los títulos de crédito se estará a lo que dispone el artículo 406 de este Código.',
+            'code_id' => 2
+        ]);
+
+        DB::table('articles')->insert([
+            'number' => '59',
+            'name' => 'Artículo 59. Sociedad Colectiva',
+            'begin' => 'Sociedad colectiva es la que existe bajo una razón social y en la cual todos los socios responden de modo subsidiario, ilimitada y',
+            'description1' => 'Sociedad colectiva es la que existe bajo una razón social y en la cual todos los socios responden de modo subsidiario, ilimitada y solidariamente, de las obligaciones sociales.',
+            'code_id' => 2
+        ]);
+
+        DB::table('articles')->insert([
+            'number' => '60',
+            'name' => 'Artículo 60. Limitación de Responsabilidad',
+            'begin' => 'La estipulación de la escritura social que exima a los socios de la responsabilidad ilimitada y solidaria no producirá efecto alguno con relación',
+            'description1' => 'La estipulación de la escritura social que exima a los socios de la responsabilidad ilimitada y solidaria no producirá efecto alguno con relación a tercero; pero los socios pueden convenir entre sí que la responsabilidad de alguno o algunos de ellos se limite a una porción o cuota determinada.',
+            'code_id' => 2
+        ]);
+
+        DB::table('articles')->insert([
+            'number' => '61',
+            'name' => 'Artículo 61. Razón Social',
+            'begin' => 'La razón social se forma con el nombre y apellido de uno de los socios o con los apellidos de dos o más de ellos, con el agregado obligatorio',
+            'description1' => 'La razón social se forma con el nombre y apellido de uno de los socios o con los apellidos de dos o más de ellos, con el agregado obligatorio de la leyenda; y compañía Sociedad Colectiva, leyenda que podrá abreviarse: y Cía S.C.',
+            'code_id' => 2
+        ]);
+
+
+
     }
 }
