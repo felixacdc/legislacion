@@ -1122,5 +1122,36 @@ class ArticlesTableSeeder extends Seeder
             'code_id' => 2
         ]);
 
+        DB::table('articles')->insert([
+            'number' => '74',
+            'name' => 'Artículo 74. No Son Actos de Administración',
+            'begin' => 'Para los efectos del artículo anterior, no son actos de administración por parte de los socios comanditarios:',
+            'description1' => 'Para los efectos del artículo anterior, no son actos de administración por parte de los socios comanditarios:<br>
+            1o. Asistir a las juntas de socios, con voz, pero sin voto.<br>
+            2o. Examinar, inspeccionar, vigilar y fiscalizar la contabilidad y los actos de los administradores.
+            3o. Celebrar contratos por cuenta propia o ajena con la sociedad, siempre que los mismos no afecten la libre administración de la sociedad.<br>
+            4o. Dar autorizaciones, dictámenes e informes para determinadas operaciones sociales.<br>
+            5o. Participar en la liquidación de la sociedad.',
+            'code_id' => 2
+        ]);
+
+        DB::table('articles')->insert([
+            'number' => '75',
+            'name' => 'Artículo 75. Muerte o Incapacidad del administrador',
+            'begin' => 'Si para los casos de muerte o incapacidad del socio administrador, no se hubiere determinado en la escritura social la forma de',
+            'description1' => 'Si para los casos de muerte o incapacidad del socio administrador, no se hubiere determinado en la escritura social la forma de sustituirlo y la sociedad hubiere de continuar, podrá un socio comanditario, a falta de otro comanditado, desempeñar enteramente los actos urgentes o de mera administración, durante un plazo que no podrá exceder de un mes contado desde el día en que la muerte o incapacidad hubiere ocurrido.<br>
+            En este caso, el socio comanditario no será responsable más que de la ejecución adecuada de su gestión.',
+            'code_id' => 2
+        ]);
+
+        DB::table('articles')->insert([
+            'number' => '78',
+            'name' => 'Artículo 78. Sociedad de Responsabilidad Limitada',
+            'begin' => 'Sociedad de responsabilidad limitada es la compuesta por varios socios que sólo están obligados al pago de sus aportaciones. Por las',
+            'description1' => 'Sociedad de responsabilidad limitada es la compuesta por varios socios que sólo están obligados al pago de sus aportaciones. Por las obligaciones sociales responde únicamente el patrimonio de la sociedad y, en su caso, la suma que a más de las aportaciones convenga la escritura social.<br>
+            El capital estará dividido en aportaciones que no podrán incorporarse a títulos de ninguna naturaleza ni denominarse acciones.',
+            'code_id' => 2
+        ]);
+
     }
 }
