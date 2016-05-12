@@ -1053,7 +1053,39 @@ class ArticlesTableSeeder extends Seeder
             'code_id' => 2
         ]);
 
+        DB::table('articles')->insert([
+            'number' => '62',
+            'name' => 'Artículo 62. Nombre de la Razón Social',
+            'begin' => 'La persona que no siendo socio permita que figure su nombre en la razón social, queda sujeta a las mismas obligaciones',
+            'description1' => '<span class="opNum">1.</span> <span>La persona que no siendo socio permita que figure su nombre en la razón social, queda sujeta a las mismas obligaciones y responsabilidades de los socios.</span><br>
+            Sin embargo, si el nombre completo o el apellido de un socio que se hubiere separado de la sociedad hubiere de mantenerse en la razón social, por haberlo convenido así con los demás socios o haberlo autorizado sus herederos, deberá agregarse a la razón social la palabra: Sucesores, que podrá abreviarse: Sucs.<br>
+            De los contrario, se mantendrán las obligaciones y responsabilidades señaladas en el primer párrafo de este artículo.',
+            'code_id' => 2
+        ]);
 
+        DB::table('articles')->insert([
+            'number' => '63',
+            'name' => 'Artículo 63. Administración a Falta de Pacto',
+            'begin' => 'En defecto de pacto que señale a uno o algunos de los socios como administradores, lo serán todos.',
+            'description1' => 'En defecto de pacto que señale a uno o algunos de los socios como administradores, lo serán todos.',
+            'code_id' => 2
+        ]);
+
+        DB::table('articles')->insert([
+            'number' => '64',
+            'name' => 'Artículo 64. Vigilancia',
+            'begin' => 'Los socios no administradores podrán nombrar un delegado para que a su costa vigile los actos de los administradores.',
+            'description1' => 'Los socios no administradores podrán nombrar un delegado para que a su costa vigile los actos de los administradores.',
+            'code_id' => 2
+        ]);
+
+        DB::table('articles')->insert([
+            'number' => '65',
+            'name' => 'Artículo 65. Resoluciones en Junta General',
+            'begin' => 'Las resoluciones que por ley o por disposición de la escritura social correspondan a los socios, serán tomadas en junta general',
+            'description1' => 'Las resoluciones que por ley o por disposición de la escritura social correspondan a los socios, serán tomadas en junta general convocada por los administradores o por cualquiera de los socios. La convocatoria podrá hacerse por simple citación personal escrita, hecha por los menos con cuarenta y ocho horas de anticipación a la junta. La convocatoria deberá expresar con la debida claridad los asuntos sobre los que se haya de deliberar.',
+            'code_id' => 2
+        ]);
 
     }
 }
