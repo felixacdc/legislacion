@@ -1087,5 +1087,40 @@ class ArticlesTableSeeder extends Seeder
             'code_id' => 2
         ]);
 
+        DB::table('articles')->insert([
+            'number' => '67',
+            'name' => 'Artículo 67. Representación de los Socios',
+            'begin' => 'Salvo disposición en contrario de la escritura social, todo socio podrá hacerse representar en la junta general por medio de otra persona.',
+            'description1' => 'Salvo disposición en contrario de la escritura social, todo socio podrá hacerse representar en la junta general por medio de otra persona.<br>
+            <span class="opNum">1.</span> <span>La representación deberá conferirse por mandato o por carta poder.</span>',
+            'code_id' => 2
+        ]);
+
+        DB::table('articles')->insert([
+            'number' => '68',
+            'name' => 'Artículo 68. Sociedad en Comandita Simple',
+            'begin' => 'Sociedad en comandita simple, es la compuesta por uno o varios socios comanditados que responden en forma subsidiara, ilimitada y solidaria',
+            'description1' => 'Sociedad en comandita simple, es la compuesta por uno o varios socios comanditados que responden en forma subsidiara, ilimitada y solidaria de las obligaciones sociales; y por uno o varios socios comanditarios que tienen responsabilidad limitada al monto de su aportación.<br>
+            Las aportaciones no pueden ser representadas por títulos o acciones.',
+            'code_id' => 2
+        ]);
+
+        DB::table('articles')->insert([
+            'number' => '72',
+            'name' => 'Artículo 72. Administración',
+            'begin' => 'Los socios comanditados tendrán con exclusividad la administración de la sociedad y la representación legal de la misma, salvo que',
+            'description1' => '<span class="opNum">1.</span> <span>Los socios comanditados tendrán con exclusividad la administración de la sociedad y la representación legal de la misma, salvo que la escritura social permita que la administración la tengan extraños.</span><br>
+            En este caso el nombramiento de administradores que hubieren hecho los socios comanditados no surtirá efecto, hasta en tanto no se obtenga la aprobación de los socios comanditarios, por el voto que represente la mitad más uno del capital aportado por ellos.',
+            'code_id' => 2
+        ]);
+
+        DB::table('articles')->insert([
+            'number' => '73',
+            'name' => 'Artículo 73. Sociedad en Comandita Simple',
+            'begin' => 'Sociedad en comandita simple, es la compuesta por uno o varios socios comanditados que responden en forma subsidiara, ilimitada y solidaria',
+            'description1' => 'Los socios comanditarios tienen prohibido cualquier acto de administración de la sociedad, aun en calidad de apoderados de los socios comanditados o de la sociedad. El socio comanditario que viole dicha prohibición quedará responsable en la misma forma que los socios comanditados en favor de terceros, por todas las pérdidas y obligaciones de la sociedad, sean anteriores o posteriores a la contravención, salvo lo dispuesto en el <a href="#codeCommercial" data-search="Artículo 75" class="linkGoCommercial">artículo 75 de este Código.</a>',
+            'code_id' => 2
+        ]);
+
     }
 }

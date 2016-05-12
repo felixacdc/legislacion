@@ -235,7 +235,12 @@ function showComment(url, id, htmlBefore) {
 
             $('.linkGo').click(function (){
                 $('#myModal').modal('hide');
-                fnSearch($('#codeWorkItems .container'), $(this).data('search'), 'work/');
+                fnSearch($('#codeWorkItems .container'), $(this).data('search'), 'work/', '#token', 1);
+            });
+
+            $('.linkGoCommercial').click(function (){
+                $('#myModal').modal('hide');
+                fnSearch($('#codeCommercialItems .container'), $(this).data('search'), 'commercial/', '#tokenTwo', 2);
             });
 
             $('[data-toggle="popover"]').popover();
