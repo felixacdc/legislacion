@@ -173,8 +173,32 @@ class CommentsTableSeeder extends Seeder
 
         DB::table('comments')->insert([
             'description1' => '<span class="opNum">1.</span> Derecho a botar.<br>
-            <span class="opNum">2.</span> Permisos',
+            <span class="opNum">2.</span> Permisos.',
             'article_id' => '24'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => 'Prohibiciones de los patronos.',
+            'article_id' => '25'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => 'Obligaciones de los trabajadores.',
+            'article_id' => '26'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => 'Suspención de contratos de trabajo:<br>
+            <span class="opNum">1.</span> Individual Parcial. <a href="#codeWork" data-search="Artículo 66" class="linkGo">Causas Artículo 66.</a><br>
+            <span class="opNum">2.</span> Individual Total. <a href="#codeWork" data-search="Artículo 68" class="linkGo">Causas Artículo 68.</a><br>
+            <span class="opNum">3.</span> Colectiva Parcial. <a href="#codeWork" data-search="Artículo 70" class="linkGo">Causas Artículo 70.</a><br>
+            <span class="opNum">4.</span> colectiva Total. <a href="#codeWork" data-search="Artículo 71" class="linkGo">Causas Artículo 71.</a>',
+            'article_id' => '27'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => 'Causas de Suspención Individual Parcial.',
+            'article_id' => '28'
         ]);
 
         DB::table('comments')->insert([
