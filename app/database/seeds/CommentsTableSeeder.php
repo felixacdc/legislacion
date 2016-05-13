@@ -202,6 +202,31 @@ class CommentsTableSeeder extends Seeder
         ]);
 
         DB::table('comments')->insert([
+            'description1' => 'Causas de Suspención Individual Total.',
+            'article_id' => '29'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<strong>Este artículo contiene las causas de Suspención Colectiva Parcial.</strong><br>
+            <span class="opNum">1.</span> La huelga legalmente declarada también se conoce como huelga legal justa.<br>
+            La huelga legal justa debe ser declarada por un juez.',
+            'article_id' => '30'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => 'Causas de Suspención Colectiva Total.',
+            'article_id' => '31'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<strong> Tres causas terminación de los contratos de trabajo:</strong><br>
+            <span class="opNum">1.</span> Primera Causa<br>
+            <span class="opNum">2.</span> Segunda Causa<br>
+            <span class="opNum">3.</span> Tercera Causa (Despido)',
+            'article_id' => '32'
+        ]);
+
+        DB::table('comments')->insert([
             'description1' => '<strong>Elementos personales del trabajo:</strong><br>
             <ol>
             <li>Patrono</li>

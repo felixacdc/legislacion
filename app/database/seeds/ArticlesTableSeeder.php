@@ -369,7 +369,7 @@ class ArticlesTableSeeder extends Seeder
             'name' => 'Artículo 70',
             'begin' => 'Son causas de suspensión colectiva parcial de los contratos de trabajo: a) La huelga legalmente declarada, cuyas causas hayan sido estimadas imputables al patron',
             'description1' => 'Son causas de suspensión colectiva parcial de los contratos de trabajo:<br>
-            a) La huelga legalmente declarada, cuyas causas hayan sido estimadas imputables al patron por los Tribunales de Trabajo y Previsión Social;<br>
+            <span class="opNum">1.</span> <span>a) La huelga legalmente declarada, cuyas causas hayan sido estimadas imputables al patron por los Tribunales de Trabajo y Previsión Social;</span><br>
             b) Los casos previstos por los 
             <a href="#codeWork" data-trigger="hover" data-toggle="popover" data-container="body" data-placement="bottom" data-content="a) Faculta a los rabajadores para pedir su reinstalación inmediata o para dar por terminados sus contratos dentro de los treinta días siguientes a la realización del paro, con derecho a percibir las indemnizaciones legales que procedan;">Artículos 251</a> 
             y <a href="#codeWork" data-trigger="hover" data-toggle="popover" data-container="body" data-placement="bottom" data-content="Si los Tribunales de Trabajo y Previsión Social declaran que los motivos de un paro legal son imputables al patrono, este debe pagar a los trabajadores los salarios caídos a que se refiere el inciso b) del Artículo anterior.">252</a>
