@@ -162,12 +162,12 @@ class CommentsTableSeeder extends Seeder
         ]);
 
         DB::table('comments')->insert([
-            'description1' => 'Cuando elaborar y poner a la vista el Reglamento interior de trabajo.',
+            'description1' => '<strong>Cuando elaborar y poner a la vista el Reglamento interior de trabajo.</strong>',
             'article_id' => '22'
         ]);
 
         DB::table('comments')->insert([
-            'description1' => 'Que debe contener el reglamento general de trabajo (Reglamento interior de trabajo).',
+            'description1' => '<strong>Que debe contener el reglamento general de trabajo (Reglamento interior de trabajo).</strong>',
             'article_id' => '23'
         ]);
 
@@ -178,12 +178,12 @@ class CommentsTableSeeder extends Seeder
         ]);
 
         DB::table('comments')->insert([
-            'description1' => 'Prohibiciones de los patronos.',
+            'description1' => '<strong>Prohibiciones de los patronos.</strong>',
             'article_id' => '25'
         ]);
 
         DB::table('comments')->insert([
-            'description1' => 'Obligaciones de los trabajadores.',
+            'description1' => '<strong>Obligaciones de los trabajadores.</strong>',
             'article_id' => '26'
         ]);
 
@@ -197,12 +197,12 @@ class CommentsTableSeeder extends Seeder
         ]);
 
         DB::table('comments')->insert([
-            'description1' => 'Causas de Suspención Individual Parcial.',
+            'description1' => '<strong>Causas de Suspención Individual Parcial.</strong>',
             'article_id' => '28'
         ]);
 
         DB::table('comments')->insert([
-            'description1' => 'Causas de Suspención Individual Total.',
+            'description1' => '<strong>Causas de Suspención Individual Total.</strong>',
             'article_id' => '29'
         ]);
 
@@ -214,7 +214,7 @@ class CommentsTableSeeder extends Seeder
         ]);
 
         DB::table('comments')->insert([
-            'description1' => 'Causas de Suspención Colectiva Total.',
+            'description1' => '<strong>Causas de Suspención Colectiva Total.</strong>',
             'article_id' => '31'
         ]);
 
@@ -224,6 +224,34 @@ class CommentsTableSeeder extends Seeder
             <span class="opNum">2.</span> Segunda Causa<br>
             <span class="opNum">3.</span> Tercera Causa (Despido)',
             'article_id' => '32'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<strong>Despido directo justificado.</strong>',
+            'article_id' => '33'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<strong>Despido directo injustificado.</strong><br>
+            <span class="opNum">1.</span> Ver <a href="#codeWork" data-search="Artículo 260" class="linkGo">Artículo 260</a> del Código de Trabajo.<br>
+            <span class="opNum">2.</span> Indemnización por tiempo servido.',
+            'article_id' => '34'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<strong>Los derechos de los trabajadores para reclamar en caso de despido directo injustificado.</strong>',
+            'article_id' => '67'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<strong>Causas del despido indirecto.</strong>',
+            'article_id' => '35'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '
+            <span class="opNum">1.</span> Periodo de prueba.',
+            'article_id' => '36'
         ]);
 
         DB::table('comments')->insert([
@@ -237,7 +265,7 @@ class CommentsTableSeeder extends Seeder
                 <li><span class="opNum">1.</span> Cargos de dirección</li>
                 <li>Intermediario <a href="#codeWork" data-search="Artículo 5" class="linkGo">Ir a Artículo 5.</a></li></ul>
             </ol>',
-            'article_id' => '67'
+            'article_id' => '68'
         ]);
 
         DB::table('comments')->insert([
@@ -251,7 +279,7 @@ class CommentsTableSeeder extends Seeder
                 <li>Cargos de dirección <a href="#codeWork" data-search="Artículo 315" class="linkGo">Ir a Artículo 315</a></li>
                 <li>Intermediario <a href="#codeWork" data-search="Artículo 5" class="linkGo">Ir a Artículo 5.</a></li></ul>
             </ol>',
-            'article_id' => '68'
+            'article_id' => '69'
         ]);
     }
 }

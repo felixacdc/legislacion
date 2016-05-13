@@ -773,6 +773,14 @@ class ArticlesTableSeeder extends Seeder
         ]);
 
         DB::table('articles')->insert([
+            'number' => '260',
+            'name' => 'Artículo 260',
+            'begin' => 'Los derechos de los trabajadores para reclamar, contra su patrono en los casos de despido o contra las correcciones disciplinarias que se les',
+            'description1' => 'Los derechos de los trabajadores para reclamar, contra su patrono en los casos de despido o contra las correcciones disciplinarias que se les apliquen, prescriben en el plazo de treinta días hábiles contados a partir de la terminación del contrato o desde que se les impusieron dichas correcciones, respectivamente.',
+            'code_id' => 1
+        ]);
+
+        DB::table('articles')->insert([
             'number' => '315',
             'name' => 'Artículo 315',
             'begin' => 'Las acciones para obtener la disolución o alguna prestación de las organizaciones sindicales, se deben entablar ante el juez de la zona jurisdiccional',
