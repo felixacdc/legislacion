@@ -157,6 +157,27 @@ class CommentsTableSeeder extends Seeder
         ]);
 
         DB::table('comments')->insert([
+            'description1' => '<span class="opNum">1.</span> Definición de reglamento interior del trabajo.',
+            'article_id' => '21'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => 'Cuando elaborar y poner a la vista el Reglamento interior de trabajo.',
+            'article_id' => '22'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => 'Que debe contener el reglamento general de trabajo (Reglamento interior de trabajo).',
+            'article_id' => '23'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<span class="opNum">1.</span> Derecho a botar.<br>
+            <span class="opNum">2.</span> Permisos',
+            'article_id' => '24'
+        ]);
+
+        DB::table('comments')->insert([
             'description1' => '<strong>Elementos personales del trabajo:</strong><br>
             <ol>
             <li>Patrono</li>

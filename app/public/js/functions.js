@@ -191,7 +191,7 @@ function showComment(url, id, htmlBefore) {
             var div = "<div id='learnings'></div>";
             $('.modal-body').html(div);
 
-            var div = "<div id='showComments'></div>";
+            var div = "<h4>Descripción:</h4><div id='showComments'></div>";
             $('.modal-body').append(div);
 
 

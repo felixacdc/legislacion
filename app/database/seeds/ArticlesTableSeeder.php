@@ -227,9 +227,9 @@ class ArticlesTableSeeder extends Seeder
         DB::table('articles')->insert([
             'number' => '57',
             'name' => 'Artículo 57',
-            'begin' => 'Reglamento interior de trabajo es el conjunto de normas elaborado por el patrono de acuerdo con las leyes, reglamentos, pactos colectivos y contratos vigentes que lo',
-            'description1' => 'Reglamento interior de trabajo es el conjunto de normas elaborado por el patrono de acuerdo con las leyes, reglamentos, pactos colectivos y contratos vigentes que lo afecten, con el objeto de precisar y regular las normas a que obligadamente se deben sujetar él y sus trabajadores con motivo de la ejecución o prestación concreta del trabajo.<br>
-            No es necesario incluir en el reglamento las disposiciones contenidas en la ley.',
+            'begin' => 'Reglamento interior de trabajo es el conjunto de normas elaborado por el patrono de acuerdo con las leyes, reglamentos, pactos colectivos',
+            'description1' => 'Reglamento interior de trabajo <span class="opNum">1.</span> <span>es el conjunto de normas elaborado por el patrono de acuerdo con las leyes, reglamentos, pactos colectivos y contratos vigentes que lo afecten, con el objeto de precisar y regular las normas a que obligadamente se deben sujetar él y sus trabajadores con motivo de la ejecución o prestación concreta del trabajo.<br>
+            No es necesario incluir en el reglamento las disposiciones contenidas en la ley.</span>',
             'code_id' => 1
         ]);
 
