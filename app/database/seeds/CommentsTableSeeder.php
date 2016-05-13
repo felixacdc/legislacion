@@ -249,9 +249,30 @@ class CommentsTableSeeder extends Seeder
         ]);
 
         DB::table('comments')->insert([
-            'description1' => '
-            <span class="opNum">1.</span> Periodo de prueba.',
+            'description1' => '<span class="opNum">1.</span> Periodo de prueba.',
             'article_id' => '36'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<span class="opNum">1.</span> Indemnización por tiempo servido.<br>
+            <span class="opNum">2.</span> Despido IVS (Invalidez o vejez).',
+            'article_id' => '37'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<strong>Renuncia igual a preaviso, cuando el empleado renuncia debe dar preaviso.</strong>',
+            'article_id' => '38'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<strong>Que debe contener el documento que el patrono proporciona al trabajador al terminar el contrato de trabajo.</strong>',
+            'article_id' => '40'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<strong>El fin del contrato de trabajo sin responsabilidad para las partes.</strong><br>
+            d) Durante periodo de prueba. (Agregado)',
+            'article_id' => '39'
         ]);
 
         DB::table('comments')->insert([
