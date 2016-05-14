@@ -667,11 +667,11 @@ class ArticlesTableSeeder extends Seeder
             'number' => '116',
             'name' => 'Artículo 116',
             'begin' => 'La jornada ordinaria de trabajo efectivo diurno no puede ser mayor de ocho horas diarias, ni exceder de un total de cuarenta',
-            'description1' => '<span class="opNum">1.</span> <span>La jornada ordinaria de trabajo efectivo diurno no puede ser mayor de ocho horas diarias, ni exceder de un total de cuarenta y ocho horas a la semana.</span><br>
-            <span class="opNum">2.</span> <span>La jornada ordinaria de trabajo efectivo nocturno no puede ser mayor de seis horas diarias, ni exceder de un total de treinta y seis horas a la semana.</span><br>
-            <span class="opNum">3.</span> <span>Tiempo de trabajo efectivo es aquél en que el trabajador permanezca a las órdenes del patrono.</span><br>
-            <span class="opNum">4.</span> <span>Trabajo diurno es el que se ejecuta entre las seis y las dieciocho horas de un mismo día.</span><br>
-            <span class="opNum">5.</span> <span>Trabajo nocturno es el que se ejecuta entre las dieciocho horas de un día y las seis horas del día siguiente.</span>',
+            'description1' => '<span class="opNum">1.</span> <span>La jornada ordinaria de trabajo efectivo diurno no puede ser mayor de ocho horas diarias, ni exceder de un total de cuarenta y ocho horas a la semana.<br>
+            La jornada ordinaria de trabajo efectivo nocturno no puede ser mayor de seis horas diarias, ni exceder de un total de treinta y seis horas a la semana.</span><br>
+            <span class="opNum">2.</span> <span>Tiempo de trabajo efectivo es aquél en que el trabajador permanezca a las órdenes del patrono.</span><br>
+            <span class="opNum">3.</span> <span>Trabajo diurno es el que se ejecuta entre las seis y las dieciocho horas de un mismo día.</span><br>
+            <span class="opNum">4.</span> <span>Trabajo nocturno es el que se ejecuta entre las dieciocho horas de un día y las seis horas del día siguiente.</span>',
             'description2' => 'La labor diurna normal semanal será de cuarenta y cinco horas de trabajo efectivo, equivalente a cuarenta y ocho horas para los efectos exclusivos del pago de salario. Se exceptúan de esta disposición, los trabajadores agrícolas y ganaderos y los de las empresas donde labore un número menor de diez, cuya labor diurna normal semanal será de cuarenta y ocho horas de trabajo efectivo, salvo costumbre más favorable al trabajador. Pero esta excepción no debe extenderse a las empresas agrícolas donde trabajen quinientos o más trabajadores.',
             'code_id' => 1
         ]);

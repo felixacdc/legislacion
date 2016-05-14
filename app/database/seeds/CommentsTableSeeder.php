@@ -359,6 +359,64 @@ DB::table('comments')->insert([
         ]);
 
         DB::table('comments')->insert([
+            'description1' => '<strong>Requisitos indispensables para ser miembro de una comisión paritaria del salario.</strong>',
+            'article_id' => '53'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<strong>Reelección para el cargo en la comisión paritaria del salario.</strong>',
+            'article_id' => '54'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<strong>Definición de jornada de trabajo:</strong> Es el tiempo que el trabajador se desempeña efectivamente al servicio del empleador.<br>
+            <span class="opNum">1.</span> Clasificación de las jornadas de trabajo.<br>
+            <span class="opNum">2.</span> Definición de tiempo de trabajo.<br>
+            <span class="opNum">3.</span> Trabajo Diurno.<br>
+            <span class="opNum">4.</span> Trabajo Nocturno.',
+            'article_id' => '55'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<strong>Jornada Mixta.</strong>',
+            'article_id' => '56'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<strong>Tipos de jornadas:</strong><br>
+            <ol>
+                <li>Continua.</li>
+                <li>Discontinua.</li>
+            </ol>',
+            'article_id' => '57'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<strong>Jornada Extraordinaria.</strong>',
+            'article_id' => '58'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<strong>Clasificación de los descansos:</strong><br>
+            <ol>
+                <li><span class="opNum">1.</span> Diario.</li>
+                <li>Asueto. <a href="#codeWork" data-search="Artículo 127" class="linkGo">Ir a Artítulo 127</a></li>
+                <li>Feriado. <a href="#codeWork" data-search="Artículo 127" class="linkGo">Ir a Artítulo 127</a></li>
+            </ol>',
+            'article_id' => '59'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<strong>Clasificación de los descansos:</strong><br>
+            <ol>
+                <li>Diario. <a href="#codeWork" data-search="Artículo 126" class="linkGo">Ir a Artítulo 126</a></li>
+                <li><span class="opNum">1.</span> Asueto.</li>
+                <li><span class="opNum">2.</span> Feriado.</li>
+            </ol>',
+            'article_id' => '60'
+        ]);
+
+        DB::table('comments')->insert([
             'description1' => '<strong>Elementos personales del trabajo:</strong><br>
             <ol>
             <li>Patrono</li>
