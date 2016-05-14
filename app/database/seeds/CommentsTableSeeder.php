@@ -276,6 +276,69 @@ class CommentsTableSeeder extends Seeder
         ]);
 
         DB::table('comments')->insert([
+            'description1' => '<strong>El fin del contrato de trabajo sin responsabilidad para las partes.</strong><br>
+            d) Durante periodo de prueba. (Agregado)',
+            'article_id' => '39'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<strong>Que debe contener el documento que el patrono proporciona al trabajador al terminar el contrato de trabajo.</strong>',
+            'article_id' => '40'
+        ]);
+
+DB::table('comments')->insert([
+            'description1' => '<span class="opNum">1.</span> Definición de salario.<br>
+            <span class="opNum">2.</span> Sistema de calculo de salario.<br>
+            d) Precio alzado o a destajo. (Agregado)<br>
+            e) Salario en especie. (Agregado)',
+            'article_id' => '41'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<span class="opNum">1.</span> Principio de remuneración equitativa.<br>
+            <span class="opNum">2.</span> Principio de igualdad salarial.',
+            'article_id' => '42'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<strong>Salario en especie, forma de pago del salario.</strong><br>
+            <span class="opNum">1.</span> Maximun en porcentaje de salario que se puede pagar en especie.<br>
+            <span class="opNum">2.</span> Ventajas económicas.',
+            'article_id' => '43'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<strong>Obligación del patrono a pagar salario mínimo.</strong>',
+            'article_id' => '44'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<strong>Periodo de pago.</strong>',
+            'article_id' => '45'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<strong>Obligación de pagar directamente el salario al trabajador o familiar.</strong>',
+            'article_id' => '46'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<span class="opNum">1.</span> Obligación de pagar el salario en el lugar de trabajo.',
+            'article_id' => '47'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<strong>Medidas protectoras del salario:</strong><br>
+            Invalidad del salario. <a href="#codeWork" data-trigger="hover" data-toggle="popover" data-container="body" data-placement="top" data-content="e. Inembargabilidad del salario en los casos determinados por la ley. Los implementos personales de trabajo no podrán ser embargados por ningún motivo. No obstante, para protección de la familia del trabajador y por orden judicial, sí podrá retenerse y entregarse parte del salario a quien corresponda;">ver articulo 102 literal E</a> de la Constitución de la República de Guatemala.',
+            'article_id' => '48'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<strong>Embargables toda clase de salarios, hasta 50%.</strong>',
+            'article_id' => '49'
+        ]);
+
+        DB::table('comments')->insert([
             'description1' => '<strong>Elementos personales del trabajo:</strong><br>
             <ol>
             <li>Patrono</li>
