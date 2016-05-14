@@ -334,8 +334,28 @@ DB::table('comments')->insert([
         ]);
 
         DB::table('comments')->insert([
-            'description1' => '<strong>Embargables toda clase de salarios, hasta 50%.</strong>',
+            'description1' => '<span class="opNum">1.</span> <strong>Embargables toda clase de salarios, hasta 50%.</strong>',
             'article_id' => '49'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<strong>Inembargabilidad de herramientas de trabajo.</strong>',
+            'article_id' => '50'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<strong>Libro de pago de salario.</strong>',
+            'article_id' => '51'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<span class="opNum">1.</span> <strong>Órganos que fijan el salario mínimo:</strong><br>
+            <ol>
+                <li>Comisión Nacional del Trabajo.</li>
+                <li>Comisión Paritaria de Salarios mínimos.</li>
+                <li>El Presidente de la República.</li>
+            </ol>',
+            'article_id' => '52'
         ]);
 
         DB::table('comments')->insert([
