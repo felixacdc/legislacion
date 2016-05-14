@@ -239,11 +239,6 @@ class CommentsTableSeeder extends Seeder
         ]);
 
         DB::table('comments')->insert([
-            'description1' => '<strong>Los derechos de los trabajadores para reclamar en caso de despido directo injustificado.</strong>',
-            'article_id' => '67'
-        ]);
-
-        DB::table('comments')->insert([
             'description1' => '<strong>Causas del despido indirecto.</strong>',
             'article_id' => '35'
         ]);
@@ -399,9 +394,14 @@ DB::table('comments')->insert([
         DB::table('comments')->insert([
             'description1' => '<strong>Clasificación de los descansos:</strong><br>
             <ol>
-                <li><span class="opNum">1.</span> Diario.</li>
-                <li>Asueto. <a href="#codeWork" data-search="Artículo 127" class="linkGo">Ir a Artítulo 127</a></li>
-                <li>Feriado. <a href="#codeWork" data-search="Artículo 127" class="linkGo">Ir a Artítulo 127</a></li>
+                <li><span class="opNum">1.</span> Diario. 
+                    <ul>
+                        <li>Asueto. <a href="#codeWork" data-search="Artículo 127" class="linkGo">Ir a Artítulo 127</a></li>
+                        <li>Feriado. <a href="#codeWork" data-search="Artículo 127" class="linkGo">Ir a Artítulo 127</a></li>
+                    </ul>
+                </li>
+                <li>Descanso Semanal. <a href="#codeWork" data-search="Artículo 129" class="linkGo">Ir a Artítulo 129</a></li>
+                <li>Descanso Anual. <a href="#codeWork" data-search="Artículo 130" class="linkGo">Ir a Artítulo 130</a></li>
             </ol>',
             'article_id' => '59'
         ]);
@@ -409,11 +409,72 @@ DB::table('comments')->insert([
         DB::table('comments')->insert([
             'description1' => '<strong>Clasificación de los descansos:</strong><br>
             <ol>
-                <li>Diario. <a href="#codeWork" data-search="Artículo 126" class="linkGo">Ir a Artítulo 126</a></li>
-                <li><span class="opNum">1.</span> Asueto.</li>
-                <li><span class="opNum">2.</span> Feriado.</li>
+                <li>Diario. <a href="#codeWork" data-search="Artículo 126" class="linkGo">Ir a Artítulo 126</a>
+                    <ul>
+                        <li><span class="opNum">1.</span> Asueto.</li>
+                        <li><span class="opNum">2.</span> Feriado.</li>
+                    </ul>
+                </li>
+                <li>Descanso Semanal. <a href="#codeWork" data-search="Artículo 129" class="linkGo">Ir a Artítulo 129</a></li>
+                <li>Descanso Anual. <a href="#codeWork" data-search="Artículo 130" class="linkGo">Ir a Artítulo 130</a></li>
             </ol>',
             'article_id' => '60'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '
+            <ol>
+                <li>Diario. <a href="#codeWork" data-search="Artículo 126" class="linkGo">Ir a Artítulo 126</a>
+                    <ul>
+                        <li>Asueto. <a href="#codeWork" data-search="Artículo 127" class="linkGo">Ir a Artítulo 127</a></li>
+                        <li>Feriado. <a href="#codeWork" data-search="Artículo 127" class="linkGo">Ir a Artítulo 127</a></li>
+                    </ul>
+                </li>
+                <li><strong>Descanso Semanal.</strong></li>
+                <li>Descanso Anual. <a href="#codeWork" data-search="Artículo 130" class="linkGo">Ir a Artítulo 130</a></li>
+            </ol>',
+            'article_id' => '61'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '
+            <ol>
+                <li>Diario. <a href="#codeWork" data-search="Artículo 126" class="linkGo">Ir a Artítulo 126</a>
+                    <ul>
+                        <li>Asueto. <a href="#codeWork" data-search="Artículo 127" class="linkGo">Ir a Artítulo 127</a></li>
+                        <li>Feriado. <a href="#codeWork" data-search="Artículo 127" class="linkGo">Ir a Artítulo 127</a></li>
+                    </ul>
+                </li>
+                <li>Descanso Semanal. <a href="#codeWork" data-search="Artículo 129" class="linkGo">Ir a Artítulo 129</a></li>
+                <li><strong>Descanso Anual.</strong></li>
+            </ol>',
+            'article_id' => '62'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<strong>Derecho a gozar de vacaciones.</strong>',
+            'article_id' => '63'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<span class="opNum">1.</span> El patrono debe señalar al trabajador la época de vacaciones.',
+            'article_id' => '64'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<strong>Vacaciones Incompensables</strong>',
+            'article_id' => '65'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<strong>Trabajadores Campesinos.</strong>',
+            'article_id' => '66'
+        ]);
+
+
+        DB::table('comments')->insert([
+            'description1' => '<strong>Los derechos de los trabajadores para reclamar en caso de despido directo injustificado.</strong>',
+            'article_id' => '67'
         ]);
 
         DB::table('comments')->insert([

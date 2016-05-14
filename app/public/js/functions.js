@@ -28,7 +28,7 @@ $(document).ready( function () {
 })
 
 
-function fnSearch(display, search, url, idToken, identifier) {
+function fnSearch(display, search, url, idToken, identifier, link = 1) {
 
     var route = url + search;
     var token = $(idToken).val();
@@ -111,6 +111,18 @@ function fnSearch(display, search, url, idToken, identifier) {
             });
 
             display.append(htmlContent);
+
+            if (link == 2)
+                if ( identifier == 1 ) {
+                    $('html,body').animate({
+                        scrollTop: $("#codeWork").offset().top
+                    }, 2000);
+                }
+                else {
+                    $('html,body').animate({
+                        scrollTop: $("#codeCommercial").offset().top
+                    }, 2000);
+                }
         }
     });
 }
@@ -235,12 +247,12 @@ function showComment(url, id, htmlBefore) {
 
             $('.linkGo').click(function (){
                 $('#myModal').modal('hide');
-                fnSearch($('#codeWorkItems .container'), $(this).data('search'), 'work/', '#token', 1);
+                fnSearch($('#codeWorkItems .container'), $(this).data('search'), 'work/', '#token', 1, 2);
             });
 
             $('.linkGoCommercial').click(function (){
                 $('#myModal').modal('hide');
-                fnSearch($('#codeCommercialItems .container'), $(this).data('search'), 'commercial/', '#tokenTwo', 2);
+                fnSearch($('#codeCommercialItems .container'), $(this).data('search'), 'commercial/', '#tokenTwo', 2, 2);
             });
 
             $('[data-toggle="popover"]').popover();
