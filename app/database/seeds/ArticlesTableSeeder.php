@@ -844,7 +844,7 @@ class ArticlesTableSeeder extends Seeder
             'number' => '6',
             'name' => 'Artículo 6. Capacidad',
             'begin' => 'Tienen capacidad para ser comerciantes las personas individuales y jurídicas que, conforme al Código Civil, son hábiles',
-            'description1' => 'Tienen capacidad para ser comerciantes las personas individuales y jurídicas que, conforme al Código Civil, son hábiles para contratar y obligarse.',
+            'description1' => 'Tienen capacidad para ser comerciantes <span class="opNum">1.</span> <span>las personas individuales y jurídicas que, conforme al Código Civil, son hábiles para contratar y obligarse.</span>',
             'code_id' => 2
         ]);
 

@@ -504,5 +504,88 @@ DB::table('comments')->insert([
             </ol>',
             'article_id' => '69'
         ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<strong>Principios que inspiran el derecho mercantil:</strong><br>
+            <ol>
+                <li>La buena fe.</li>
+                <li>La verdad sabida.</li>
+                <li>Toda prestación se presume onerosa.</li>
+                <li>Intención de lucro.</li>
+                <li>Ante la duda debe favorecerse las soluciones que hagan mas segura la circulación.</li>
+            </ol>',
+            'description2' => '<strong>Fuentes del derecho mercantil: (agregado)</strong><br>
+            <ol>
+                <li>La constumbre.</li>
+                <li>La jurisprudencia.</li>
+                <li>La ley.</li>
+                <li>La doctrina.</li>
+                <li>Contrato.</li>
+                <li>Principios generales del derecho.</li>
+            </ol>',
+            'article_id' => '70'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<strong>Definición de comerciantes.</strong>',
+            'article_id' => '71'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<strong>Clasificación de las cosas mercantiles.</strong>',
+            'article_id' => '72'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<strong>Definición de negocio mixto.</strong>',
+            'article_id' => '73'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<span class="opNum">1.</span> <strong>Quienes son capaces para ser comerciantes.</strong><br><br>
+            <strong>Definición de capacidad segun la doctrina:</strong><br>
+            Es la actitud legal para ser sujeto de derecho y obligaciones mercantiles.',
+            'description2' => '<strong>Características del derecho mercantil: (agregado)</strong><br>
+            <ol>
+                <li>Es poco formalista.</li>
+                <li>Inspira rapidez y libertad.</li>
+                <li>Adaptabilidad.</li>
+                <li>Tiende a hacer internacional.</li>
+                <li>Posibilita la seguridad del trafico jurídico.</li>
+            </ol>',
+            'article_id' => '74'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<strong>Quienes no son comerciantes.</strong>',
+            'article_id' => '75'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<strong>Sociedades mercantiles.</strong><br><br>
+            <strong>Definición de sociedad mercantil según la doctrina:</strong><br>
+            Es un grupo de personas que se unen con la finalidad de lucro mediante un contacto creando un patrimonio especifico y adoptando una forma mercantil.',
+            'article_id' => '76'
+        ]);
+
+        DB::table('comments')->insert(['description1' => '<strong>Características de las sociedades mercantiles:</strong><br>
+            <ol>
+                <li>Consensual.</li>
+                <li>Plurilateral.</li>
+                <li>Principal.</li>
+                <li>Oneroso.</li>
+                <li>Obsoluto.</li>
+                <li>De tracto sucesivo.</li>
+                <li>Solemne.</li>
+            </ol>',
+            'description2' => '<strong>Elementos de la sociedad mercantil: (agregado)</strong><br>
+            <ol>
+                <li>Plurilaterales.</li>
+                <li>Capacidad.</li>
+                <li>Consentimiento.</li>
+                <li>Objeto licito.</li>
+            </ol>',
+            'article_id' => '77'
+        ]);
     }
 }
