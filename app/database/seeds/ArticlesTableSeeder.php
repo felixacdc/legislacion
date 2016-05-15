@@ -1029,6 +1029,16 @@ class ArticlesTableSeeder extends Seeder
         ]);
 
         DB::table('articles')->insert([
+            'number' => '47',
+            'name' => 'Artículo 47. Facultades de los Administradores',
+            'begin' => 'Los administradores o gerentes tienen, por el hecho de su nombramiento, todas las facultades para representar judicialmente a la sociedad, de conformidad con las',
+            'description1' => 'Los administradores o gerentes tienen, por el hecho de su nombramiento, todas las facultades para representar judicialmente a la sociedad, de conformidad con las disposiciones de la Ley del Organismo Judicial.<br>
+            Tendrán además las que se requieran para ejecutar los actos y celebrar los contratos que sean del giro ordinario de la sociedad, según su naturaleza y objeto, de los que de él se deriven y de los que con él se relacionan, inclusive la emisión de títulos de crédito. Sin embargo, en la escritura social pueden limitarse tales facultades.<br>
+            Para negocios distintos de ese giro, necesitarán facultades especiales detalladas en la escritura social, en acta o en mandato.',
+            'code_id' => 2
+        ]);
+
+        DB::table('articles')->insert([
             'number' => '57',
             'name' => 'Artículo 57. Actos Excediéndose de Facultades',
             'begin' => 'El socio que atribuyéndose la representación de la sociedad, ejecuta actos o celebra negocios en su nombre o el administrador que',
@@ -1439,6 +1449,162 @@ class ArticlesTableSeeder extends Seeder
             5o. Los demás que exijan la ley o la escritura social.<br>
             6o. Cualquier otro asunto para el que sea convocada, aun cuando sea de la competencia de las asambleas ordinarias.<br>
             Estas asambleas podrán reunirse en cualquier tiempo.',
+            'code_id' => 2
+        ]);
+
+        DB::table('articles')->insert([
+            'number' => '138',
+            'name' => 'Artículo 138. Requisitos de la Convocatoria',
+            'begin' => 'La asamblea general deberá convocarse mediante avisos publicados por lo menos dos veces en el Diario Oficial y en otro de los de mayor circulación en el país',
+            'description1' => 'La asamblea general deberá convocarse mediante avisos publicados por lo menos dos veces en el Diario Oficial y en otro de los de mayor circulación en el país, con no menos de quince días de anticipación a la fecha de su celebración.<br>
+            Los avisos deberán contener:<br>
+            1o. El nombre de la sociedad en caracteres tipográficos notorios.<br>
+            2o. El lugar, fecha y hora de la reunión.<br>
+            3o. La indicación de si se trata de asamblea ordinaria, extraordinaria o especial.<br>
+            4o. Los requisitos que se necesiten para poder participar en ella.',
+            'description2' => 'Si se tratare de una asamblea extraordinaria o especial, los avisos de convocatoria deberán señalar los asuntos a tratar.<br>
+            En caso de que la escritura social autorizara la celebración de asambleas de segunda convocatoria, deberá también señalarse la fecha, hora y lugar en que éstas se reunirán.<br>
+            En las sociedades que hayan emitido acciones nominativas, deberá enviarse a los tenedores de éstas y a la dirección que tengan registrada, un aviso escrito, que contenga los detalles antes indicados, el que deberá remitirse por correo certificado, con la anticipación señalada en el primer párrafo de este artículo.',
+            'code_id' => 2
+        ]);
+
+        DB::table('articles')->insert([
+            'number' => '140',
+            'name' => 'Artículo 140. Convocatoria de las Asambleas',
+            'begin' => 'La convocatoria para las asambleas deberá hacerse por los administradores o por el órgano de fiscalización, si lo hubiere.',
+            'description1' => 'La convocatoria para las asambleas deberá hacerse por los administradores o por el órgano de fiscalización, si lo hubiere.<br>
+            Si coincidieren las convocatorias, se dará preferencia a la hecha por los administradores y se fusionarán las respectivas agendas.',
+            'code_id' => 2
+        ]);
+
+        DB::table('articles')->insert([
+            'number' => '143',
+            'name' => 'Artículo 143. Lugar de Reunión',
+            'begin' => 'Las asambleas generales reunirán en la sede de la sociedad, salvo que la escritura social permita su reunión en otro lugar.',
+            'description1' => 'Las asambleas generales reunirán en la sede de la sociedad, salvo que la escritura social permita su reunión en otro lugar.',
+            'code_id' => 2
+        ]);
+
+        DB::table('articles')->insert([
+            'number' => '144',
+            'name' => 'Artículo 144. Agenda',
+            'begin' => 'La agenda deberá contener la relación de los asuntos que serán sometidos a la discusión y aprobación de la asamblea general y será formulada por quien haga la',
+            'description1' => 'La agenda deberá contener la relación de los asuntos que serán sometidos a la discusión y aprobación de la asamblea general y será formulada por quien haga la convocatoria.<br>
+            Quienes tengan derecho a pedir la convocatoria de la asamblea general, lo tienen también para pedir que figuren determinados puntos en la agenda.',
+            'code_id' => 2
+        ]);
+
+        DB::table('articles')->insert([
+            'number' => '145',
+            'name' => 'Artículo 145. Estados e Informes a la Vista',
+            'begin' => 'Durante los quince días anteriores a la asamblea ordinaria anual, estarán a disposición de los accionistas, en las oficinas de la sociedad y durante las horas laborales',
+            'description1' => 'Durante los quince días anteriores a la asamblea ordinaria anual, estarán a disposición de los accionistas, en las oficinas de la sociedad y durante las horas laborales de los días hábiles:<br>
+            1o. El balance general del ejercicio social y su correspondiente estado de pérdidas y ganancias.<br>
+            2o. El proyecto de distribución de utilidades.<br>
+            3o. El informe detallado sobre las remuneraciones y otros beneficios de cualquier orden que hayan recibido los administradores.<br>
+            4o. La memoria razonada de labores de los administradores sobre el estado de los negocios y actividades de la sociedad durante el período precedente.',
+            'description2' => '5o. El libro de actas de las asambleas generales.<br>
+            6o. Los libros que se refieren a la emisión y registros de acciones o de obligaciones.<br>
+            7o. El informe del órgano de fiscalización, si lo hubiere.<br>
+            8o. Cualquier otro documento o dato necesario para la debida compresión e inteligencia de cualquier asunto incluido en la agenda.<br>
+            Cuando se trate de asambleas generales que no sean las anuales, los accionistas gozarán de igual derecho, en cuanto a los documentos señalados en los incisos 6o, 7o, y 8o, anteriores.',
+            'description3' => 'En caso de asambleas extraordinarias o especiales deberá además circular con la misma anticipación un informe circunstanciado sobre cuanto concierna a la necesidad de adoptar la resolución de carácter extraordinario.<br>
+            Los administradores y en su caso, el órgano de fiscalización, si lo hubiere, responderá de los daños y perjuicios que causen por cualquier inexactitud, ocultación o simulación que contengan tales documentos. En el caso de no poner a la disposición de los accionistas alguno o algunos de los informes a que están obligados, el juez ante el que ocurra cualquier accionista, podrá compelerlos a presentarlos en la vía de apremio, sin que por ello se suspenda la asamblea.',
+            'code_id' => 2
+        ]);
+
+        DB::table('articles')->insert([
+            'number' => '148',
+            'name' => 'Artículo 148. Quórum y Mayoría en Asamblea Ordinaria',
+            'begin' => 'Para que una asamblea ordinaria se considere reunida, deberán estar representadas, por lo menos, la mitad de las acciones que tengan derecho a voto.',
+            'description1' => 'Para que una asamblea ordinaria se considere reunida, deberán estar representadas, por lo menos, la mitad de las acciones que tengan derecho a voto.<br>
+            Las resoluciones sólo serán válidas cuando se tomen, por lo menos, por la mayoría de votos presentes.',
+            'description2' => '',
+            'code_id' => 2
+        ]);
+
+        DB::table('articles')->insert([
+            'number' => '162',
+            'name' => 'Artículo 162. Administración',
+            'begin' => 'Un administrador único o varios administradores, actuando conjuntamente constituidos en consejo de administración, serán el órgano de la administración de la',
+            'description1' => 'Un administrador único o varios administradores, actuando conjuntamente constituidos en consejo de administración, serán el órgano de la administración de la sociedad y tendrán a su cargo la dirección de los negocios de la misma.<br>
+            Si la escritura social no indica un número fijo de administradores, corresponderá a la asamblea general determinarlo, al hacer cada elección.<br>
+            Los administradores pueden ser o no socios; serán electos por la asamblea general y su nombramiento no podrá hacerse por un período mayor de tres años, aunque su reelección es permitida.',
+            'description2' => 'Los administradores continuarán en el desempeño de sus funciones aun cuando hubiere concluido el plazo para el que fueron designados mientras sus sucesores no tomen posesión.<br>
+            El nombramiento de administrador es revocable por la asamblea general en cualquier tiempo.',
+            'code_id' => 2
+        ]);
+
+        DB::table('articles')->insert([
+            'number' => '163',
+            'name' => 'Artículo 163. Facultades de los Administradores',
+            'begin' => 'La extensión de las facultades de los administradores se regirán por lo que disponga la escritura social y en su defecto por las disposiciones del artículo 47',
+            'description1' => 'La extensión de las facultades de los administradores se regirán por lo que disponga la escritura social y en su defecto por las disposiciones del <a href="#codeCommercial" data-search="Artículo 47" class="linkGoCommercial">artículo 47</a> de este Código y sus limitaciones deberán expresarse en el propio nombramiento.',
+            'code_id' => 2
+        ]);
+
+        DB::table('articles')->insert([
+            'number' => '184',
+            'name' => 'Artículo 184. Quiénes fiscalizan',
+            'begin' => 'Las operaciones sociales serán fiscalizadas por los propios accionistas, por uno o varios contadores o auditores, o por uno o varios comisarios, de acuerdo',
+            'description1' => 'Las operaciones sociales serán fiscalizadas por los propios accionistas, por uno o varios contadores o auditores, o por uno o varios comisarios, de acuerdo con las disposiciones de la escritura social y lo establecido en este capítulo. La escritura social podrá establecer que la fiscalización se ejerza por más de uno de los sistemas antes señalados.',
+            'code_id' => 2
+        ]);
+
+        DB::table('articles')->insert([
+            'number' => '185',
+            'name' => 'Artículo 185. Designación',
+            'begin' => 'Los contadores, auditores o los comisarios, deberán ser designados por la asamblea ordinaria anual que practique la elección de administradores;',
+            'description1' => 'Los contadores, auditores o los comisarios, deberán ser designados por la asamblea ordinaria anual que practique la elección de administradores; y para el ejercicio de sus funciones dependerán exclusivamente de la asamblea, a la cual rendirán sus informes. Si hubiere más de dos comisarios, éstos actuarán separadamente. En la misma asamblea ordinaria anual se elegirán los contadores auditores o comisarios suplentes, quienes ejercerán las funciones de fiscalización sólo en ausencia de los titulares.',
+            'code_id' => 2
+        ]);
+
+        DB::table('articles')->insert([
+            'number' => '195',
+            'name' => 'Artículo 195. Sociedad en Comandita por Acciones',
+            'begin' => 'Sociedad en comandita por acciones, es aquélla en la cual uno o varios socios comanditados responden en forma subsidiara, ilimitada y solidaria por las obligaciones',
+            'description1' => 'Sociedad en comandita por acciones, es aquélla en la cual uno o varios socios comanditados responden en forma subsidiara, ilimitada y solidaria por las obligaciones sociales y uno o varios socios comanditarios tienen la responsabilidad limitada al monto de las acciones que han suscrito, en la misma forma que los accionistas de una sociedad anónima.<br>
+            Las aportaciones deben estar representadas por acciones.',
+            'code_id' => 2
+        ]);
+
+        DB::table('articles')->insert([
+            'number' => '196',
+            'name' => 'Artículo 196. Régimen',
+            'begin' => 'La sociedad en comandita por acciones se regirá por las reglas relativas a la sociedad anónima, salvo lo dispuesto en los artículos siguientes.',
+            'description1' => 'La sociedad en comandita por acciones se regirá por las reglas relativas a la sociedad anónima, salvo lo dispuesto en los artículos siguientes.',
+            'code_id' => 2
+        ]);
+
+        DB::table('articles')->insert([
+            'number' => '197',
+            'name' => 'Artículo 197. Razón Social',
+            'begin' => 'La razón social se forma con el nombre de uno de los socios comanditados o con los apellidos de dos o más de ellos, si fueren varios, y con el agregado obligatorio',
+            'description1' => 'La razón social se forma con el nombre de uno de los socios comanditados o con los apellidos de dos o más de ellos, si fueren varios, y con el agregado obligatorio de la leyenda: y Compañía Sociedad en Comandita por Acciones, la cual podrá abreviarse: y Cía., S.C.A.',
+            'code_id' => 2
+        ]);
+
+        DB::table('articles')->insert([
+            'number' => '198',
+            'name' => 'Artículo 198. Socios Comanditados son Administradores',
+            'begin' => 'Los socios comanditados tienen a su cargo la administración de la sociedad y la representación legal de la misma y están sujetos a las obligaciones y responsabilidades',
+            'description1' => 'Los socios comanditados tienen a su cargo la administración de la sociedad y la representación legal de la misma y están sujetos a las obligaciones y responsabilidades de los administradores de la sociedad anónima.',
+            'code_id' => 2
+        ]);
+
+        DB::table('articles')->insert([
+            'number' => '199',
+            'name' => 'Artículo 199. Organo de Fiscalización',
+            'begin' => 'En esta clase de sociedades, es obligatorio establecer en la escritura constitutiva un órgano de fiscalización integrado por uno o varios contadores, auditores o comisarios',
+            'description1' => 'En esta clase de sociedades, es obligatorio establecer en la escritura constitutiva un órgano de fiscalización integrado por uno o varios contadores, auditores o comisarios nombrados exclusivamente por los socios comanditarios y cuyo funcionamiento y atribuciones se regirá por lo dispuesto para la fiscalización de las sociedades anónimas.',
+            'code_id' => 2
+        ]);
+
+        DB::table('articles')->insert([
+            'number' => '202',
+            'name' => 'Artículo 202. Prohibición de Votar',
+            'begin' => 'Los socios comanditados no tienen derecho de voto por las acciones que les corresponden, en las deliberaciones de la asamblea que conciernen al nombramiento y a la',
+            'description1' => 'Los socios comanditados no tienen derecho de voto por las acciones que les corresponden, en las deliberaciones de la asamblea que conciernen al nombramiento y a la remoción de los órganos de fiscalización, el ejercicio de la acción de responsabilidad y la aprobación de los actos de la administración.',
             'code_id' => 2
         ]);
 
