@@ -1096,6 +1096,14 @@ class ArticlesTableSeeder extends Seeder
         ]);
 
         DB::table('articles')->insert([
+            'number' => '66',
+            'name' => 'Artículo 66. Junta Totalitaria',
+            'begin' => 'Sin perjuicio de lo dispuesto en el artículo anterior, la junta general quedará válidamente constituida sin necesidad de previa convocatoria, si encontrándose',
+            'description1' => 'Sin perjuicio de lo dispuesto en el artículo anterior, la junta general quedará válidamente constituida sin necesidad de previa convocatoria, si encontrándose reunidos o debidamente representados todos los socios, decidieran celebrarla, aprobando la agenda por unanimidad.',
+            'code_id' => 2
+        ]);
+
+        DB::table('articles')->insert([
             'number' => '67',
             'name' => 'Artículo 67. Representación de los Socios',
             'begin' => 'Salvo disposición en contrario de la escritura social, todo socio podrá hacerse representar en la junta general por medio de otra persona.',
@@ -1158,6 +1166,97 @@ class ArticlesTableSeeder extends Seeder
             'begin' => 'Sociedad de responsabilidad limitada es la compuesta por varios socios que sólo están obligados al pago de sus aportaciones. Por las',
             'description1' => 'Sociedad de responsabilidad limitada es la compuesta por varios socios que sólo están obligados al pago de sus aportaciones. Por las obligaciones sociales responde únicamente el patrimonio de la sociedad y, en su caso, la suma que a más de las aportaciones convenga la escritura social.<br>
             El capital estará dividido en aportaciones que no podrán incorporarse a títulos de ninguna naturaleza ni denominarse acciones.',
+            'code_id' => 2
+        ]);
+
+        DB::table('articles')->insert([
+            'number' => '79',
+            'name' => 'Artículo 79. Numero de los Socios',
+            'begin' => 'El número de los socios no podrá exceder de veinte.',
+            'description1' => 'El número de los socios no podrá exceder de veinte.',
+            'code_id' => 2
+        ]);
+
+        DB::table('articles')->insert([
+            'number' => '80',
+            'name' => 'Artículo 80. Razón o Denominación Social',
+            'begin' => 'La sociedad girará bajo una denominación o bajo una razón social. La denominación se formará libremente, pero siempre hará referencia a la actividad',
+            'description1' => 'La sociedad girará bajo una denominación o bajo una razón social. La denominación se formará libremente, pero siempre hará referencia a la actividad social principal. La razón social se formará con el nombre completo de uno de los socios o con el apellido de dos o más de ellos. En ambos casos es obligatorio agregar la palabra Limitada o la leyenda: y Compañía Limitada, las que podrán abreviarse: Ltda. o Cía. Ltda., Respectivamente.<br>
+            Si se omiten esas palabras o leyendas, los socios responderán de modo subsidiario, ilimitada y solidariamente, de las obligaciones sociales.',
+            'code_id' => 2
+        ]);
+
+        DB::table('articles')->insert([
+            'number' => '81',
+            'name' => 'Artículo 81. Aportación Íntegra del Capital',
+            'begin' => 'No podrá otorgarse la escritura constitutiva de la sociedad, mientras no conste de manera fehaciente que el capital ha sido íntegra y efectivamente pagado.',
+            'description1' => 'No podrá otorgarse la escritura constitutiva de la sociedad, mientras no conste de manera fehaciente que el capital ha sido íntegra y efectivamente pagado.<br>
+            Si se otorgare‚ la escritura constitutiva sin esa circunstancia, el contrato será nulo y los socios serán ilimitada y solidariamente responsables de los daños y perjuicios que por tal razón se causen a terceros.',
+            'code_id' => 2
+        ]);
+
+        DB::table('articles')->insert([
+            'number' => '82',
+            'name' => 'Artículo 82. No Hay Socio Industrial',
+            'begin' => 'En esta forma de sociedad, no podrá haber socio industrial.',
+            'description1' => 'En esta forma de sociedad, no podrá haber socio industrial.',
+            'code_id' => 2
+        ]);
+
+        DB::table('articles')->insert([
+            'number' => '83',
+            'name' => 'Artículo 83. Derecho de Vigilancia',
+            'begin' => 'Salvo que en la escritura social se hubiere constituido un consejo de vigilancia, cada socio tiene derecho a obtener de los administradores informes',
+            'description1' => 'Salvo que en la escritura social se hubiere constituido un consejo de vigilancia, cada socio tiene derecho a obtener de los administradores informes del desarrollo de los negocios sociales y a consultar los libros de la sociedad. Es nulo todo pacto en contrario.',
+            'code_id' => 2
+        ]);
+
+        DB::table('articles')->insert([
+            'number' => '84',
+            'name' => 'Artículo 84. Nombre en la Razón Social',
+            'begin' => 'Cualquier persona extraña a la sociedad que haga figurar o permita que figure su nombre en la razón social, responderá de las operaciones sociales hasta por el monto',
+            'description1' => 'Cualquier persona extraña a la sociedad que haga figurar o permita que figure su nombre en la razón social, responderá de las operaciones sociales hasta por el monto de la mayor de las aportaciones.',
+            'code_id' => 2
+        ]);
+
+        DB::table('articles')->insert([
+            'number' => '85',
+            'name' => 'Artículo 85. Otras Disposiciones Aplicables',
+            'begin' => 'Son aplicables a las sociedades de responsabilidad limitada los artículos 64, 65, 66 y 67 del presente Código.',
+            'description1' => 'Son aplicables a las sociedades de responsabilidad limitada los <a href="#codeCommercial" data-search="Artículo 64" class="linkGoCommercial">artículos 64</a>, <a href="#codeCommercial" data-search="Artículo 65" class="linkGoCommercial">65</a>, <a href="#codeCommercial" data-search="Artículo 66" class="linkGoCommercial">66</a> y <a href="#codeCommercial" data-search="Artículo 67" class="linkGoCommercial">67</a> del presente Código.',
+            'code_id' => 2
+        ]);
+
+        DB::table('articles')->insert([
+            'number' => '86',
+            'name' => 'Artículo 86. Sociedad Anónima',
+            'begin' => 'Sociedad anónima es la que tiene el capital dividido y representado por acciones. La responsabilidad de cada accionista está limitada al pago de las acciones',
+            'description1' => 'Sociedad anónima es la que tiene el capital dividido y representado por acciones. La responsabilidad de cada accionista está limitada al pago de las acciones que hubiere suscrito.',
+            'code_id' => 2
+        ]);
+
+        DB::table('articles')->insert([
+            'number' => '87',
+            'name' => 'Artículo 87. Denominación',
+            'begin' => 'La sociedad anónima se identifica con una denominación, la que podrá formarse libremente, con el agregado obligatorio de la leyenda: Sociedad Anónima, que podrá',
+            'description1' => 'La sociedad anónima se identifica con una denominación, la que podrá formarse libremente, con el agregado obligatorio de la leyenda: Sociedad Anónima, que podrá abreviarse S.A.<br>
+            La denominación podrá contener el nombre de un socio fundador o los apellidos de dos o más de ellos, pero en este caso, deberá igualmente incluirse la designación del objeto principal de la sociedad.',
+            'code_id' => 2
+        ]);
+
+        DB::table('articles')->insert([
+            'number' => '89',
+            'name' => 'Artículo 89. Capital Suscrito',
+            'begin' => 'En el momento de suscribir acciones es indispensable pagar por lo menos el veinticinco por ciento (25%) de su valor nominal.',
+            'description1' => 'En el momento de suscribir acciones es indispensable pagar por lo menos el veinticinco por ciento (25%) de su valor nominal.',
+            'code_id' => 2
+        ]);
+
+        DB::table('articles')->insert([
+            'number' => '90',
+            'name' => 'Artículo 90. Capital Pagado Mínimo',
+            'begin' => 'El capital pagado inicial de la sociedad anónima debe ser por lo menos de cinco mil quetzales (Q5,000.00).',
+            'description1' => 'El capital pagado inicial de la sociedad anónima debe ser por lo menos de cinco mil quetzales (Q5,000.00).',
             'code_id' => 2
         ]);
 
