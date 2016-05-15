@@ -584,8 +584,51 @@ DB::table('comments')->insert([
                 <li>Capacidad.</li>
                 <li>Consentimiento.</li>
                 <li>Objeto licito.</li>
+                <li>Personal.</li>
+                <li>Ganancia.</li>
+                <li>Afecto societatis.</li>
             </ol>',
             'article_id' => '77'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<strong>Solemnidad de la sociedad.</strong>',
+            'article_id' => '78'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<strong>Tiempo de registro.</strong>',
+            'article_id' => '79'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<span class="opNum">1.</span> <strong>Situaciones especiales (Cónyuges).</strong>',
+            'article_id' => '80'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<strong>El tutor y el guardador no pueden constituir sociedades con sus representados.</strong>',
+            'article_id' => '81'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<strong>En quiebra no se puede costituir sociedad.</strong>',
+            'article_id' => '82'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<strong>Sociedad con menores e incapaces.</strong>',
+            'article_id' => '83'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<strong>Acciones por menores.</strong>',
+            'article_id' => '84'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<strong>En que plazo sale a la vida juridica una sociedad.</strong>',
+            'article_id' => '85'
         ]);
     }
 }
