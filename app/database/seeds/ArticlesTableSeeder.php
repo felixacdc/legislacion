@@ -1260,5 +1260,187 @@ class ArticlesTableSeeder extends Seeder
             'code_id' => 2
         ]);
 
+        DB::table('articles')->insert([
+            'number' => '99',
+            'name' => 'Artículo 99. Títulos de Acciones',
+            'begin' => 'Las acciones en que se divide el capital social de una sociedad anónima estarán representadas por títulos que servirán para acreditar y transmitir la calidad',
+            'description1' => 'Las acciones en que se divide el capital social de una sociedad anónima <span class="opNum">1.</span> <span>estarán representadas por títulos que servirán para acreditar y transmitir la calidad y los derechos de socio.</span>',
+            'code_id' => 2
+        ]);
+
+        DB::table('articles')->insert([
+            'number' => '100',
+            'name' => 'Artículo 100. Clase de Acciones',
+            'begin' => 'Todas las acciones de una sociedad serán de igual valor y conferirán iguales derechos.',
+            'description1' => '<span class="opNum">1.</span> <span>Todas las acciones de una sociedad serán de igual valor y conferirán iguales derechos.</span><br>
+            Sin embargo, en la escritura social podrá estipularse que el capital se divida en varias clases de <span class="opNum">2.</span> <span>acciones con derechos especiales</span> para cada clase, observándose siempre lo que dispone el <a href="#codeCommercial" data-search="Artículo 34" class="linkGoCommercial">artículo 34</a> de este Código.',
+            'code_id' => 2
+        ]);
+
+        DB::table('articles')->insert([
+            'number' => '101',
+            'name' => 'Artículo 101. Derecho de Voto',
+            'begin' => 'Cada acción confiere derecho a un voto a su tenedor. La escritura social puede establecer, sin embargo, que las acciones preferentes',
+            'description1' => 'Cada acción confiere derecho a un voto a su tenedor.<br>
+            La escritura social puede establecer, sin embargo, que las acciones preferentes en la distribución de las utilidades y en el reembolso del capital a la disolución de la sociedad tengan derecho de voto solamente en las deliberaciones previstas en el <a href="#codeCommercial" data-search="Artículo 135" class="linkGoCommercial">artículo 135.</a><br>
+            No pueden emitirse acciones con voto múltiple.',
+            'code_id' => 2
+        ]);
+
+        DB::table('articles')->insert([
+            'number' => '103',
+            'name' => 'Artículo 103. Acciones Parcialmente Pagadas',
+            'begin' => 'Salvo pacto en contrario de la escritura social, las acciones suscritas cuyos llamamientos hayan sido cubiertos',
+            'description1' => 'Salvo pacto en contrario de la <span class="opNum">1.</span> <span>escritura social, las acciones suscritas cuyos llamamientos hayan sido cubiertos, conferirán a sus tenedores derecho a voto.</span>',
+            'code_id' => 2
+        ]);
+
+        DB::table('articles')->insert([
+            'number' => '104',
+            'name' => 'Artículo 104. Indivisibilidad de las Acciones',
+            'begin' => 'Las acciones son indivisibles. En caso de copropiedad de una acción los derechos deben ser ejercitados por un representante',
+            'description1' => 'Las acciones son indivisibles.<br>
+            En caso de copropiedad de una acción los derechos deben ser ejercitados por un representante común. Si el representante común no ha sido nombrado, las comunicaciones y las declaraciones hechas por la sociedad a uno de los copropietarios son válidas.<br>
+            Los copropietarios responden solidariamente de las obligaciones derivadas de la acción.',
+            'code_id' => 2
+        ]);
+
+        DB::table('articles')->insert([
+            'number' => '107',
+            'name' => 'Artículo 107. Contenido de los Títulos',
+            'begin' => 'Los títulos de acciones deben contener por lo menos: 1o. La denominación, el domicilio y la duración de la sociedad. 2o. La fecha de la escritura constitutiva',
+            'description1' => '<span class="opNum">1.</span> <span>Los títulos de acciones deben contener por lo menos:<br>
+            1o. La denominación, el domicilio y la duración de la sociedad.<br>
+            2o. La fecha de la escritura constitutiva, lugar de su otorgamiento, notario autorizante y datos de su inscripción en el Registro Mercantil.<br>
+            3o. El nombre del titular de la acción, si son nominativas.<br>
+            4o. El monto del capital social autorizado y la forma en que éste se distribuirá.<br>
+            5o. El valor nominal, su clase y número de registro.</span>',
+            'description2' => '6o. Los derechos y las obligaciones particulares de la clase a que corresponden y un resumen inherente a los derechos y obligaciones de las otras clases de acciones si las hubiere.<br>
+            7o. La firma de los administradores que conforme a la escritura social deban suscribirlos.<br>
+            Las disposiciones de este artículo se aplican también a los certificados provisionales que se distribuyen a los socios antes de la emisión de los títulos definitivos o cuando las acciones no están totalmente pagadas. El certificado provisional deberá señalar, además, el monto de los llamamientos pagados sobre el valor de las acciones y deberá ser nominativo.',
+            'code_id' => 2
+        ]);
+
+        DB::table('articles')->insert([
+            'number' => '108',
+            'name' => 'Artículo 108. Acciones Nominativas y al Portador',
+            'begin' => 'Las acciones pueden ser nominativas o al portador a elección del accionista, si la escritura social no establece lo contrario.',
+            'description1' => 'Las acciones pueden ser nominativas o al portador a elección del accionista, si la escritura social no establece lo contrario.',
+            'code_id' => 2
+        ]);
+
+        DB::table('articles')->insert([
+            'number' => '109',
+            'name' => 'Artículo 109. Transferencia de Acciones no Pagadas',
+            'begin' => 'Aquellos que hayan transferido certificados provisionales, están obligados a registrar el traspaso en la sociedad y quedarán solidariamente',
+            'description1' => '<span class="opNum">1.</span> <span>Aquellos que hayan transferido certificados provisionales, están obligados a registrar el traspaso en la sociedad y quedarán solidariamente responsables con los adquirentes por el monto de lo no pagado, durante el término de tres años desde la fecha de transferencia.</span><br>
+            El pago no puede exigírsele al cedente, sino en el caso de que el requerimiento hecho al poseedor de la acción haya resultado infructuoso.<br>
+            Al quedar íntegramente pagadas las acciones se canjearán los certificados provisionales por los títulos definitivos.',
+            'code_id' => 2
+        ]);
+
+        DB::table('articles')->insert([
+            'number' => '112',
+            'name' => 'Artículo 112. Amortizacón de Acciones',
+            'begin' => 'Para la amortización de acciones se observarán las siguientes reglas: 1o. Sólo podrán amortizarse acciones íntegramente pagadas. 2o. Si la amortización es por reducción',
+            'description1' => 'Para la amortización de acciones se observarán las siguientes reglas:<br>
+            1o. Sólo podrán amortizarse acciones íntegramente pagadas.<br>
+            2o. Si la amortización es por reducción de capital deberá ser acordada por la asamblea general, previa la formulación de un balance general, para determinar el valor en libros de las acciones.<br>
+            3o. Si la amortización de determinada clase o serie de acciones estuviera prevista en la escritura social, la amortización se hará en las condiciones que determina dicho instrumento, las que deberán constar en los títulos de las respectivas acciones.<br>
+            4o. La amortización de acciones no regulada en la escritura social se hará en la forma que determine la asamblea general extraordinaria, al resolver sobre reducción de capital y deacuerdo con lo que dispone el artículo 210. La designación de las acciones que deban ser amortizadas, se hará por sorteo ante notario.',
+            'description2' => '5o. Salvo disposición en contrario de la escritura social, el valor de amortización de cada acción será su valor en libros, según el balance que se mencionó en el inciso 2o.<br>
+            6o. Los títulos de acciones amortizadas quedarán anulados y en su lugar, podrán emitirse certificados de goce, cuando así lo prevenga expresamente la escritura social o la resolución de la asamblea general.<br>
+            7o. El derecho del tenedor de acciones amortizadas, para cobrar el precio de las acciones y, en su caso, el de recoger los certificados de goce, prescribirá en diez años, a contar de la fecha de publicación del acuerdo de reducción de capital.',
+            'code_id' => 2
+        ]);
+
+        DB::table('articles')->insert([
+            'number' => '113',
+            'name' => 'Artículo 113. Certificados de Goce',
+            'begin' => 'Los certificados de goce atribuidos a los poseedores de las acciones amortizadas, no dan derecho de voto en la asamblea general. Los mismos concurren',
+            'description1' => 'Los certificados de goce atribuidos a los poseedores de las acciones amortizadas, no dan derecho de voto en la asamblea general. Los mismos concurren en igualdad con las acciones no amortizadas en la distribución de las utilidades que restan después del pago a las acciones no amortizadas de un dividendo igual al seis por ciento (6%) anual y, en caso de liquidación, en la distribución del patrimonio social restante después del reembolso de las otras acciones a su valor nominal.',
+            'code_id' => 2
+        ]);
+
+        DB::table('articles')->insert([
+            'number' => '125',
+            'name' => 'Artículo 125. Registro de Acciones Nominativas',
+            'begin' => 'Las sociedades anónimas que emitieren acciones nominativas o certificadas provisionales, llevarán un registro de los mismos que contendrá:',
+            'description1' => 'Las sociedades anónimas que emitieren acciones nominativas o certificadas provisionales, llevarán un registro de los mismos que contendrá:<br>
+            1o. El nombre y el domicilio del accionista, la indicación de las acciones que le pertenezcan expresándose los números, series, clases y demás particularidades.<br>
+            2o. En su caso, los llamamientos efectuados y los pagos hechos.<br>
+            3o. Las transmisiones que se realicen.',
+            'description2' => '4o. La conversión de las acciones nominativas o certificados provisionales en acciones al portador.<br>
+            5o. Los canjes de títulos.<br>
+            6o. Los gravámenes que afecten a las acciones.<br>
+            7o. Las cancelaciones de éstos y de los títulos.',
+            'code_id' => 2
+        ]);
+
+        DB::table('articles')->insert([
+            'number' => '127',
+            'name' => 'Artículo 127. Suscripción de Nuevas Acciones',
+            'begin' => 'Salvo pacto en contrario en la escritura social, los accionistas tendrán derecho preferente, en proporción a sus acciones, para suscribir las nuevas que se emitan.',
+            'description1' => 'Salvo pacto en contrario en la escritura social, <span class="opNum">1.</span> <span>los accionistas tendrán derecho preferente</span>, en proporción a sus acciones, para suscribir las nuevas que se emitan. <span class="opNum">2.</span> <span>Este derecho deberá ejercitarse dentro de los quince días siguientes a la publicación del acuerdo respectivo.</span><br>
+            Si el accionista no ejercitare este derecho dentro de dicho plazo, la administración de la sociedad podrá proceder a haber suscribir las acciones en la forma que tenga por más conveniente a los intereses sociales o abrir la suscripción al público.',
+            'code_id' => 2
+        ]);
+
+        DB::table('articles')->insert([
+            'number' => '129',
+            'name' => 'Artículo 129. Destrucción o Pérdida de Acciones',
+            'begin' => 'En caso de destrucción o pérdida de acciones al portador, el interesado podrá solicitar su reposición ante el juez de Primera Instancia del domicilio de la sociedad',
+            'description1' => 'En caso de destrucción o pérdida de acciones al portador, el interesado podrá solicitar su reposición ante el juez de Primera Instancia del domicilio de la sociedad, proponiendo información para demostrar la propiedad y preexistencia del título cuya reposición se pide.<br>
+            El juez, con notificación a la sociedad emisora, mandará publicar la solicitud en el Diario Oficial y en otro de los de mayor circulación en el país; la publicación se hará tres veces, con intervalosde cinco días por lo menos, y no habiendo oposición, se ordenará que sea repuesto el título, previo otorgamiento de garantía adecuada, a juicio del juez.',
+            'description2' => 'La garantía cubrirá como mínimum el valor nominal del título y caducará en dos años desde la fecha de su otorgamiento, sin necesidad de declaratoria alguna.<br>
+            <span class="opNum">1.</span> <span>Para reposición de los títulos nominativos no se requiere la intervención judicial; queda a discreción de los administradores de la sociedad exigir o no la prestación de garantía.</span>',
+            'code_id' => 2
+        ]);
+
+        DB::table('articles')->insert([
+            'number' => '132',
+            'name' => 'Artículo 132. Asamblea General',
+            'begin' => 'La asamblea general formada por los accionistas legalmente convocados y reunidos, es el órgano supremo de la sociedad y expresa la voluntad social en las materias',
+            'description1' => 'La asamblea general formada por los accionistas legalmente convocados y reunidos, es el órgano supremo de la sociedad y expresa la voluntad social en las materias de su competencia.<br>
+            Los asuntos mencionados en los <a href="#codeCommercial" data-search="Artículo 134" class="linkGoCommercial">artículos 134</a> y <a href="#codeCommercial" data-search="Artículo 135" class="linkGoCommercial">135</a>, son de la competencia exclusiva de la asamblea.',
+            'code_id' => 2
+        ]);
+
+        DB::table('articles')->insert([
+            'number' => '133',
+            'name' => 'Artículo 133. Clases de Asambleas',
+            'begin' => 'Las asambleas generales de accionistas son ordinarias y extraordinarias. Las especiales se regirán, en lo aplicable, por las normas dadas para las generales.',
+            'description1' => 'Las asambleas generales de accionistas son ordinarias y extraordinarias.<br>
+            Las especiales se regirán, en lo aplicable, por las normas dadas para las generales.',
+            'code_id' => 2
+        ]);
+
+        DB::table('articles')->insert([
+            'number' => '134',
+            'name' => 'Artículo 134. Asambleas Ordinarias',
+            'begin' => 'La asamblea ordinaria se reunirá por lo menos una vez al año, dentro de los cuatro meses que sigan al cierre del ejercicio social y también encualquier tiempo en que',
+            'description1' => '<span class="opNum">1.</span> <span>La asamblea ordinaria se reunirá por lo menos una vez al año, dentro de los cuatro meses que sigan al cierre del ejercicio social y también encualquier tiempo en que sea convocada. Deberá ocuparse además de los asuntos incluidos en la agenda, de los siguientes:<br>
+            1o. Discutir, aprobar o improbar el estado de pérdidas y ganancias, el balance general y el informe de la administración, y en su caso, del órgano de fiscalización, si lo hubiere, y tomar las medidas que juzgue oportunas.<br>
+            2o. Nombrar y remover a los administradores, al órgano de fiscalización, si lo hubiere, y determinar sus respectivos emolumentos.</span>',
+            'description2' => '3o. Conocer y resolver acerca del proyecto de distribución de utilidades que los administradores deben someter a su consideración.<br>
+            4o. Conocer y resolver de los asuntos que concretamente le señale la escritura social.',
+            'code_id' => 2
+        ]);
+
+        DB::table('articles')->insert([
+            'number' => '135',
+            'name' => 'Artículo 135. Asambleas Extraordinarias',
+            'begin' => 'Son asambleas extraordinarias, las que se reúnan para tratar cualquiera de los siguientes asuntos: 1o. Toda modificación de la escritura social, incluyendo el aumento',
+            'description1' => 'Son asambleas extraordinarias, las que se reúnan para tratar cualquiera de los siguientes asuntos:<br>
+            1o. Toda modificación de la escritura social, incluyendo el aumento o reducción de capital o prórroga del plazo.<br>
+            2o. Creación de acciones de voto limitado o preferentes y la emisión de obligaciones o bonos cuando no esté previsto en la escritura social. <br>
+            3o. La adquisición de acciones de la misma sociedad y la disposición de ellas.',
+            'description2' => '4o. Aumentar o disminuir el valor nominal de las acciones.
+            5o. Los demás que exijan la ley o la escritura social.<br>
+            6o. Cualquier otro asunto para el que sea convocada, aun cuando sea de la competencia de las asambleas ordinarias.<br>
+            Estas asambleas podrán reunirse en cualquier tiempo.',
+            'code_id' => 2
+        ]);
+
     }
 }
