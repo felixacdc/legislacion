@@ -630,5 +630,78 @@ DB::table('comments')->insert([
             'description1' => '<strong>En que plazo sale a la vida juridica una sociedad.</strong>',
             'article_id' => '85'
         ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<strong>La prórroga de la sociedad.</strong>',
+            'article_id' => '86'
+        ]);
+
+        DB::table('comments')->insert(['description1' => '<strong>*Obligaciones del socio:</strong><br>
+            <ol>
+                <li>Obligaciones de hacer o dar el aporte.
+                    <ul>
+                        <li>Aporte de industria.</li>
+                    </ul>
+                </li>
+                <li><span class="opNum">1.</span> Obligación de saneamiento.</li>
+            </ol>',
+            'article_id' => '87'
+        ]);
+
+        DB::table('comments')->insert(['description1' => '<strong>Aporte a capital:</strong><br>
+            <ol>
+                <li>Dinerario.</li>
+                <li>No Dinerario.</li>
+                <li>Obligación de no hacer.</li>
+            </ol>',
+            'article_id' => '88'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<strong>Derecho de contenido patrimonial.</strong>',
+            'article_id' => '89'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<strong>Pacto leonino:</strong> no puede existir un socio que no participe en las ganancias.',
+            'article_id' => '90'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<strong>*¿En que momento se distribuye la reserva legal de una sociedad?</strong> Hasta la liquidación de la sociedad.<br>
+            <strong>Reserva Legal: </strong>Constituye el porcentaje de unidades netas de cada ejercicio de toda sociedad.<br>
+            <strong>Reserva Voluntaria: </strong>Serán decididas por los socios y no están establecidas en la ley.<br>',
+            'article_id' => '91'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<span class="opNum">1.</span> <strong>Derecho del tanteo.</strong> ',
+            'article_id' => '92'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => ' <strong>Facultades de los administradores.</strong>',
+            'article_id' => '93'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<span class="opNum">1.</span> <strong>*Acto ultranides y actos excediéndose de facultades.</strong>',
+            'article_id' => '94'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<strong>Sociedad Colectiva.</strong>',
+            'article_id' => '95'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<strong>Limintación de responsabilidades.</strong>',
+            'article_id' => '96'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<strong>Nombre de la Sociedad Colectiva.</strong>',
+            'article_id' => '97'
+        ]);
     }
 }
