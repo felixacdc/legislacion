@@ -636,14 +636,14 @@ DB::table('comments')->insert([
             'article_id' => '86'
         ]);
 
-        DB::table('comments')->insert(['description1' => '<strong>*Obligaciones del socio:</strong><br>
+        DB::table('comments')->insert(['description1' => '<strong>Obligaciones del socio:</strong><br>
             <ol>
                 <li>Obligaciones de hacer o dar el aporte.
                     <ul>
                         <li>Aporte de industria.</li>
                     </ul>
                 </li>
-                <li><span class="opNum">1.</span> Obligación de saneamiento.</li>
+                <li>Obligación de saneamiento.</li>
             </ol>',
             'article_id' => '87'
         ]);
@@ -668,7 +668,7 @@ DB::table('comments')->insert([
         ]);
 
         DB::table('comments')->insert([
-            'description1' => '<strong>*¿En que momento se distribuye la reserva legal de una sociedad?</strong> Hasta la liquidación de la sociedad.<br>
+            'description1' => '<strong>¿En que momento se distribuye la reserva legal de una sociedad?</strong> Hasta la liquidación de la sociedad.<br>
             <strong>Reserva Legal: </strong>Constituye el porcentaje de unidades netas de cada ejercicio de toda sociedad.<br>
             <strong>Reserva Voluntaria: </strong>Serán decididas por los socios y no están establecidas en la ley.<br>',
             'article_id' => '91'
@@ -685,7 +685,7 @@ DB::table('comments')->insert([
         ]);
 
         DB::table('comments')->insert([
-            'description1' => '<span class="opNum">1.</span> <strong>*Acto ultranides y actos excediéndose de facultades.</strong>',
+            'description1' => '<span class="opNum">1.</span> <strong>Acto ultravides y actos excediéndose de facultades.</strong>',
             'article_id' => '94'
         ]);
 
@@ -766,7 +766,7 @@ DB::table('comments')->insert([
         ]);
 
         DB::table('comments')->insert([
-            'description1' => '<strong>*Inmixition.</strong>',
+            'description1' => '<strong>Inmixition.</strong>',
             'article_id' => '106'
         ]);
 
@@ -778,6 +778,53 @@ DB::table('comments')->insert([
         DB::table('comments')->insert([
             'description1' => '<strong>Muerte o incapacidad del administrador.</strong>',
             'article_id' => '108'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<strong>Sociedad de responsabilidad limitada.</strong>',
+            'article_id' => '109'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<strong>Número de socios en la sociedad de responsabilidad limitada.</strong>',
+            'article_id' => '110'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<strong>Razón o denominación social de la sociedad de responsabilidad limitada.</strong>',
+            'article_id' => '111'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<strong>Organos de la socios en la sociedad de responsabilidad limitada.</strong><br>
+            <ol>
+                <li><strong>Organo de soberania. (este artículo)</strong></li>
+                <li>Organo de administración. <a href="#codeCommercial" data-search="Artículo 82" class="linkGoCommercial">Artículo 82</a></li>
+                <li>Organo de fiscalización. <a href="#codeCommercial" data-search="Artículo 83" class="linkGoCommercial">Artículo 83</a></li>
+            </ol>',
+            'description2' => '<strong>¿Que sucede si una sociedad de responsabilidad limitada no se hiciera constar de manera faciente que el capital a sido integrado y efectivamente pagado?</strong> el contrato sera nulo y los socios serán limitados y responsables de los perjuicios a terceros.',
+            'article_id' => '112'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<strong>Organos de la socios en la sociedad de responsabilidad limitada.</strong><br>
+            <ol>
+                <li>Organo de soberania. <a href="#codeCommercial" data-search="Artículo 81" class="linkGoCommercial">Artículo 81</a></li>
+                <li><strong>Organo de administración. (este artículo)</strong></li>
+                <li>Organo de fiscalización. <a href="#codeCommercial" data-search="Artículo 83" class="linkGoCommercial">Artículo 83</a></li>
+            </ol><br>
+            <strong>Socio Industrial: </strong>El que aporta maquinaria.',
+            'article_id' => '113'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<strong>Organos de la socios en la sociedad de responsabilidad limitada.</strong><br>
+            <ol>
+                <li>Organo de soberania. <a href="#codeCommercial" data-search="Artículo 81" class="linkGoCommercial">Artículo 81</a></li>
+                <li>Organo de administración. <a href="#codeCommercial" data-search="Artículo 82" class="linkGoCommercial">Artículo 82</a></li>
+                <li><strong>Organo de fiscalización. (este artículo)</strong></li>
+            </ol>',
+            'article_id' => '114'
         ]);
     }
 }
