@@ -1142,8 +1142,8 @@ class ArticlesTableSeeder extends Seeder
 
         DB::table('articles')->insert([
             'number' => '73',
-            'name' => 'Artículo 73. Sociedad en Comandita Simple',
-            'begin' => 'Sociedad en comandita simple, es la compuesta por uno o varios socios comanditados que responden en forma subsidiara, ilimitada y solidaria',
+            'name' => 'Artículo 73. Comanditarios No Pueden Administrar',
+            'begin' => 'Los socios comanditarios tienen prohibido cualquier acto de administración de la sociedad, aun en calidad de apoderados de los socios',
             'description1' => 'Los socios comanditarios tienen prohibido cualquier acto de administración de la sociedad, aun en calidad de apoderados de los socios comanditados o de la sociedad. El socio comanditario que viole dicha prohibición quedará responsable en la misma forma que los socios comanditados en favor de terceros, por todas las pérdidas y obligaciones de la sociedad, sean anteriores o posteriores a la contravención, salvo lo dispuesto en el <a href="#codeCommercial" data-search="Artículo 75" class="linkGoCommercial">artículo 75 de este Código.</a>',
             'code_id' => 2
         ]);

@@ -703,5 +703,81 @@ DB::table('comments')->insert([
             'description1' => '<strong>Nombre de la Sociedad Colectiva.</strong>',
             'article_id' => '97'
         ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<span class="opNum">1.</span> <strong>Nombre de la razón social.</strong>',
+            'article_id' => '98'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<strong>Organos de la sociedad colectiva: </strong><br>
+            <ol>
+                <li><strong>Organo de administración. (este artículo)</strong></li>
+                <li>Organo de vigilancia. <a href="#codeCommercial" data-search="Artículo 64" class="linkGoCommercial">Artículo 64</a></li>
+                <li>Organo de soberania. <a href="#codeCommercial" data-search="Artículo 65" class="linkGoCommercial">Artículo 65</a></li>
+            </ol>',
+            'article_id' => '99'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<strong>Organos de la sociedad colectiva: </strong><br>
+            <ol>
+                <li>Organo de administración. <a href="#codeCommercial" data-search="Artículo 63" class="linkGoCommercial">Artículo 63</a></li>
+                <li><strong>Organo de vigilancia. (este artículo)</strong></li>
+                <li>Organo de soberania. <a href="#codeCommercial" data-search="Artículo 65" class="linkGoCommercial">Artículo 65</a></li>
+            </ol>',
+            'article_id' => '100'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<strong>Organos de la sociedad colectiva: </strong><br>
+            <ol>
+                <li>Organo de administración. <a href="#codeCommercial" data-search="Artículo 63" class="linkGoCommercial">Artículo 63</a></li>
+                <li>Organo de vigilancia. <a href="#codeCommercial" data-search="Artículo 64" class="linkGoCommercial">Artículo 64</a></li>
+                <li><strong>Organo de soberania. (este artículo)</strong></li>
+            </ol>',
+            'article_id' => '101'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<strong>Junta Totalitaria.</strong>',
+            'article_id' => '102'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<strong>Representación de los socios.</strong>',
+            'article_id' => '103'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<strong>Sociedad en Comandita Simple.</strong>',
+            'article_id' => '104'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<strong>Organos de la sociedad en comandita simple.</strong><br>
+            <ol>
+                <li><strong>Organo de administración. (este artículo)</strong></li>
+                <li>Organo de soberania: es la junta de socios. <a href="#codeCommercial" data-search="Artículo 65" class="linkGoCommercial">Artículo 65</a></li>
+                <li>Organo de fiscalización.</li>
+                <li>Consejo vigilancia en su defecto todos los socios comanditarios.</li>
+            </ol>',
+            'article_id' => '105'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<strong>*Inmixition.</strong>',
+            'article_id' => '106'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<strong>Cuales no son actos de administración.</strong>',
+            'article_id' => '107'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<strong>Muerte o incapacidad del administrador.</strong>',
+            'article_id' => '108'
+        ]);
     }
 }
