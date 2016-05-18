@@ -952,7 +952,7 @@ DB::table('comments')->insert([
         ]);
 
         DB::table('comments')->insert([
-            'description1' => '<strong>*Suscripción de nuevas acciones.</strong><br>
+            'description1' => '<strong>Suscripción de nuevas acciones.</strong><br>
             <span class="opNum">1.</span> Derecho preferente.<br>
             <span class="opNum">2.</span> Tiempo de ejecución del derecho.',
             'article_id' => '134'
@@ -1069,7 +1069,7 @@ DB::table('comments')->insert([
         ]);
 
         DB::table('comments')->insert([
-            'description1' => '<strong>*Sociedad en comandita por acciones.</strong>',
+            'description1' => '<strong>Sociedad en comandita por acciones.</strong>',
             'article_id' => '150'
         ]);
 
@@ -1084,9 +1084,9 @@ DB::table('comments')->insert([
         ]);
 
         DB::table('comments')->insert([
-            'description1' => '<strong>*Organos de la sociedad en comandita por acciones.</strong><br>
+            'description1' => '<strong>Organos de la sociedad en comandita por acciones.</strong><br>
             <ol>
-                <li>Organo de soberania. <a href="#codeCommercial" data-search="Artículo 195" class="linkGoCommercial">Artículo 195</a></li>
+                <li><strong>Organo de soberania:</strong> Es la asamblea general la cual se rige por las normas de la asamblea de la sociedad anonima.</li>
                 <li><strong>Organo de administración. (este artículo)</strong></li>
                 <li>Organo de fiscalizacíon. <a href="#codeCommercial" data-search="Artículo 199" class="linkGoCommercial">Artículo 199</a></li>
             </ol>',
@@ -1094,9 +1094,9 @@ DB::table('comments')->insert([
         ]);
 
         DB::table('comments')->insert([
-            'description1' => '<strong>*Organos de la sociedad en comandita por acciones.</strong><br>
+            'description1' => '<strong>Organos de la sociedad en comandita por acciones.</strong><br>
             <ol>
-                <li>Organo de soberania. <a href="#codeCommercial" data-search="Artículo 195" class="linkGoCommercial">Artículo 195</a></li>
+                <li><strong>Organo de soberania:</strong> Es la asamblea general la cual se rige por las normas de la asamblea de la sociedad anonima.</li>
                 <li>Organo de administración. <a href="#codeCommercial" data-search="Artículo 198" class="linkGoCommercial">Artículo 198</a></li>
                 <li><strong>Organo de fiscalizacíon. (este artículo)</strong></li>
             </ol>',
