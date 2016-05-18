@@ -1255,6 +1255,14 @@ class ArticlesTableSeeder extends Seeder
         ]);
 
         DB::table('articles')->insert([
+            'number' => '88',
+            'name' => 'Artículo 88. Capital autorizado',
+            'begin' => 'El capital autorizado de una sociedad anónima es la suma máxima que la sociedad puede emitir en acciones, sin necesidad de formalizar un aumento',
+            'description1' => 'El capital autorizado de una sociedad anónima es la suma máxima que la sociedad puede emitir en acciones, sin necesidad de formalizar un aumento de capital. El capital autorizado podrá estar total o parcialmente suscrito al constituirse la sociedad y debe expresarse en la escritura constitutiva de la misma.',
+            'code_id' => 2
+        ]);
+
+        DB::table('articles')->insert([
             'number' => '89',
             'name' => 'Artículo 89. Capital Suscrito',
             'begin' => 'En el momento de suscribir acciones es indispensable pagar por lo menos el veinticinco por ciento (25%) de su valor nominal.',

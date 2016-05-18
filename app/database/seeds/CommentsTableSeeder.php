@@ -826,5 +826,106 @@ DB::table('comments')->insert([
             </ol>',
             'article_id' => '114'
         ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<strong>Nombre de la razón social.</strong>',
+            'article_id' => '115'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<strong>Otras disposiciones aplicables.</strong>',
+            'article_id' => '116'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<strong>Sociedad anónima.</strong>',
+            'article_id' => '117'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<strong>Denominación de la sociedad anónima.</strong>',
+            'article_id' => '118'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<strong>Formas de capital.</strong><br>
+            <ol>
+                <li><strong>Capital autorizado. (este artículo)</strong></li>
+                <li>Capital suscrito. <a href="#codeCommercial" data-search="Artículo 89" class="linkGoCommercial">Artículo 89</a></li>
+                <li>Capital pagado mínimo. <a href="#codeCommercial" data-search="Artículo 90" class="linkGoCommercial">Artículo 90</a></li>
+            </ol>',
+            'article_id' => '119'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<strong>Formas de capital.</strong><br>
+            <ol>
+                <li>Capital autorizado. <a href="#codeCommercial" data-search="Artículo 88" class="linkGoCommercial">Artículo 88</a></li>
+                <li><strong>Capital suscrito. (este artículo)</strong></li>
+                <li>Capital pagado mínimo. <a href="#codeCommercial" data-search="Artículo 90" class="linkGoCommercial">Artículo 90</a></li>
+            </ol>',
+            'article_id' => '120'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<strong>Formas de capital.</strong><br>
+            <ol>
+                <li>Capital autorizado. <a href="#codeCommercial" data-search="Artículo 88" class="linkGoCommercial">Artículo 88</a></li>
+                <li>Capital suscrito. <a href="#codeCommercial" data-search="Artículo 89" class="linkGoCommercial">Artículo 89</a></li>
+                <li><strong>Capital pagado mínimo. (este artículo)</strong></li>
+            </ol>',
+            'article_id' => '121'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<span class="opNum">1.</span> Titulos de acciones.<br><br>
+            <strong>¿Qué son las acciones? </strong> son titulos valor que representan una parte ali-cuota del capital suscrito de una sociedad y otorgada a su tenedor la calidad de accionista.<br><br>
+            <strong>La naturaleza juridica de la accion es bien mueble.</strong>',
+            'article_id' => '122'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<strong>Derechos que generan las clases de acciones: </strong><br>
+            <span class="opNum">1.</span> Acciones ordinarias.<br>
+            <span class="opNum">2.</span> Acciones de derecho especial.',
+            'article_id' => '123'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<strong>Derecho de voto del tenedor.</strong>',
+            'article_id' => '124'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<span class="opNum">1.</span> <strong>Acciones parcialmente pagadas.</strong>',
+            'article_id' => '125'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<strong>Indivisibilidad de las acciones.</strong>',
+            'article_id' => '126'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<span class="opNum">1.</span> <strong>Contenido de los títulos.</strong>',
+            'article_id' => '127'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<strong>Las acciones no pueden emitirce al portador segun el articulo 71 del Decreto 55-2010 del Congreso de la República.</strong><br>
+            <strong>Artículo 71.</strong> Se reforma el artículo 108, Acciones Nominativas y al Portador, del Código de Comercio de Guatemala, Decreto Número 2-70 del Congreso de la República, el cual queda así:<br>
+            "<strong>Articulo 108.</strong> Acciones. Las acciones deberán ser nominativas. Las sociedades anónimas constituidas antes de la vigencia de la Ley de Extinción de Dominio, cuyo pacto social les faculte a emitir acciones al portador y tengan pendiente la emisión de acciones, deberán realizarla únicamente con acciones nominativas."',
+            'article_id' => '128'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<span class="opNum">1.</span> <strong>Transferencia de acciones no pagadas.</strong>',
+            'article_id' => '129'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<strong>Reglas para la amortización de acciones.</strong>',
+            'article_id' => '130'
+        ]);
     }
 }
