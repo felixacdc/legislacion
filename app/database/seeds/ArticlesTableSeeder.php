@@ -1381,6 +1381,14 @@ class ArticlesTableSeeder extends Seeder
         ]);
 
         DB::table('articles')->insert([
+            'number' => '121',
+            'name' => 'Artículo 121. Cupones en las Acciones',
+            'begin' => 'Las acciones podrán llevar adheridos cupones que se desprenderán del título y se entregarán a la sociedad contra el pago de dividendos',
+            'description1' => 'Las acciones podrán llevar adheridos cupones que se desprenderán del título y se entregarán a la sociedad contra el pago de dividendos. Los cupones podrán ser al portador, aun cuando el título sea nominativo.',
+            'code_id' => 2
+        ]);
+
+        DB::table('articles')->insert([
             'number' => '125',
             'name' => 'Artículo 125. Registro de Acciones Nominativas',
             'begin' => 'Las sociedades anónimas que emitieren acciones nominativas o certificadas provisionales, llevarán un registro de los mismos que contendrá:',

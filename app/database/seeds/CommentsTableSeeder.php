@@ -927,5 +927,185 @@ DB::table('comments')->insert([
             'description1' => '<strong>Reglas para la amortización de acciones.</strong>',
             'article_id' => '130'
         ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<strong>Otros titulos que puede emitir la sociedad anonima.</strong><br>
+            <ol>
+                <li><strong>Certificados de goce. (este artículo)</strong></li>
+                <li>Cupones de las acciones. <a href="#codeCommercial" data-search="Artículo 121" class="linkGoCommercial">Artículo 121</a></li>
+            </ol>',
+            'article_id' => '131'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<strong>Otros titulos que puede emitir la sociedad anonima.</strong><br>
+            <ol>
+                <li>Certificados de goce. <a href="#codeCommercial" data-search="Artículo 113" class="linkGoCommercial">Artículo 113</a></li>
+                <li><strong>Cupones de las acciones. (este artículo)</strong></li>
+            </ol>',
+            'article_id' => '132'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<strong>Registro de acciones normativas.</strong>',
+            'article_id' => '133'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<strong>*Suscripción de nuevas acciones.</strong><br>
+            <span class="opNum">1.</span> Derecho preferente.<br>
+            <span class="opNum">2.</span> Tiempo de ejecución del derecho.',
+            'article_id' => '134'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<span class="opNum">1.</span> Acciones nominativas.',
+            'article_id' => '135'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<strong>Asamblea General.</strong>',
+            'article_id' => '136'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<strong>Clases de asambleas.</strong>',
+            'article_id' => '137'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<span class="opNum">1.</span> Asambleas Ordinarias.',
+            'article_id' => '138'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<span class="opNum">1.</span> Asambleas extraordinarias.',
+            'article_id' => '139'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<strong>Procedimiento para la celebración de la asamblea.</strong><br>
+            <ol>
+                <li><strong>Requisitos de la convocatoria. (este artículo)</strong></li>
+                <li>Convocatoria de las asambleas. <a href="#codeCommercial" data-search="Artículo 140" class="linkGoCommercial">Artículo 140</a></li>
+                <li>Lugar de la reunion. <a href="#codeCommercial" data-search="Artículo 143" class="linkGoCommercial">Artículo 143</a></li>
+                <li>Agenda. <a href="#codeCommercial" data-search="Artículo 144" class="linkGoCommercial">Artículo 144</a></li>
+                <li>Estados e informes de la vista. <a href="#codeCommercial" data-search="Artículo 145" class="linkGoCommercial">Artículo 145</a></li>
+            </ol>',
+            'article_id' => '140'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<strong>Procedimiento para la celebración de la asamblea.</strong><br>
+            <ol>
+                <li>Requisitos de la convocatoria. <a href="#codeCommercial" data-search="Artículo 138" class="linkGoCommercial">Artículo 138</a></li>
+                <li><strong>Convocatoria de las asambleas. (este artículo)</strong></li>
+                <li>Lugar de la reunion. <a href="#codeCommercial" data-search="Artículo 143" class="linkGoCommercial">Artículo 143</a></li>
+                <li>Agenda. <a href="#codeCommercial" data-search="Artículo 144" class="linkGoCommercial">Artículo 144</a></li>
+                <li>Estados e informes de la vista. <a href="#codeCommercial" data-search="Artículo 145" class="linkGoCommercial">Artículo 145</a></li>
+            </ol>',
+            'article_id' => '141'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<strong>Procedimiento para la celebración de la asamblea.</strong><br>
+            <ol>
+                <li>Requisitos de la convocatoria. <a href="#codeCommercial" data-search="Artículo 138" class="linkGoCommercial">Artículo 138</a></li>
+                <li>Convocatoria de las asambleas. <a href="#codeCommercial" data-search="Artículo 140" class="linkGoCommercial">Artículo 140</a></li>
+                <li><strong>Lugar de la reunion. (este artículo)</strong></li>
+                <li>Agenda. <a href="#codeCommercial" data-search="Artículo 144" class="linkGoCommercial">Artículo 144</a></li>
+                <li>Estados e informes de la vista. <a href="#codeCommercial" data-search="Artículo 145" class="linkGoCommercial">Artículo 145</a></li>
+            </ol>',
+            'article_id' => '142'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<strong>Procedimiento para la celebración de la asamblea.</strong><br>
+            <ol>
+                <li>Requisitos de la convocatoria. <a href="#codeCommercial" data-search="Artículo 138" class="linkGoCommercial">Artículo 138</a></li>
+                <li>Convocatoria de las asambleas. <a href="#codeCommercial" data-search="Artículo 140" class="linkGoCommercial">Artículo 140</a></li>
+                <li>Lugar de la reunion. <a href="#codeCommercial" data-search="Artículo 143" class="linkGoCommercial">Artículo 143</a></li>
+                <li><strong>Agenda. (este artículo)</strong></li>
+                <li>Estados e informes de la vista. <a href="#codeCommercial" data-search="Artículo 145" class="linkGoCommercial">Artículo 145</a></li>
+            </ol>',
+            'article_id' => '143'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<strong>Procedimiento para la celebración de la asamblea.</strong><br>
+            <ol>
+                <li>Requisitos de la convocatoria. <a href="#codeCommercial" data-search="Artículo 138" class="linkGoCommercial">Artículo 138</a></li>
+                <li>Convocatoria de las asambleas. <a href="#codeCommercial" data-search="Artículo 140" class="linkGoCommercial">Artículo 140</a></li>
+                <li>Lugar de la reunion. <a href="#codeCommercial" data-search="Artículo 143" class="linkGoCommercial">Artículo 143</a></li>
+                <li>Agenda. <a href="#codeCommercial" data-search="Artículo 144" class="linkGoCommercial">Artículo 144</a></li>
+                <li><strong>Estados e informes de la vista. (este artículo)</strong></li>
+            </ol>',
+            'article_id' => '144'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<strong>Quórum: </strong>es el minimo de acciones con derecho a voto que se requieren para iniciar una asamblea o bien para tomar una desición dentro de la misma los cuales son de presencia y votación.',
+            'article_id' => '145'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<strong>Administración.</strong>',
+            'article_id' => '146'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<strong>Facultades de los Administradores.</strong>',
+            'article_id' => '147'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<strong>Quiénes fiscalizan.</strong>',
+            'article_id' => '148'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<strong>Designacíon.</strong>',
+            'article_id' => '149'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<strong>*Sociedad en comandita por acciones.</strong>',
+            'article_id' => '150'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<strong>Régimen de la sociedad en comandita por acciones.</strong>',
+            'article_id' => '151'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<strong>Razón social de la sociedad en comandita por acciones.</strong>',
+            'article_id' => '152'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<strong>*Organos de la sociedad en comandita por acciones.</strong><br>
+            <ol>
+                <li>Organo de soberania. <a href="#codeCommercial" data-search="Artículo 195" class="linkGoCommercial">Artículo 195</a></li>
+                <li><strong>Organo de administración. (este artículo)</strong></li>
+                <li>Organo de fiscalizacíon. <a href="#codeCommercial" data-search="Artículo 199" class="linkGoCommercial">Artículo 199</a></li>
+            </ol>',
+            'article_id' => '153'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<strong>*Organos de la sociedad en comandita por acciones.</strong><br>
+            <ol>
+                <li>Organo de soberania. <a href="#codeCommercial" data-search="Artículo 195" class="linkGoCommercial">Artículo 195</a></li>
+                <li>Organo de administración. <a href="#codeCommercial" data-search="Artículo 198" class="linkGoCommercial">Artículo 198</a></li>
+                <li><strong>Organo de fiscalizacíon. (este artículo)</strong></li>
+            </ol>',
+            'article_id' => '154'
+        ]);
+
+        DB::table('comments')->insert([
+            'description1' => '<strong>Prohibición de votar.</strong>',
+            'article_id' => '155'
+        ]);
     }
 }
