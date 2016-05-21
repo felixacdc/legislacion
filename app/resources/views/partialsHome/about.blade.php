@@ -7,7 +7,7 @@
 				    <h3>Descripción del Proyecto</h3>
 
                     <p class="text-justify">
-                        Esta pagina web fue realizada por motivos ductivos, como proyecto final del curso de Legislación Laboral y Mercantil de la carrera de Ingeniería en Sistemas de la Universidad Mariano Calvez sede Retalhuleu. La finalidad principal es proveer una herramienta que permita a los estudiantes comprender de manera fácil y sencilla  los conceptos legales del Código de Trabajo y Código de Comercio de Guatemala.
+                        Esta pagina web fue realizada con fines eductivos, como proyecto final del curso de Legislación Laboral y Mercantil de la carrera de Ingeniería en Sistemas de la Universidad Mariano Calvez sede Retalhuleu. La finalidad principal es proveer una herramienta que permita a los estudiantes comprender de manera fácil y sencilla  los conceptos legales del Código de Trabajo y Código de Comercio de Guatemala.
                     </p>
                 </div>
             </div>

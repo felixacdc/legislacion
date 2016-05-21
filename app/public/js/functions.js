@@ -2,6 +2,21 @@ var dataWork;
 var dataCommercial;
 
 $(document).ready( function () {
+
+    $("#goWork").click(function(e){
+        e.preventDefault();
+        $('html,body').animate({
+            scrollTop: $("#codeWork").offset().top
+        }, 2000);
+    });
+
+    $("#goCommercial").click(function(e){
+        e.preventDefault();
+        $('html,body').animate({
+            scrollTop: $("#codeCommercial").offset().top
+        }, 2000);
+    });
+
     fnSearch($('#codeWorkItems .container'), $('#txtSearchWork').val(), 'work/', '#token', 1);
     fnSearch($('#codeCommercialItems .container'), $('#txtSearchCommercial').val(), 'commercial/', '#tokenTwo', 2);
 
@@ -56,7 +71,6 @@ function fnSearch(display, search, url, idToken, identifier, link = 1) {
                 if ( accountant == 0) {
 
                     $(value).each( function (datakey, data) {
-
                         htmlContent += "<div class='row'>";
                         htmlContent += "<div class='col-md-3 text-center wow animated zoomIn'>";
                         htmlContent += "    <div class='service-item'>";
@@ -64,7 +78,7 @@ function fnSearch(display, search, url, idToken, identifier, link = 1) {
                         htmlContent += "            <i class='fa fa-gavel fa-3x' id='" + data.id + "' OnClick='Mostrar(this, " + identifier + ");' data-toggle='modal' data-target='#myModal'></i>";
                         htmlContent += "        </div>";
                         htmlContent += "        <h3>" + data.name + "</h3>"
-                        htmlContent += "        <p>" + data.begin.substr(0, 120) + "...</p>";
+                        htmlContent += "        <p>" + data.begin.substr(0, 100) + "...</p>";
                         htmlContent += "    </div>";
                         htmlContent += "</div>";
                     });
@@ -81,7 +95,7 @@ function fnSearch(display, search, url, idToken, identifier, link = 1) {
                         htmlContent += "            <i class='fa fa-gavel fa-3x' id='" + data.id + "' OnClick='Mostrar(this, " + identifier + ");' data-toggle='modal' data-target='#myModal'></i>";
                         htmlContent += "        </div>";
                         htmlContent += "        <h3>" + data.name + "</h3>"
-                        htmlContent += "        <p>" + data.begin.substr(0, 120) + "...</p>";
+                        htmlContent += "        <p>" + data.begin.substr(0, 100) + "...</p>";
                         htmlContent += "    </div>";
                         htmlContent += "</div>";
                         htmlContent += "</div>";
@@ -99,7 +113,7 @@ function fnSearch(display, search, url, idToken, identifier, link = 1) {
                         htmlContent += "            <i class='fa fa-gavel fa-3x' id='" + data.id + "' OnClick='Mostrar(this, " + identifier + ");' data-toggle='modal' data-target='#myModal'></i>";
                         htmlContent += "        </div>";
                         htmlContent += "        <h3>" + data.name + "</h3>"
-                        htmlContent += "        <p>" + data.begin.substr(0, 120) + "...</p>";
+                        htmlContent += "        <p>" + data.begin.substr(0, 100) + "...</p>";
                         htmlContent += "    </div>";
                         htmlContent += "</div>";
                     });

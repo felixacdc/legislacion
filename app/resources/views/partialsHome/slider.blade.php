@@ -15,7 +15,7 @@ Home Slider
                     <div class="caption-content">
                         <h2 class="animated fadeInDown">Codigo de Trabajo</h2>
                         <span class="animated fadeInDown">En esta pagina se podran encontrar articulos del <br> Codigo de Trabajo con fundamentos dotrinales.</span>
-                        <a href="#service" class="btn btn-blue btn-effect">Ir a</a>
+                        <a href="#codeWork" id="goWork" class="btn btn-blue btn-effect">Ir a</a>
                     </div>
                 </div>
 
@@ -28,7 +28,7 @@ Home Slider
                     <div class="caption-content">
                         <h2>Codigo de Comercio</h2>
                         <span>En esta pagina se podran encontrar articulos del <br> Codigo de Comercio con fundamentos dotrinales.</span>
-                        <a href="#portfolio" class="btn btn-blue btn-effect">Ir a</a>
+                        <a href="#codeCommercial" id="goCommercial" class="btn btn-blue btn-effect">Ir a</a>
                     </div>
                 </div>
 
