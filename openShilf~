@@ -1,0 +1,22 @@
+Primer servidor:
+git clone ssh://5740a6ea2d52713c82000004@felixlegislacion-felixlaravel.rhcloud.com/~/git/felixlegislacion.git/
+cd felixlegislacion/
+
+git add .
+git commit -m 'My changes'
+git push
+
+MySQL 5.5 database added.  Please make note of these credentials:
+
+       Root User: adminSqcjARu
+   Root Password: rLck7v-iKarH
+   Database Name: felixlegislacion
+
+Connection URL: mysql://$OPENSHIFT_MYSQL_DB_HOST:$OPENSHIFT_MYSQL_DB_PORT/
+
+You can manage your new MySQL database by also embedding phpmyadmin.
+The phpmyadmin username and password will be the same as the MySQL credentials above.
+
+*** Segundo servidor ****
+git clone ssh://5740df897628e1e17a00011d@legislacionlaboral-felixlaravel.rhcloud.com/~/git/legislacionlaboral.git/
+cd legislacionlaboral/
